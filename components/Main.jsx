@@ -7,7 +7,7 @@ const Main = () => {
       <div className="w-full h-screen flex flex-col justify-between">
         <div className="grid md:grid-cols-2 max-w-[1240px] m-auto gap-8 md:gap-32">
           <div className="flex flex-col justify-center items-center md:items-start w-full px-2 py-8 text-white">
-            <h1 className="text-5xl sm:text-3xl md:text-8xl  md:leading-normal leading-10 text-white font-bold font-playFair">
+            <h1 className="text-5xl sm:text-3xl md:text-6xl  md:leading-normal leading-10 text-white font-bold font-playFair">
               AICCIT-<span className="text-[#de0650] font-playFair">2023</span>
             </h1>
 
