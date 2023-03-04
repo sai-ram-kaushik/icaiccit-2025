@@ -78,7 +78,7 @@ const PreviousYear = () => {
                 <a
                   href="https://ieeexplore.ieee.org/xpl/conhome/8851231/proceeding"
                   target="__blank"
-                  className="text-blue-500 flex flex-wrap"
+                  className="text-cyan-600 flex flex-wrap"
                 >
                   https://ieeexplore.ieee.org/xpl/conhome/8851231/proceeding
                 </a>
@@ -114,7 +114,7 @@ const PreviousYear = () => {
                 <a
                   href="https://ieeexplore.ieee.org/xpl/conhome/6784149/proceeding"
                   target="__blank"
-                  className="text-blue-500"
+                  className="text-cyan-600"
                 >
                   https://ieeexplore.ieee.org/xpl/conhome/6784149/proceeding
                 </a>

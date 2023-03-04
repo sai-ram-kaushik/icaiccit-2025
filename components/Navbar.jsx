@@ -21,10 +21,10 @@ const Navbar = () => {
       name: "Local advisory Committee", link: "/local_advisory_committee"
     },
     {
-      name: "Organizing Committee", link: "/local_advisory_committee"
+      name: "Organizing Committee", link: "/organizing_committee"
     },
     {
-      name: "Resource Person Committee", link: "/local_advisory_committee"
+      name: "Resource Person Committee", link: "/resource_person"
     },
   ]
 
@@ -50,13 +50,13 @@ const Navbar = () => {
             {isOpen && (
               <div className="bg-white absolute top-20 flex flex-col items-center rounded-lg p-2 ">
                   {list.map((item, i) => (
-                    <Link href={item.link} className="flex w-full hover:bg-blue-300 cursor-pointer rounded-lg border-l-transparent" key={i}>
+                    <Link href={item.link} className="flex w-full cursor-pointer rounded-lg p-2" key={i}>
                       <h3>{item.name}</h3>
                     </Link>  
                   ))}
               </div>
             )}
-            <Link href="/">
+            <Link href="/conference_track">
               <li className="ml-10 text-sm hover:text-cyan-600 text-white">
                 Conference Track
               </li>
