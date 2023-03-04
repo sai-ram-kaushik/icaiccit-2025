@@ -5,7 +5,7 @@ const ConferenceTrack = () => {
   return (
     <section className="py-10 text-gray" data-aos="fade-right">
       <div className="text-center mt-14">
-        <h3 className="text-white font-bold font-playFair text-4xl">
+        <h3 className="text-gray-600 font-bold font-playFair text-4xl">
           Conference <span>Tracks</span>
         </h3>
       </div>
@@ -13,26 +13,23 @@ const ConferenceTrack = () => {
       {/* TRACK - 1 */}
       <div className="mt-14 justify-center mx-6 flex text-gray-600" data-aos="fade-right">
         <table className="md:mx-6 mx-[-8px]" width="700px">
-          <thead>
+        <thead>
             <tr>
-              <th className="text-3xl justify-start text-[#de0650] font-playFair">Track 1</th>
+              <th className="text-3xl text-[#de0650] font-playFair">Track 1</th>
             </tr>
             <tr>
-              <th className="text-2xl text-white font-playFair">
-                Theme: Artificial Intelligence, Machine Learning & Data Science
+              <th className="text-2xl text-gray-600 font-playFair">
+                Theme : Artificial Intelligence, Machine Learning & Data Science
               </th>
             </tr>
             <tr className="text-2xl">
-              <th className="text-white font-playFair">Topics</th>
-              {/* <th>Related IEEE Society(ies)</th>
-              <th>Chair</th> */}
-
+              <th className="text-gray-600 font-playFair">Topics</th>
             </tr>
           </thead>
           <tbody>
             <tr className="justify-start text-lg">
               <td>
-                <ul role="list" className="list-disc pl-5 text-white marker:text-sky-400">
+                <ul role="list" className="list-disc pl-5 text-gray-600 marker:text-sky-400">
                   <li>Case-Based Reasoning and Learning</li>
                   <li>Classification and Clustering</li>
                   <li>Deep Learning</li>
@@ -64,34 +61,30 @@ const ConferenceTrack = () => {
                   <li>Time Series and Sequential Pattern Mining</li>
                 </ul>
               </td>
-              {/* <td><b>-</b></td>
-              <td><b>-</b></td> */}
             </tr>
           </tbody>
         </table>
 
         {/* Track- 2 */}
 
-        <table className="md:mx-6 mx-[5px]" width="700px">
+        <table className="md:mx-6 mx-[5px]" width="700px" >
           <thead>
             <tr>
               <th className="text-3xl text-[#de0650] font-playFair">Track 2</th>
             </tr>
             <tr>
-              <th className="text-2xl text-white font-playFair">
-                Theme : Information Technologies
+              <th className="text-2xl text-gray-600 font-playFair">
+                Theme : Information Technology
               </th>
             </tr>
             <tr className="text-2xl">
-              <th className="text-white font-playFair">Topics</th>
-              {/* <th>Related IEEE Society(ies)</th>
-              <th>Chair</th> */}
+              <th className="text-gray-600 font-playFair">Topics</th>
             </tr>
           </thead>
           <tbody>
             <tr className="justify-start text-lg">
               <td>
-                <ul role="list" className="list-disc marker:text-sky-400 pl-5 text-white">
+                <ul role="list" className="list-disc marker:text-sky-400 pl-5 text-gray-600">
                   <li>Cloud Management and Operations</li>
                   <li>Cloud Security</li>
                   <li>Cloud Computing in Business Intelligence</li>
@@ -142,12 +135,12 @@ const ConferenceTrack = () => {
               <th className="text-3xl justify-start text-[#de0650] font-playFair">Track 3</th>
             </tr>
             <tr>
-              <th className="text-2xl text-white font-playFair">
+              <th className="text-2xl text-gray-600 font-playFair">
               Theme : Big Data Analytics &amp; Visualization
               </th>
             </tr>
             <tr className="text-2xl">
-              <th className="text-white font-playFair">Topics</th>
+              <th className="text-gray-600 font-playFair">Topics</th>
               {/* <th>Related IEEE Society(ies)</th>
               <th>Chair</th> */}
             </tr>
@@ -155,7 +148,7 @@ const ConferenceTrack = () => {
           <tbody>
             <tr className="justify-start text-lg">
               <td>
-                <ul role="list" className="list-disc pl-5 text-white marker:text-sky-400">
+                <ul role="list" className="list-disc pl-5 text-gray-600 marker:text-sky-400">
                   <li>Big Data Analytics, and Applications</li>
                   <li>Big Data Search and Mining</li>
                   <li>Visualization Analytics for Big Data</li>
@@ -179,12 +172,12 @@ const ConferenceTrack = () => {
               <th className="text-3xl text-[#de0650] font-playFair">Track 4 </th>
             </tr>
             <tr>
-              <th className="text-2xl text-white font-playFair">
+              <th className="text-2xl text-gray-600 font-playFair">
               Theme : Communication
               </th>
             </tr>
             <tr className="text-2xl">
-              <th className="text-white font-playFair">Topics</th>
+              <th className="text-gray-600 font-playFair">Topics</th>
               {/* <th>Related IEEE Society(ies)</th>
               <th>Chair</th> */}
             </tr>
@@ -192,7 +185,7 @@ const ConferenceTrack = () => {
           <tbody>
             <tr className="justify-start text-lg">
               <td>
-                <ul role="list" className="list-disc pl-5 text-white marker:text-sky-400">
+                <ul role="list" className="list-disc pl-5 text-gray-600 marker:text-sky-400">
                   <li>Traffic management in Networks & QoS</li>
                   <li>Wireless and mobility</li>
                   <li>Overlay networks and virtualization</li>

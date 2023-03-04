@@ -38,26 +38,26 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100] bg-[#0b131f]">
+    <div className="fixed w-full h-20 shadow-xl z-[100] bg-white">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image src="/aiccit_logo.png" width={150} height={100} />
+          <Image src="/logo.png" width={150} height={100} />
         </Link>
         <div>
           <ul className="hidden md:flex ">
             <Link href="/">
-              <li className="ml-10 text-sm hover:text-cyan-600 text-white">
+              <li className="ml-10 text-sm hover:text-cyan-600 text-black">
                 Home
               </li>
             </Link>
             <Link href="/about">
-              <li className="ml-10 text-sm hover:text-cyan-600 text-white">
+              <li className="ml-10 text-sm hover:text-cyan-600 text-black">
                 About Us
               </li>
             </Link>
             <li
               onClick={() => setIsOpen((prev) => !prev)}
-              className="ml-10 text-sm hover:text-cyan-600 text-white flex items-center gap-2"
+              className="ml-10 text-sm hover:text-cyan-600 text-black flex items-center gap-2"
             >
               Conference Committee{" "}
               {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
@@ -65,43 +65,45 @@ const Navbar = () => {
             {isOpen && (
               <div className="bg-white absolute top-20 flex flex-col items-center rounded-lg p-2 ">
                 {list.map((item, i) => (
-                  <Link
-                    href={item.link}
-                    className="flex w-full cursor-pointer rounded-lg p-2"
-                    key={i}
-                  >
-                    <h3>{item.name}</h3>
-                  </Link>
+                  <div onClick={()=>setIsOpen(false)}>
+                    <Link
+                      href={item.link}
+                      className="flex w-full cursor-pointer rounded-lg p-2"
+                      key={i}
+                    >
+                      <h3 >{item.name}</h3>
+                    </Link>
+                  </div>
                 ))}
               </div>
             )}
             <Link href="/conference_track">
-              <li className="ml-10 text-sm hover:text-cyan-600 text-white">
+              <li className="ml-10 text-sm hover:text-cyan-600 text-black">
                 Conference Track
               </li>
             </Link>
             <Link href="/important_dates">
-              <li className="ml-10 text-sm hover:text-cyan-600 text-white">
+              <li className="ml-10 text-sm hover:text-cyan-600 text-black">
                 Important Dates
               </li>
             </Link>
             <Link href="/submission">
-              <li className="ml-10 text-sm hover:text-cyan-600 text-white">
+              <li className="ml-10 text-sm hover:text-cyan-600 text-black">
                 Submission
               </li>
             </Link>
             <Link href="/registration">
-              <li className="ml-10 text-sm hover:text-cyan-600 text-white">
+              <li className="ml-10 text-sm hover:text-cyan-600 text-black">
                 Registration
               </li>
             </Link>
             <Link href="/previous_year">
-              <li className="ml-10 text-sm hover:text-cyan-600 text-white">
+              <li className="ml-10 text-sm hover:text-cyan-600 text-black">
                 Previous Year Conferences
               </li>
             </Link>
           </ul>
-          <div onClick={handleNav} className="md:hidden text-white">
+          <div onClick={handleNav} className="md:hidden text-black">
             <AiOutlineMenu size={25} />
           </div>
         </div>
@@ -118,16 +120,16 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[70%] sm:w-[60%] md:w-[45%] h-screen bg-[#0b131f] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[70%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0  p-10 ease-in duration-500"
           }
         >
           <div>
             <div className="flex w-full items-center justify-between ">
-              <Image src="/aiccit_logo.png" width={100} height={35} />
+              <Image src="/logo.png" width={100} height={35} />
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer text-white"
+                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer text-black"
               >
                 <AiOutlineClose />
               </div>
@@ -137,14 +139,14 @@ const Navbar = () => {
           <div className="py-4 flex flex-col">
             <ul className="uppercase mt-14 ">
               <Link href="/">
-                <li className="py-4 text-sm text-white">Home</li>
+                <li className="py-4 text-sm text-black">Home</li>
               </Link>
               <Link href="/about">
-                <li className="py-4 text-sm text-white">About Us</li>
+                <li className="py-4 text-sm text-black">About Us</li>
               </Link>
               <li
               onClick={() => setIsOpen((prev) => !prev)}
-              className="ml-10 text-sm hover:text-cyan-600 text-white flex items-center gap-2"
+              className="ml-10 text-sm hover:text-cyan-600 text-black flex items-center gap-2"
             >
               Conference Committee{" "}
               {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
@@ -152,30 +154,32 @@ const Navbar = () => {
             {isOpen && (
               <div className="bg-white absolute top-20 flex flex-col items-center rounded-lg p-2 ">
                 {list.map((item, i) => (
-                  <Link
+                  <div onClick={()=>setIsOpen(false)}>
+                    <Link
                     href={item.link}
                     className="flex w-full cursor-pointer rounded-lg p-2"
                     key={i}
                   >
                     <h3>{item.name}</h3>
                   </Link>
+                  </div>
                 ))}
               </div>
             )}
               <Link href="/conference_track">
-                <li className="py-4 text-sm text-white">Conference Track</li>
+                <li className="py-4 text-sm text-black">Conference Track</li>
               </Link>
               <Link href="/important_dates">
-                <li className="py-4 text-sm text-white">Important Dates</li>
+                <li className="py-4 text-sm text-black">Important Dates</li>
               </Link>
               <Link href="/submission">
-                <li className="py-4 text-sm text-white">Submission</li>
+                <li className="py-4 text-sm text-black">Submission</li>
               </Link>
               <Link href="/registration">
-                <li className="py-4 text-sm text-white">Registration</li>
+                <li className="py-4 text-sm text-black">Registration</li>
               </Link>
               <Link href="/previous_year">
-                <li className="py-4 text-sm text-white">
+                <li className="py-4 text-sm text-black">
                   Previous Year Conferences
                 </li>
               </Link>

@@ -3,15 +3,15 @@ const AdvisoryCommittee = () => {
 
 
   return (
-    <section className="py-10 text-white" data-aos="fade-right">
+    <section className="py-10 text-gray-600" data-aos="fade-right">
       <div className="text-center mt-14 flex flex-col items-center">
-        <h3 className="text-white text-5xl font-bold font-playFair">
+        <h3 className="text-gray-600 text-5xl font-bold font-playFair">
           Advisory <span className="text-[#3FBA96]">Committee</span>
         </h3>
         <p className="text-[#de0650] my-3 text-3xl mt-14 font-bold font-playFair">
         International Advisory Committee
         </p>
-        <p className="text-white my-3 text-2xl mt-14 leading-10 w-[700px]">
+        <p className="text-gray-600 my-3 text-2xl mt-14 leading-10 w-[700px]">
         Dr. Anand Nayyar, Graduate School Duy Tan University Vietnam <br />
         Dr. Anil Kumar, London Metropolitan University, United Kingdom (UK) <br/>
         Ms. Nitika Lochab, Corporate Treasury, TechnipFMC, Paris, France <br />
@@ -28,7 +28,7 @@ const AdvisoryCommittee = () => {
         <p className="text-[#de0650] my-3 text-3xl mt-14 font-bold font-playFair">
         National Advisory Committee
         </p>
-        <p className="text-white my-3 text-2xl mt-14  leading-10">
+        <p className="text-gray-600 my-3 text-2xl mt-14  leading-10">
         Dr K.K Aggarwal, Former VC, IP University, India <br />
         Dr M.N Hoda, BVPIM, Delhi, India <br/>
         Dr K K Biswas, IIT Delhi, India <br />

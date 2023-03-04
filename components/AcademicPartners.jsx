@@ -20,7 +20,7 @@ const AcademicPartners = () => {
   return (
    <section className="w-full mt-14" data-aos="fade-right">
       <div className="text-center mt-14">
-        <h3 className="text-white font-bold text-5xl font-playFair">
+        <h3 className="text-gray-600 font-bold text-5xl font-playFair">
           Academic <span>Partners</span>
         </h3>
         <div className="flex items-center justify-center mt-12 gap-10 flex-wrap">

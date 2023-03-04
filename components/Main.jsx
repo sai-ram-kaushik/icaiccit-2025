@@ -13,12 +13,12 @@ const Main = () => {
     <>
       <div className="w-full h-screen flex flex-col justify-between" data-aos="fade-right">
         <div className="grid md:grid-cols-2 max-w-[1240px] m-auto gap-8 md:gap-32">
-          <div className="flex flex-col justify-center items-center w-full px-2 py-8 text-white">
-            <h1 className="text-5xl sm:text-3xl md:text-7xl  md:leading-normal leading-10 text-white font-bold font-playFair">
-              AICCIT-<span className="text-[#de0650] font-playFair">2023</span>
+          <div className="flex flex-col justify-center items-center w-full px-2 py-8 text-gray-600">
+            <h1 className="text-5xl sm:text-3xl md:text-7xl  md:leading-normal leading-10 text-gray-600 font-bold font-playFair">
+              AICCIT-<span className="text-[#3FBA96]  font-playFair">2023</span>
             </h1>
 
-            <h3 className="text-[18px] sm:text-[20px] md:text-[23.5px] text-center font-playFair">
+            <h3 className="text-[18px] sm:text-[20px] md:text-[24.5px] text-center font-playFair">
               International Conference on Advancing in{" "}
               <span>
                 <Typed
@@ -35,9 +35,9 @@ const Main = () => {
               </span>
             </h3>
 
-            <p className="text-white mt-8 font-bold text-2xl sm:text-3xl md:text-4xl font-playFair">
-              23<sup className="text-[#de0650]">rd</sup> & 24
-              <sup className="text-[#de0650]">th</sup> November 2023
+            <p className="text-gray-600 mt-8 font-bold text-2xl sm:text-3xl md:text-4xl font-playFair">
+              23<sup className="text-[#3FBA96] ">rd</sup> & 24
+              <sup className="text-[#3FBA96] ">th</sup> November 2023
             </p>
           </div>
           <div>
@@ -52,10 +52,10 @@ const Main = () => {
       </div>
 
       <div className="flex items-center justify-center flex-col" data-aos="fade-right">
-        <p className="text-white text-2xl md:text-5xl font-bold font-playFair">
+        <p className="text-gray-600 text-2xl md:text-5xl font-bold font-playFair">
           About <span>Conference</span>
         </p>
-        <p className="m-10 text-justify text-white w-[900px]">
+        <p className="m-10 text-justify text-gray-600 w-[900px]">
           The main objective of <b>AICCIT-2023</b> is to invite all the Academicians,
           Researchers, and industrialists worldwide to participate and discuss
           the latest achievements in the advanced field of computing like

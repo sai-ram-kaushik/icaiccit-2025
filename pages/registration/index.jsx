@@ -5,29 +5,29 @@ const Register = () => {
   return (
     <section className="py-10 text-gray-600" data-aos="fade-right">
       <div className="text-center flex flex-col items-center">
-        <h3 className="text-white md:text-5xl text-4xl md:mt-20 mt-28 font-bold font-playFair">
+        <h3 className="text-gray-600 md:text-5xl text-4xl md:mt-20 mt-28 font-bold font-playFair">
           Registration <span>Details</span>
         </h3>
         <p className="text-[#de0650] my-3 text-3xl mt-10 font-bold font-playFair">
           Conference Regitration Fee and Policy
         </p>
-        <p className="my-3 text-lg  mt-4 font-bold w-[700px] text-white">
+        <p className="my-3 text-lg  mt-4 font-bold w-[700px] text-gray-600">
           At least one of the author of the paper has to register for the conference. It is mandatory to present the paper in the conference for the inclusion of the paper in the conference proceedings.
         </p>
-        <div className="mt-14 justify-center flex text-white md:ml-0 ml-6 md:mr-0 mr-6 ">
+        <div className="mt-14 justify-center flex text-gray-600 md:ml-0 ml-6 md:mr-0 mr-6 ">
           <table>
             <thead>
               <tr>
                 <th></th>
-                <th colSpan="2" className="text-2xl">
+                <th colSpan="2" className="text-lg">
                   For Indian Authors and Deligates (in INR)
                 </th>
-                <th colSpan="2" className="text-2xl">
+                <th colSpan="2" className="text-lg">
                   For Foreign Authors and Deligates (in USD)
                 </th>
               </tr>
 
-              <tr className="text-xl">
+              <tr className="text-lg">
                 <th></th>
                 <th>
                 IEEE Member
@@ -79,7 +79,7 @@ const Register = () => {
           </table>
         </div>
 
-        <div className="flex justify-center items-center mt-4 text-white font-playFair">
+        <div className="flex justify-center items-center mt-4 text-gray-600 font-playFair">
             <p><b>*Author should pay registration amount as mentioned above + 18% GST</b></p>
         </div>
       </div>

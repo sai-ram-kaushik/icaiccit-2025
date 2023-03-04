@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="w-full bg-[#10182F]">
       <div className="flex flex-col items-center justify-center p-4 gap-4">
-        <Image src="/aiccit_logo.png" width={100} height={100} />
+        <Image src="/logo_white.png" width={100} height={100} />
         <div className="flex flex-row items-center justify-between">
           <ul className="hidden md:flex ">
             <Link href="/">
@@ -25,12 +25,12 @@ const Footer = () => {
                 Conference Committee
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/conference_track">
               <li className="ml-10 text-sm hover:text-cyan-600 text-white">
                 Conference Track
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/important_dates">
               <li className="ml-10 text-sm hover:text-cyan-600 text-white">
                 Important Dates
               </li>

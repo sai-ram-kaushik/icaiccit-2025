@@ -10,21 +10,21 @@ const index = () => {
   return (
     <section id="about" className="py-10" data-aos="fade-right">
       <div className="text-center mt-14 flex flex-col items-center">
-        <p className="text-white my-3 text-4xl mt-20 font-bold font-playFair">
+        <p className="text-gray-600 my-3 text-4xl mt-20 font-bold font-playFair">
           Paper <span>Submission</span>
         </p>
-        <p className="text-justify text-lg m-4 w-[700px] text-white">
+        <p className="text-justify text-lg m-4 w-[700px] text-gray-600">
           Authors must ensure that their works are produced in a way that
           conceals their identities. Please ensure the following while
           submitting to assist with this preparation:
         </p>
-        <p className="text-justify text-lg m-4 w-[700px] text-white">
+        <p className="text-justify text-lg m-4 w-[700px] text-gray-600">
           The Following are the main factors to keep in mind to help with this
           process:
         </p>
         <ul
           role="list"
-          className=" marker:text-sky-400 list-disc text-lg text-white text-justify w-[700px]"
+          className=" marker:text-sky-400 list-disc text-lg text-gray-600 text-justify w-[700px]"
         >
           <li>
             {" "}
@@ -40,17 +40,17 @@ const index = () => {
           <li>Do not include acknowledgments.</li>
           <li>Remove any identifying information.</li>
         </ul>
-        <p className="text-white my-3 text-4xl mt-20 font-bold font-playFair">
+        <p className="text-gray-600 my-3 text-4xl mt-20 font-bold font-playFair">
           IEEE Paper Format | <span>Template & Guidelines</span>
         </p>
-        <p className="text-justify text-lg m-10 w-[700px] text-white">
+        <p className="text-justify text-lg m-10 w-[700px] text-gray-600">
           IEEE provides guidelines for formatting the paper. These guidelines
           must be followed by the author before submitting a manuscript for
           publication. Some of the key guidelines are as follows:
         </p>
         <ul
           role="list"
-          className=" marker:text-sky-400 list-disc text-lg text-white text-justify w-[700px]"
+          className=" marker:text-sky-400 list-disc text-lg text-gray-600 text-justify w-[700px]"
         >
           <li>
             Formatting the text as two columns, in Times New Roman, 10 pt.
@@ -75,11 +75,11 @@ const index = () => {
         className="text-center mt-2 flex flex-col items-center"
         dat-aos="fade-right"
       >
-        <p className="text-white my-3 text-4xl mt-10 font-bold font-playFair">
+        <p className="text-gray-600 my-3 text-4xl mt-10 font-bold font-playFair">
           IEEE <span>Heading Styles</span>
         </p>
         <p
-          className="text-justify text-lg m-10 w-[700px] text-white"
+          className="text-justify text-lg m-10 w-[700px] text-gray-600"
           data-aos="fade-right"
         >
           IEEE recommends specific heading styles to distinguish the title and
@@ -87,7 +87,7 @@ const index = () => {
           each of these are built into the template.
         </p>
         <p
-          className="text-justify text-lg m-10 w-[700px] text-white mt-1"
+          className="text-justify text-lg m-10 w-[700px] text-gray-600 mt-1"
           data-aos="fade-right"
         >
           The paper title is written in 24 pt. Times New Roman, centered at the
@@ -96,7 +96,7 @@ const index = () => {
         </p>
         <ul
           role="list"
-          className=" marker:text-sky-400 list-disc text-lg text-white text-justify w-[700px]"
+          className=" marker:text-sky-400 list-disc text-lg text-gray-600 text-justify w-[700px]"
           data-aos="fade-right"
         >
           <li>
@@ -135,15 +135,15 @@ const index = () => {
         data-aos="fade-right"
       >
         <p
-          className="text-white my-3 text-4xl mt-10 font-bold font-playFair"
+          className="text-gray-600 my-3 text-4xl mt-10 font-bold font-playFair"
           data-aos="fade-right"
         >
           Paper Submission <span>Template</span>
         </p>
-        <p className="text-white text-xl font-bold mt-8">
+        <p className="text-gray-600 text-xl font-bold mt-8">
           A Sample template is attached here with:
         </p>
-        <p className="text-white text-2xl mt-4 hover:text-cyan-600">
+        <p className="text-gray-600 text-2xl mt-4 hover:text-cyan-600">
           <a
             href="https://www.ieee.org/conferences/publishing/templates.html"
             target="_blank"
@@ -153,12 +153,12 @@ const index = () => {
           </a>
         </p>
         <p
-          className="text-white my-3 text-4xl mt-10 font-bold font-playFair"
+          className="text-gray-600 my-3 text-4xl mt-10 font-bold font-playFair"
           data-aos="fade-right"
         >
-          Paper <span>Submission</span>
+          Paper <span>Submission Link</span>
         </p>
-        <p className="text-white text-2xl mt-4 hover:text-cyan-600">
+        <p className="text-gray-600 text-2xl mt-4 hover:text-cyan-600">
           <a
             href="https://cmt3.research.microsoft.com/AICCIT2023"
             target="_blank"
@@ -174,12 +174,12 @@ const index = () => {
         data-aos="fade-right"
       >
         <p
-          className="text-white my-3 text-4xl mt-14 font-bold font-playFair"
+          className="text-gray-600 my-3 text-4xl mt-14 font-bold font-playFair"
           data-aos="fade-right"
         >
           Review and <span>Publication of Manuscripts:</span>
         </p>
-        <p className="text-white text-lg mt-8 text-justify w-[700px]">
+        <p className="text-gray-600 text-lg mt-8 text-justify w-[700px]">
           All submitted manuscripts to AICCIT – 2023 shall be go through a
           Double-blind reviewed by the AICCIT – 2023 TPC members on originality,
           technical correctness, relevance, and quality of presentation. An

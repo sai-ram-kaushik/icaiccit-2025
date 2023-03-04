@@ -4,7 +4,7 @@ const PreviousYear = () => {
   return (
     <section className="py-10 text-gray-600" data-aos="fade-right">
       <div className="text-center mt-14">
-        <h3 className="text-white text-5xl font-bold font-playFair">
+        <h3 className="text-gray-600 text-5xl font-bold font-playFair">
           Previous <span>Conferences</span>
         </h3>
 
@@ -19,7 +19,7 @@ const PreviousYear = () => {
           data-aos="fade-right"
         >
           <div>
-            <div className="text-white my-3 mt-14">
+            <div className="text-gray-600 my-3 mt-14">
               <p className="text-justify leading-8 text-lg">
                 The Department of Computer Science and Engineering, FET, Manav
                 Rachna International Institute of Research and Studies (MRIIRS)
@@ -63,7 +63,7 @@ const PreviousYear = () => {
           data-aos="fade-right"
         >
           <div>
-            <div className="text-white my-3 mt-14">
+            <div className="text-gray-600 my-3 mt-14">
               <p className="text-justify leading-8 text-lg">
                 The International Conference on Machine Learning, Big Data,
                 Cloud and Parallel Computing’- Com-IT-Con 2019 was organized
@@ -103,7 +103,7 @@ const PreviousYear = () => {
           data-aos="fade-right"
         >
           <div>
-            <div className="text-white my-3 mt-20">
+            <div className="text-gray-600 my-3 mt-20">
               <p className="text-justify leading-8 text-lg">
                 The International conference on Reliability, Optimization and
                 Information Technology (ICROIT-2014) was organized during Feb

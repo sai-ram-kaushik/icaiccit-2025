@@ -17,7 +17,7 @@ const About = () => {
         <div className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div>
             <div className="text-gray-600 my-3 mt-8">
-              <p className="text-justify leading-8 font-sans text-lg text-white">
+              <p className="text-justify leading-8 font-sans text-lg text-gray-600">
                 Manav Rachna International Institute of Research and Studies
                 (MRIIRS), formerly MRIU, a Deemed-to-be-University under section
                 3 of the UGC Act, 1956, and a NAAC accredited ‘A’ Grade
@@ -48,7 +48,7 @@ const About = () => {
         <div className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto" data-aos="fade-right">
           <div>
             <div className="text-gray-600 my-3 mt-8">
-              <p className="text-justify leading-8 font-sans text-lg text-white">
+              <p className="text-justify leading-8 font-sans text-lg text-gray-600">
                 The Department of Computer Science & Engineering (CSE) was
                 established in 1997 with a focus on imparting the fundamental
                 concepts both theoretically and practically. Keeping in view the
@@ -88,7 +88,7 @@ const About = () => {
         <div className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto" data-aos="fade-right">
           <div>
             <div className="text-gray-600 my-3 mt-8">
-              <p className="text-justify leading-8 font-sans text-lg text-white">
+              <p className="text-justify leading-8 font-sans text-lg text-gray-600">
                 The main objective of <b>AICCIT-2023</b> is to invite all the
                 Academicians, Researchers, and industrialists worldwide to
                 participate and discuss the latest achievements in the advanced

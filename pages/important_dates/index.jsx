@@ -5,13 +5,13 @@ const Dates = () => {
   return (
     <section className="py-24 text-gray" data-aos="fade-right">
       <div className="text-center mt-14">
-        <h3 className="text-white text-5xl font-bold font-playFair ">
+        <h3 className="text-gray-600 text-5xl font-bold font-playFair ">
           Important <span>Dates</span>
         </h3>
       </div>
 
       <div className="mt-10 justify-center  flex text-gray-600">
-        <table className="text-white">
+        <table className="text-gray-600">
           <tr className="text-2xl">
             <td>Paper Submission Deadline:</td>
             <td>15<sup>th</sup> July, 2023</td>

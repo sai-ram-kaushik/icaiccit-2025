@@ -71,7 +71,7 @@ const Skills = () => {
 
   return (
     <section id='skills' className='py-10 relative'>
-      <div className='mt-20 text-white text-center'>
+      <div className='mt-20 text-gray-600 text-center'>
         <h3 className='text-4xl font-bold font-playFair' data-aos="fade-right">Conference <span>Committee</span></h3>
         <p className='text-[#de0650] mt-14 text-3xl font-bold font-playFair' data-aos="fade-right">Chief Patrons</p>
         <div className='flex items-center justify-center mt-12 gap-10 flex-wrap' data-aos="fade-right">
@@ -83,8 +83,8 @@ const Skills = () => {
                 <img src={chief_patron.photo} className="rounded-full"/>
               </div>
             </div>
-            <p className='text-lg mt-2 text-white'>{chief_patron.name}</p>
-            <p className='text-lg mt-3 text-white'>{chief_patron.designation}</p>
+            <p className='text-lg mt-2 text-gray-600'>{chief_patron.name}</p>
+            <p className='text-lg mt-3 text-gray-600'>{chief_patron.designation}</p>
           </div>
             ))
           }
@@ -101,8 +101,8 @@ const Skills = () => {
                 <img src={patrons.photo} className="rounded-full"/>
               </div>
             </div>
-            <p className='text-lg mt-2 text-white'>{patrons.name}</p>
-            <p className='text-lg mt-3 text-white'>{patrons.designation}</p>
+            <p className='text-lg mt-2 text-gray-600'>{patrons.name}</p>
+            <p className='text-lg mt-3 text-gray-600'>{patrons.designation}</p>
           </div>
             ))
           }
@@ -119,8 +119,8 @@ const Skills = () => {
                 <img src={general_chair.photo} className="rounded-full"/>
               </div>
             </div>
-            <p className='text-lg mt-2 text-white'>{general_chair.name}</p>
-            <p className='text-lg mt-3 text-white'>{general_chair.designation}</p>
+            <p className='text-lg mt-2 text-gray-600'>{general_chair.name}</p>
+            <p className='text-lg mt-3 text-gray-600'>{general_chair.designation}</p>
           </div>
             ))
           }
@@ -135,8 +135,8 @@ const Skills = () => {
                 <img src={chair.photo} className="rounded-full"/>
               </div>
             </div>
-            <p className='text-lg mt-2 text-white'>{chair.name}</p>
-            <p className='text-lg mt-3 text-white'>{chair.designation}</p>
+            <p className='text-lg mt-2 text-gray-600'>{chair.name}</p>
+            <p className='text-lg mt-3 text-gray-600'>{chair.designation}</p>
           </div>
             ))
           }
@@ -152,8 +152,8 @@ const Skills = () => {
                 <img src={co_chair.photo} className="rounded-full"/>
               </div>
             </div>
-            <p className='text-lg mt-2 text-white'>{co_chair.name}</p>
-            <p className='text-lg mt-3 text-white'>{co_chair.designation}</p>
+            <p className='text-lg mt-2 text-gray-600'>{co_chair.name}</p>
+            <p className='text-lg mt-3 text-gray-600'>{co_chair.designation}</p>
           </div>
             ))
           }
@@ -169,8 +169,8 @@ const Skills = () => {
                 <img src={convener.photo} className="rounded-full"/>
               </div>
             </div>
-            <p className='text-lg mt-2 text-white'>{convener.name}</p>
-            <p className='text-lg mt-3 text-white'>{convener.designation}</p>
+            <p className='text-lg mt-2 text-gray-600'>{convener.name}</p>
+            <p className='text-lg mt-3 text-gray-600'>{convener.designation}</p>
           </div>
             ))
           }
@@ -196,8 +196,8 @@ const Skills = () => {
                   <img src={organizing.photo} className="rounded-full" />
                 </div>
               </div>
-              <p className="text-lg mt-2 text-white">{organizing.name}</p>
-              <p className="text-lg mt-3 text-white">
+              <p className="text-lg mt-2 text-gray-600">{organizing.name}</p>
+              <p className="text-lg mt-3 text-gray-600">
                 {organizing.designation}
               </p>
             </div>

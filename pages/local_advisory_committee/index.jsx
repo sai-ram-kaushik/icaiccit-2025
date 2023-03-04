@@ -37,7 +37,7 @@ const Technical = () => {
 
   return (
     <section id="skills" className="py-10 relative">
-      <div className="mt-20 text-white text-center">
+      <div className="mt-20 text-gray-600 text-center">
         <h3 className="text-4xl font-bold font-playFair" data-aos="fade-right">
           Advisory <span>Committee</span>
         </h3>
@@ -61,15 +61,15 @@ const Technical = () => {
                   <img src={local.photo} className="rounded-full" />
                 </div>
               </div>
-              <p className="text-lg mt-2 text-white">{local.name}</p>
-              <p className="text-lg mt-3 text-white">
+              <p className="text-lg mt-2 text-gray-600">{local.name}</p>
+              <p className="text-lg mt-3 text-gray-600">
                 {local.designation}
               </p>
             </div>
           ))}
         </div>
         <p className='text-[#de0650] mt-20 text-3xl font-bold font-playFair' data-aos="fade-right">Organizing Committee</p>
-        <p className='text-white  mt-20 text-3xl font-bold' data-aos="fade-right">CSE, FET, MRIIRS</p>
+        <p className='text-gray-600  mt-20 text-3xl font-bold' data-aos="fade-right">CSE, FET, MRIIRS</p>
       </div>
     </section>
   );
