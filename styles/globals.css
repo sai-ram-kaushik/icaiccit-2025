@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display&family=Inter:wght@100&family=Montserrat:wght@200&family=Playfair+Display&family=Poppins:wght@200&display=swap');
+
 @layer base{
   body {
-    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
+    @apply bg-[#0b131f] text-[#1f2937] tracking-wide
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -12,7 +14,7 @@
   }
 
   h1{
-    @apply text-4xl sm:text-5xl md:text-6xl
+    @apply text-4xl sm:text-5xl md:text-8xl
   }
 
   h2{
@@ -20,10 +22,34 @@
   }
 
   li{
-    @apply cursor-pointer
+    @apply cursor-pointer 
   }
 
   button{
     @apply shadow-xl shadow-gray-400 rounded-xl bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+  }
+
+  span{
+    @apply text-[#de0650]
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
   }
 }
