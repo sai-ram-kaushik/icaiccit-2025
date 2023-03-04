@@ -9,7 +9,7 @@ const Register = () => {
           Registration <span>Details</span>
         </h3>
         <p className="text-[#de0650] my-3 text-3xl mt-10 font-bold font-playFair">
-          Conference Regitration Fee and Policy
+          Conference Registration Fee and Policy
         </p>
         <p className="my-3 text-lg  mt-4 font-bold w-[700px] text-gray-600">
           At least one of the author of the paper has to register for the conference. It is mandatory to present the paper in the conference for the inclusion of the paper in the conference proceedings.
