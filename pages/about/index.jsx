@@ -38,7 +38,7 @@ const About = () => {
           </div>
           <div className="flex-1 flex justify-center items-center">
             <div className="lg:w-96 h-full relative sm:w-10/12 w-12/12 max-w-full mt-20">
-              <Image src="/images/about/mr.png" width={500} height={500} />
+              <Image src="/images/about/mr.png" width={500} height={500} className="animate-translateAnimate"/>
             </div>
           </div>
         </div>
@@ -76,6 +76,7 @@ const About = () => {
                 src="/images/about/department.png"
                 width={500}
                 height={500}
+                className="animate-translateAnimate"
               />
             </div>
           </div>
@@ -114,6 +115,7 @@ const About = () => {
                 src="/images/about/aiccit.png"
                 width={500}
                 height={500}
+                className="animate-translateAnimate"
               />
             </div>
           </div>

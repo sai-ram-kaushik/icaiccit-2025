@@ -20,10 +20,10 @@ const Register = () => {
               <tr>
                 <th></th>
                 <th colSpan="2" className="text-2xl">
-                  For Indian Authors and Deligates in (in INR)
+                  For Indian Authors and Deligates (in INR)
                 </th>
                 <th colSpan="2" className="text-2xl">
-                  For Foreign Authors and Deligates in (in USD)
+                  For Foreign Authors and Deligates (in USD)
                 </th>
               </tr>
 

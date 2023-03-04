@@ -1,24 +1,52 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 const index = () => {
-
-
   useEffect(() => {
-    Aos.init({duration: 500});
+    Aos.init({ duration: 500 });
   }, []);
-  
+
   return (
     <section id="about" className="py-10" data-aos="fade-right">
       <div className="text-center mt-14 flex flex-col items-center">
         <p className="text-white my-3 text-4xl mt-20 font-bold font-playFair">
+          Paper <span>Submission</span>
+        </p>
+        <p className="text-justify text-lg m-4 w-[700px] text-white">
+          Authors must ensure that their works are produced in a way that
+          conceals their identities. Please ensure the following while
+          submitting to assist with this preparation:
+        </p>
+        <p className="text-justify text-lg m-4 w-[700px] text-white">
+          The Following are the main factors to keep in mind to help with this
+          process:
+        </p>
+        <ul
+          role="list"
+          className=" marker:text-sky-400 list-disc text-lg text-white text-justify w-[700px]"
+        >
+          <li>
+            {" "}
+            Make sure there are no affiliation-related identifiers in the
+            figures.
+          </li>
+          <li>
+            {" "}
+            Make sure there are no affiliation-related identifiers in the
+            figures.
+          </li>
+          <li>Remove references to funding sources.</li>
+          <li>Do not include acknowledgments.</li>
+          <li>Remove any identifying information.</li>
+        </ul>
+        <p className="text-white my-3 text-4xl mt-20 font-bold font-playFair">
           IEEE Paper Format | <span>Template & Guidelines</span>
         </p>
         <p className="text-justify text-lg m-10 w-[700px] text-white">
-          IEEE provides guidelines for formatting your paper. These guidelines
-          must be followed when you’re submitting a manuscript for publication
-          in an IEEE journal. Some of the key guidelines are:
+          IEEE provides guidelines for formatting the paper. These guidelines
+          must be followed by the author before submitting a manuscript for
+          publication. Some of the key guidelines are as follows:
         </p>
         <ul
           role="list"
@@ -43,16 +71,25 @@ const index = () => {
         </ul>
       </div>
 
-      <div className="text-center mt-2 flex flex-col items-center" dat-aos="fade-right">
+      <div
+        className="text-center mt-2 flex flex-col items-center"
+        dat-aos="fade-right"
+      >
         <p className="text-white my-3 text-4xl mt-10 font-bold font-playFair">
-          IEEE <span>heading styles</span>
+          IEEE <span>Heading Styles</span>
         </p>
-        <p className="text-justify text-lg m-10 w-[700px] text-white" data-aos="fade-right">
+        <p
+          className="text-justify text-lg m-10 w-[700px] text-white"
+          data-aos="fade-right"
+        >
           IEEE recommends specific heading styles to distinguish the title and
           different levels of heading in your paper from each other. Styles for
           each of these are built into the template.
         </p>
-        <p className="text-justify text-lg m-10 w-[700px] text-white mt-1" data-aos="fade-right">
+        <p
+          className="text-justify text-lg m-10 w-[700px] text-white mt-1"
+          data-aos="fade-right"
+        >
           The paper title is written in 24 pt. Times New Roman, centered at the
           top of the first page. Other headings are all written in 10 pt. Times
           New Roman:
@@ -60,7 +97,8 @@ const index = () => {
         <ul
           role="list"
           className=" marker:text-sky-400 list-disc text-lg text-white text-justify w-[700px]"
-          data-aos="fade-right">
+          data-aos="fade-right"
+        >
           <li>
             <b>Level 1 text headings</b> begin with a roman numeral followed by
             a period. They are written in small caps, in title case, and
@@ -92,123 +130,66 @@ const index = () => {
         </ul>
       </div>
 
-      <div className="text-center mt-2 flex flex-col items-center" data-aos="fade-right">
-        <p className="text-white my-3 text-4xl mt-10 font-bold font-playFair">
-          Page Sizes <span> and Margins</span>
+      <div
+        className="text-center mt-2 flex flex-col items-center"
+        data-aos="fade-right"
+      >
+        <p
+          className="text-white my-3 text-4xl mt-10 font-bold font-playFair"
+          data-aos="fade-right"
+        >
+          Paper Submission <span>Template</span>
         </p>
-        <p className="text-justify text-lg m-10 w-[700px] text-white mt-1">
-          If you are using the templates, you should not have to worry about
-          sizes or spaces. The allowed pages sizes for papers are two: US
-          Letter and ISO A4. Both are not identical, because Letter is wider
-          than A4, and A4 is higher than Letter. The space dedicated for the
-          columns of text is the same in both pages sizes.
+        <p className="text-white text-xl font-bold mt-8">
+          A Sample template is attached here with:
         </p>
-        <p className="text-justify text-lg m-10 w-[700px] text-white mt-3">
-          Let's take a look at the sizes:
+        <p className="text-white text-2xl mt-4 hover:text-cyan-600">
+          <a
+            href="https://www.ieee.org/conferences/publishing/templates.html"
+            target="_blank"
+            data-aos="fade-right"
+          >
+            https://www.ieee.org/conferences/publishing/templates.html
+          </a>
         </p>
-
-        <table className="text-white w-[700px]">
-          <thead>
-            <tr>
-              <th></th>
-              <th colSpan="2" className="text-2xl">
-                Width
-              </th>
-              <th colSpan="2" className="text-2xl">
-                Length
-              </th>
-              <th colSpan="2" className="text-2xl">
-                Area
-              </th>
-            </tr>
-
-            <tr className="text-2xl">
-              <th></th>
-              <th>Inches</th>
-              <th>Millimetres</th>
-              <th>Inches</th>
-              <th>Millimetres</th>
-              <th>Square inches</th>
-              <th>Square millimetres</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td className="text-lg font-bold">US Letter</td>
-              <td>8.5</td>
-              <td>215.9</td>
-              <td>11</td>
-              <td>279.4</td>
-              <td>93.5</td>
-              <td>60322.4</td>
-            </tr>
-
-            <tr>
-              <td className="text-lg font-bold">ISO A4</td>
-              <td>8.27</td>
-              <td>210</td>
-              <td>11.69</td>
-              <td>297</td>
-              <td>96.67</td>
-              <td>62370</td>
-            </tr>
-          </tbody>
-        </table>
-
-        <p className="w-[700px] text-white mt-8 font-bold">
-          Inside this area, the author can place text, qeuations, photos and
-          graphics using two columns. These two columns are equal for both page
-          sizes. The size of one column is:
-        </p>
-
-        <table className="text-white w-[700px] mt-4">
-          <thead>
-            <tr>
-              <th></th>
-              <th colSpan="2" className="text-2xl">
-                Width
-              </th>
-              <th colSpan="2" className="text-2xl">
-                Length
-              </th>
-              <th colSpan="2" className="text-2xl">
-                Area
-              </th>
-            </tr>
-
-            <tr className="text-2xl">
-              <th></th>
-              <th>Inches</th>
-              <th>Millimetres</th>
-              <th>Inches</th>
-              <th>Millimetres</th>
-              <th>Square inches</th>
-              <th>Square millimetres</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td className="text-lg font-bold">Column</td>
-              <td>3.5</td>
-              <td>88.9</td>
-              <td>9.25</td>
-              <td>234.9</td>
-              <td>32.375</td>
-              <td>20887</td>
-            </tr>
-          </tbody>
-        </table>
-
-        <p className="text-white text-lg font-bold mt-8">
-          Note: A Sample template is attached here with:
-        </p>
-
-        <p className="text-white my-3 text-4xl mt-10 font-bold font-playFair" data-aos="fade-right">
+        <p
+          className="text-white my-3 text-4xl mt-10 font-bold font-playFair"
+          data-aos="fade-right"
+        >
           Paper <span>Submission</span>
         </p>
-        <p className="text-white text-2xl mt-4 hover:text-cyan-600"><a href="https://cmt3.research.microsoft.com/AICCIT2023" target="_blank" data-aos="fade-right">https://cmt3.research.microsoft.com/AICCIT2023</a></p>
+        <p className="text-white text-2xl mt-4 hover:text-cyan-600">
+          <a
+            href="https://cmt3.research.microsoft.com/AICCIT2023"
+            target="_blank"
+            data-aos="fade-right"
+          >
+            https://cmt3.research.microsoft.com/AICCIT2023
+          </a>
+        </p>
+      </div>
+
+      <div
+        className="text-center mt-2 flex flex-col items-center"
+        data-aos="fade-right"
+      >
+        <p
+          className="text-white my-3 text-4xl mt-14 font-bold font-playFair"
+          data-aos="fade-right"
+        >
+          Review and <span>Publication of Manuscripts:</span>
+        </p>
+        <p className="text-white text-lg mt-8 text-justify w-[700px]">
+          All submitted manuscripts to AICCIT – 2023 shall be go through a
+          Double-blind reviewed by the AICCIT – 2023 TPC members on originality,
+          technical correctness, relevance, and quality of presentation. An
+          accepted paper must be presented at the conference venue by the author
+          who registered/paid full author registration fee (or refer to the
+          registration transfer information in the Author Reg. Form). The
+          authors acknowledge that accepted papers must be presented in person
+          at the conference by the registered/paid authors of the accepted
+          paper.
+        </p>
       </div>
     </section>
   );

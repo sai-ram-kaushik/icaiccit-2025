@@ -37,8 +37,7 @@ const Main = () => {
 
             <p className="text-white mt-8 font-bold text-2xl sm:text-3xl md:text-4xl font-playFair">
               23<sup className="text-[#de0650]">rd</sup> & 24
-              <sup className="text-[#de0650]">th</sup> November
-              <span className="text-[#de0650]">,</span> 2023
+              <sup className="text-[#de0650]">th</sup> November 2023
             </p>
           </div>
           <div>
@@ -56,7 +55,7 @@ const Main = () => {
         <p className="text-white text-2xl md:text-5xl font-bold font-playFair">
           About <span>Conference</span>
         </p>
-        <p className="m-10 text-justify text-white">
+        <p className="m-10 text-justify text-white w-[900px]">
           The main objective of <b>AICCIT-2023</b> is to invite all the Academicians,
           Researchers, and industrialists worldwide to participate and discuss
           the latest achievements in the advanced field of computing like

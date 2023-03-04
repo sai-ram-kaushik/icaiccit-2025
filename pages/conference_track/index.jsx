@@ -79,7 +79,7 @@ const ConferenceTrack = () => {
             </tr>
             <tr>
               <th className="text-2xl text-white font-playFair">
-                Theme : Information Rechnologies
+                Theme : Information Technologies
               </th>
             </tr>
             <tr className="text-2xl">
