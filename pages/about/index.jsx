@@ -1,8 +1,15 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Image from "next/image";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const About = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 500});
+  }, []);
+
   return (
-    <section id="about" className="py-10 text-gray-600">
+    <section id="about" className="py-10 text-gray-600" data-aos="fade-right">
       <div className="text-center mt-14">
         <p className="text-[#de0650] my-3 text-2xl mt-20 font-bold font-playFair">
           Manav Rachna International Institute of Research and Studies (MRIIRS)
@@ -35,10 +42,10 @@ const About = () => {
             </div>
           </div>
         </div>
-        <p className="text-[#de0650] my-3 text-2xl mt-14 font-bold font-playFair">
+        <p className="text-[#de0650] my-3 text-2xl mt-14 font-bold font-playFair" data-aos="fade-right">
           Department of Computer Science and Engineering (CSE)
         </p>
-        <div className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
+        <div className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto" data-aos="fade-right">
           <div>
             <div className="text-gray-600 my-3 mt-8">
               <p className="text-justify leading-8 font-sans text-lg text-white">
@@ -73,11 +80,11 @@ const About = () => {
             </div>
           </div>
         </div>
-        <p className="text-[#de0650] my-3 text-2xl mt-14 font-bold font-playFair">
+        <p className="text-[#de0650] my-3 text-2xl mt-14 font-bold font-playFair" data-aos="fade-right">
           AICCIT - 2023 (International Conference on Advancing in Computation,
           <br /> Communication and Information Technology)
         </p>
-        <div className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
+        <div className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto" data-aos="fade-right">
           <div>
             <div className="text-gray-600 my-3 mt-8">
               <p className="text-justify leading-8 font-sans text-lg text-white">

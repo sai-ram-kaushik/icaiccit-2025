@@ -1,13 +1,18 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { AiOutlineClose, AiOutlineMenu, AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
+import {
+  AiOutlineClose,
+  AiOutlineMenu,
+  AiFillCaretDown,
+  AiFillCaretUp,
+} from "react-icons/ai";
 import { Menu } from "@headlessui/react";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
@@ -15,23 +20,29 @@ const Navbar = () => {
 
   const list = [
     {
-      name: "International and National advisory Committee", link: "/international"
+      name: "International and National advisory Committee",
+      link: "/international",
     },
     {
-      name: "Local advisory Committee", link: "/local_advisory_committee"
+      name: "Local advisory Committee",
+      link: "/local_advisory_committee",
     },
     {
-      name: "Organizing Committee", link: "/organizing_committee"
+      name: "Organizing Committee",
+      link: "/organizing_committee",
     },
     {
-      name: "Resource Person Committee", link: "/resource_person"
+      name: "Resource Person Committee",
+      link: "/resource_person",
     },
-  ]
+  ];
 
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100] bg-[#0b131f]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image src="/aiccit_logo.png" width={150} height={100} />
+        <Link href="/">
+          <Image src="/aiccit_logo.png" width={150} height={100} />
+        </Link>
         <div>
           <ul className="hidden md:flex ">
             <Link href="/">
@@ -44,16 +55,24 @@ const Navbar = () => {
                 About Us
               </li>
             </Link>
-            <li onClick={() => setIsOpen((prev) => !prev) } className="ml-10 text-sm hover:text-cyan-600 text-white flex items-center gap-2">
-              Conference Committee {!isOpen ? (<AiFillCaretDown />): (<AiFillCaretUp />)}
+            <li
+              onClick={() => setIsOpen((prev) => !prev)}
+              className="ml-10 text-sm hover:text-cyan-600 text-white flex items-center gap-2"
+            >
+              Conference Committee{" "}
+              {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
             </li>
             {isOpen && (
               <div className="bg-white absolute top-20 flex flex-col items-center rounded-lg p-2 ">
-                  {list.map((item, i) => (
-                    <Link href={item.link} className="flex w-full cursor-pointer rounded-lg p-2" key={i}>
-                      <h3>{item.name}</h3>
-                    </Link>  
-                  ))}
+                {list.map((item, i) => (
+                  <Link
+                    href={item.link}
+                    className="flex w-full cursor-pointer rounded-lg p-2"
+                    key={i}
+                  >
+                    <h3>{item.name}</h3>
+                  </Link>
+                ))}
               </div>
             )}
             <Link href="/conference_track">
@@ -87,7 +106,9 @@ const Navbar = () => {
           </div>
         </div>
         <div>
+          <a href="https://manavrachna.edu.in/" target="_blank">
           <Image src="/mrlogo.png" width={150} height={100} />
+          </a>
         </div>
       </div>
 
@@ -118,27 +139,42 @@ const Navbar = () => {
               <Link href="/">
                 <li className="py-4 text-sm text-white">Home</li>
               </Link>
-              <Link href="/">
+              <Link href="/about">
                 <li className="py-4 text-sm text-white">About Us</li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-sm text-white">
-                  conference Committee
-                </li>
-              </Link>
-              <Link href="/">
+              <li
+              onClick={() => setIsOpen((prev) => !prev)}
+              className="ml-10 text-sm hover:text-cyan-600 text-white flex items-center gap-2"
+            >
+              Conference Committee{" "}
+              {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
+            </li>
+            {isOpen && (
+              <div className="bg-white absolute top-20 flex flex-col items-center rounded-lg p-2 ">
+                {list.map((item, i) => (
+                  <Link
+                    href={item.link}
+                    className="flex w-full cursor-pointer rounded-lg p-2"
+                    key={i}
+                  >
+                    <h3>{item.name}</h3>
+                  </Link>
+                ))}
+              </div>
+            )}
+              <Link href="/conference_track">
                 <li className="py-4 text-sm text-white">Conference Track</li>
               </Link>
-              <Link href="/">
+              <Link href="/important_dates">
                 <li className="py-4 text-sm text-white">Important Dates</li>
               </Link>
-              <Link href="/">
+              <Link href="/submission">
                 <li className="py-4 text-sm text-white">Submission</li>
               </Link>
-              <Link href="/">
+              <Link href="/registration">
                 <li className="py-4 text-sm text-white">Registration</li>
               </Link>
-              <Link href="/">
+              <Link href="/previous_year">
                 <li className="py-4 text-sm text-white">
                   Previous Year Conferences
                 </li>

@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import Typed from "react-typed";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Main = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 500});
+  }, []);
+
   return (
     <>
-      <div className="w-full h-screen flex flex-col justify-between">
+      <div className="w-full h-screen flex flex-col justify-between" data-aos="fade-right">
         <div className="grid md:grid-cols-2 max-w-[1240px] m-auto gap-8 md:gap-32">
           <div className="flex flex-col justify-center items-center w-full px-2 py-8 text-white">
             <h1 className="text-5xl sm:text-3xl md:text-7xl  md:leading-normal leading-10 text-white font-bold font-playFair">
@@ -45,7 +52,7 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center flex-col">
+      <div className="flex items-center justify-center flex-col" data-aos="fade-right">
         <p className="text-white text-2xl md:text-5xl font-bold font-playFair">
           About <span>Conference</span>
         </p>

@@ -1,8 +1,16 @@
-import React from "react";
+import React, {useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const index = () => {
+
+
+  useEffect(() => {
+    Aos.init({duration: 500});
+  }, []);
+  
   return (
-    <section id="about" className="py-10">
+    <section id="about" className="py-10" data-aos="fade-right">
       <div className="text-center mt-14 flex flex-col items-center">
         <p className="text-white my-3 text-4xl mt-20 font-bold font-playFair">
           IEEE Paper Format | <span>Template & Guidelines</span>
@@ -35,16 +43,16 @@ const index = () => {
         </ul>
       </div>
 
-      <div className="text-center mt-2 flex flex-col items-center">
+      <div className="text-center mt-2 flex flex-col items-center" dat-aos="fade-right">
         <p className="text-white my-3 text-4xl mt-10 font-bold font-playFair">
           IEEE <span>heading styles</span>
         </p>
-        <p className="text-justify text-lg m-10 w-[700px] text-white">
+        <p className="text-justify text-lg m-10 w-[700px] text-white" data-aos="fade-right">
           IEEE recommends specific heading styles to distinguish the title and
           different levels of heading in your paper from each other. Styles for
           each of these are built into the template.
         </p>
-        <p className="text-justify text-lg m-10 w-[700px] text-white mt-1">
+        <p className="text-justify text-lg m-10 w-[700px] text-white mt-1" data-aos="fade-right">
           The paper title is written in 24 pt. Times New Roman, centered at the
           top of the first page. Other headings are all written in 10 pt. Times
           New Roman:
@@ -52,7 +60,7 @@ const index = () => {
         <ul
           role="list"
           className=" marker:text-sky-400 list-disc text-lg text-white text-justify w-[700px]"
-        >
+          data-aos="fade-right">
           <li>
             <b>Level 1 text headings</b> begin with a roman numeral followed by
             a period. They are written in small caps, in title case, and
@@ -84,7 +92,7 @@ const index = () => {
         </ul>
       </div>
 
-      <div className="text-center mt-2 flex flex-col items-center">
+      <div className="text-center mt-2 flex flex-col items-center" data-aos="fade-right">
         <p className="text-white my-3 text-4xl mt-10 font-bold font-playFair">
           Page Sizes <span> and Margins</span>
         </p>
@@ -197,10 +205,10 @@ const index = () => {
           Note: A Sample template is attached here with:
         </p>
 
-        <p className="text-white my-3 text-4xl mt-10 font-bold font-playFair">
+        <p className="text-white my-3 text-4xl mt-10 font-bold font-playFair" data-aos="fade-right">
           Paper <span>Submission</span>
         </p>
-        <p className="text-white text-2xl mt-4 hover:text-cyan-600"><a href="https://cmt3.research.microsoft.com/AICCIT2023" target="_blank">https://cmt3.research.microsoft.com/AICCIT2023</a></p>
+        <p className="text-white text-2xl mt-4 hover:text-cyan-600"><a href="https://cmt3.research.microsoft.com/AICCIT2023" target="_blank" data-aos="fade-right">https://cmt3.research.microsoft.com/AICCIT2023</a></p>
       </div>
     </section>
   );
