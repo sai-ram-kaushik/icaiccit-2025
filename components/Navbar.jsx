@@ -66,17 +66,17 @@ const Navbar = () => {
                 Important Dates
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/submission">
               <li className="ml-10 text-sm hover:text-cyan-600 text-white">
                 Submission
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/registration">
               <li className="ml-10 text-sm hover:text-cyan-600 text-white">
                 Registration
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/previous_year">
               <li className="ml-10 text-sm hover:text-cyan-600 text-white">
                 Previous Year Conferences
               </li>
