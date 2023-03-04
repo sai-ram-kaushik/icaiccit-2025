@@ -1,4 +1,4 @@
-import "@/styles/globals.css";
+import "../styles/globals.css";
 import AcademicPartners from "../components/AcademicPartners";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";  
