@@ -72,8 +72,8 @@ const Skills = () => {
   return (
     <section id='skills' className='py-10 relative'>
       <div className='mt-20 text-white text-center'>
-        <h3 className='text-4xl font-semibold' data-aos="fade-right">Conference <span>Committee</span></h3>
-        <p className='text-[#de0650] mt-14 text-3xl font-bold' data-aos="fade-right">Chief Patrons</p>
+        <h3 className='text-4xl font-bold font-playFair' data-aos="fade-right">Conference <span>Committee</span></h3>
+        <p className='text-[#de0650] mt-14 text-3xl font-bold font-playFair' data-aos="fade-right">Chief Patrons</p>
         <div className='flex items-center justify-center mt-12 gap-10 flex-wrap' data-aos="fade-right">
           {
             chief_patron?.map((chief_patron,i) =>(
@@ -91,7 +91,7 @@ const Skills = () => {
         </div>
 
 
-        <p className='text-[#de0650] mt-20 text-3xl font-bold' data-aos="fade-right">Patrons</p>
+        <p className='text-[#de0650] mt-20 text-3xl font-bold font-playFair' data-aos="fade-right">Patrons</p>
         <div className='flex items-center justify-center mt-12 gap-10 flex-wrap'data-aos="fade-right">
           {
             patrons?.map((patrons,i) =>(
@@ -109,7 +109,7 @@ const Skills = () => {
         </div>
 
 
-        <p className='text-[#de0650] mt-20 text-3xl font-bold' data-aos="fade-right">General Chair</p>
+        <p className='text-[#de0650] mt-20 text-3xl font-bold font-playFair' data-aos="fade-right">General Chair</p>
         <div className='flex items-center justify-center mt-12 gap-10 flex-wrap' data-aos="fade-right">
           {
             general_chair?.map((general_chair,i) =>(
@@ -125,7 +125,7 @@ const Skills = () => {
             ))
           }
         </div>
-        <p className='text-[#de0650] mt-20 text-3xl font-bold' data-aos="fade-right">Chair</p>
+        <p className='text-[#de0650] mt-20 text-3xl font-bold font-playFair' data-aos="fade-right">Chair</p>
         <div className='flex items-center justify-center mt-12 gap-10 flex-wrap' data-aos="fade-right">
           {
             chair?.map((chair,i) =>(
@@ -142,7 +142,7 @@ const Skills = () => {
           }
         </div>
 
-        <p className='text-[#de0650] mt-20 text-3xl font-bold' data-aos="fade-right">Co-Chair</p>
+        <p className='text-[#de0650] mt-20 text-3xl font-bold font-playFair' data-aos="fade-right">Co-Chair</p>
         <div className='flex items-center justify-center mt-12 gap-10 flex-wrap' data-aos="fade-right">
           {
             co_chair?.map((co_chair,i) =>(
@@ -159,7 +159,7 @@ const Skills = () => {
           }
         </div>
 
-        <p className='text-[#de0650] mt-20 text-3xl font-bold' data-aos="fade-right">Convener</p>
+        <p className='text-[#de0650] mt-20 text-3xl font-bold font-playFair' data-aos="fade-right">Convener</p>
         <div className='flex items-center justify-center mt-12 gap-10 flex-wrap' data-aos="fade-right">
           {
             convener?.map((convener,i) =>(
@@ -177,7 +177,7 @@ const Skills = () => {
         </div>
 
         <p
-          className="text-[#de0650] mt-14 text-3xl font-bold"
+          className="text-[#de0650] mt-14 text-3xl font-bold font-playFair"
           data-aos="fade-right"
         >
           Organizing Secretaries

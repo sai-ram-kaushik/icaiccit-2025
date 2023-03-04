@@ -30,7 +30,7 @@ const ResourcePerson = () => {
   return (
     <section className="py-10 text-white">
       <div className="text-center mt-14" data-aos="fade-right">
-        <h3 className="text-white md:text-5xl text-3xl font-semibold ">
+        <h3 className="text-white md:text-5xl text-3xl font-bold font-playFair">
           Resource Person <span>Committee</span>
         </h3>
         <div className='flex items-center justify-center mt-12 gap-10 flex-wrap' data-aos="fade-right">

@@ -18,7 +18,7 @@ const Main = () => {
               AICCIT-<span className="text-[#de0650] font-playFair">2023</span>
             </h1>
 
-            <h3 className="text-[18px] sm:text-[20px] md:text-[25.5px] text-center font-playFair">
+            <h3 className="text-[18px] sm:text-[20px] md:text-[23.5px] text-center font-playFair">
               International Conference on Advancing in{" "}
               <span>
                 <Typed

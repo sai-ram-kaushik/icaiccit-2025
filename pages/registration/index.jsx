@@ -5,10 +5,10 @@ const Register = () => {
   return (
     <section className="py-10 text-gray-600" data-aos="fade-right">
       <div className="text-center flex flex-col items-center">
-        <h3 className="text-white md:text-5xl text-4xl md:mt-20 mt-28 font-semibold ">
+        <h3 className="text-white md:text-5xl text-4xl md:mt-20 mt-28 font-bold font-playFair">
           Registration <span>Details</span>
         </h3>
-        <p className="text-[#de0650] my-3 text-3xl mt-10 font-bold">
+        <p className="text-[#de0650] my-3 text-3xl mt-10 font-bold font-playFair">
           Conference Regitration Fee and Policy
         </p>
         <p className="my-3 text-lg  mt-4 font-bold w-[700px] text-white">
@@ -79,7 +79,7 @@ const Register = () => {
           </table>
         </div>
 
-        <div className="flex justify-center items-center mt-4 text-white">
+        <div className="flex justify-center items-center mt-4 text-white font-playFair">
             <p><b>*Author should pay registration amount as mentioned above + 18% GST</b></p>
         </div>
       </div>

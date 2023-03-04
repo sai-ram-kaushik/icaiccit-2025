@@ -5,7 +5,7 @@ const ConferenceTrack = () => {
   return (
     <section className="py-10 text-gray" data-aos="fade-right">
       <div className="text-center mt-14">
-        <h3 className="text-white font-semibold text-4xl">
+        <h3 className="text-white font-bold font-playFair text-4xl">
           Conference <span>Tracks</span>
         </h3>
       </div>
@@ -15,17 +15,18 @@ const ConferenceTrack = () => {
         <table className="md:mx-6 mx-[-8px]" width="700px">
           <thead>
             <tr>
-              <th className="text-3xl justify-start text-[#de0650]">Track 1</th>
+              <th className="text-3xl justify-start text-[#de0650] font-playFair">Track 1</th>
             </tr>
             <tr>
-              <th className="text-2xl text-white">
+              <th className="text-2xl text-white font-playFair">
                 Theme: Artificial Intelligence, Machine Learning & Data Science
               </th>
             </tr>
             <tr className="text-2xl">
-              <th className="text-white">Topics</th>
+              <th className="text-white font-playFair">Topics</th>
               {/* <th>Related IEEE Society(ies)</th>
               <th>Chair</th> */}
+
             </tr>
           </thead>
           <tbody>
@@ -74,15 +75,15 @@ const ConferenceTrack = () => {
         <table className="md:mx-6 mx-[5px]" width="700px">
           <thead>
             <tr>
-              <th className="text-3xl text-[#de0650]">Track 2</th>
+              <th className="text-3xl text-[#de0650] font-playFair">Track 2</th>
             </tr>
             <tr>
-              <th className="text-2xl text-white">
+              <th className="text-2xl text-white font-playFair">
                 Theme : Information Rechnologies
               </th>
             </tr>
             <tr className="text-2xl">
-              <th className="text-white">Topics</th>
+              <th className="text-white font-playFair">Topics</th>
               {/* <th>Related IEEE Society(ies)</th>
               <th>Chair</th> */}
             </tr>
@@ -138,15 +139,15 @@ const ConferenceTrack = () => {
         <table className="md:mx-6 mx-10" width="700px">
           <thead>
             <tr>
-              <th className="text-3xl justify-start text-[#de0650]">Track 3</th>
+              <th className="text-3xl justify-start text-[#de0650] font-playFair">Track 3</th>
             </tr>
             <tr>
-              <th className="text-2xl text-white">
+              <th className="text-2xl text-white font-playFair">
               Theme : Big Data Analytics &amp; Visualization
               </th>
             </tr>
             <tr className="text-2xl">
-              <th className="text-white">Topics</th>
+              <th className="text-white font-playFair">Topics</th>
               {/* <th>Related IEEE Society(ies)</th>
               <th>Chair</th> */}
             </tr>
@@ -175,15 +176,15 @@ const ConferenceTrack = () => {
         <table className="md:mx-6 mx-10" width="700px">
           <thead>
             <tr>
-              <th className="text-3xl text-[#A8271A]">Track 4 </th>
+              <th className="text-3xl text-[#de0650] font-playFair">Track 4 </th>
             </tr>
             <tr>
-              <th className="text-2xl text-white">
+              <th className="text-2xl text-white font-playFair">
               Theme : Communication
               </th>
             </tr>
             <tr className="text-2xl">
-              <th className="text-white">Topics</th>
+              <th className="text-white font-playFair">Topics</th>
               {/* <th>Related IEEE Society(ies)</th>
               <th>Chair</th> */}
             </tr>

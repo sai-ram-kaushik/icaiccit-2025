@@ -5,10 +5,10 @@ const AdvisoryCommittee = () => {
   return (
     <section className="py-10 text-white" data-aos="fade-right">
       <div className="text-center mt-14 flex flex-col items-center">
-        <h3 className="text-white text-5xl font-semibold ">
+        <h3 className="text-white text-5xl font-bold font-playFair">
           Advisory <span className="text-[#3FBA96]">Committee</span>
         </h3>
-        <p className="text-[#de0650] my-3 text-3xl mt-14 font-bold">
+        <p className="text-[#de0650] my-3 text-3xl mt-14 font-bold font-playFair">
         International Advisory Committee
         </p>
         <p className="text-white my-3 text-2xl mt-14 leading-10 w-[700px]">
@@ -25,7 +25,7 @@ const AdvisoryCommittee = () => {
         Dr. Mahesh Chaudhari, Principal Software Engineer, Neustar Inc., San Francisco CA, USA <br />
         </p>
 
-        <p className="text-[#de0650] my-3 text-3xl mt-14 font-bold">
+        <p className="text-[#de0650] my-3 text-3xl mt-14 font-bold font-playFair">
         National Advisory Committee
         </p>
         <p className="text-white my-3 text-2xl mt-14  leading-10">

@@ -4,12 +4,12 @@ const PreviousYear = () => {
   return (
     <section className="py-10 text-gray-600" data-aos="fade-right">
       <div className="text-center mt-14">
-        <h3 className="text-white text-5xl font-semibold ">
+        <h3 className="text-white text-5xl font-bold font-playFair">
           Previous <span>Conferences</span>
         </h3>
 
         <p
-          className="text-[#de0650] my-3 text-2xl mt-10 font-bold"
+          className="text-[#de0650] my-3 text-2xl mt-10 font-bold font-playFair"
           data-aos="fade-right"
         >
           COM-IT-CON 2022
@@ -53,7 +53,7 @@ const PreviousYear = () => {
         </div>
 
         <p
-          className="text-[#de0650] my-3 text-2xl mt-20 font-bold"
+          className="text-[#de0650] my-3 text-2xl mt-20 font-bold font-playFair"
           data-aos="fade-right"
         >
           COM-IT-CON 2019
@@ -93,7 +93,7 @@ const PreviousYear = () => {
         </div>
 
         <p
-          className="text-[#de0650] my-3 text-2xl mt-20 font-bold"
+          className="text-[#de0650] my-3 text-2xl mt-20 font-bold font-playFair"
           data-aos="fade-right"
         >
           ICROIT-2014
