@@ -11,10 +11,10 @@ const Register = () => {
         <p className="text-[#de0650] my-3 text-3xl mt-10 font-bold font-playFair">
           Conference Registration Fee and Policy
         </p>
-        <p className="my-3 text-lg  mt-4 font-bold w-[700px] text-gray-600">
+        <p className="my-3 text-lg  mt-4 font-bold max-w-[700px] text-gray-600">
           At least one of the author of the paper has to register for the conference. It is mandatory to present the paper in the conference for the inclusion of the paper in the conference proceedings.
         </p>
-        <div className="mt-14 justify-center flex text-gray-600 md:ml-0 ml-6 md:mr-0 mr-6 ">
+        <div className="mt-14 justify-center flex text-gray-600 md:ml-0 md:mr-0 mr-6 ">
           <table>
             <thead>
               <tr>

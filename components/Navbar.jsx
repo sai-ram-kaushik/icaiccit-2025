@@ -65,13 +65,13 @@ const Navbar = () => {
             {isOpen && (
               <div className="bg-white absolute top-20 flex flex-col items-center rounded-lg p-2 ">
                 {list.map((item, i) => (
-                  <div onClick={()=>setIsOpen(false)}>
+                  <div onClick={() => setIsOpen(false)}>
                     <Link
                       href={item.link}
                       className="flex w-full cursor-pointer rounded-lg p-2"
                       key={i}
                     >
-                      <h3 >{item.name}</h3>
+                      <h3>{item.name}</h3>
                     </Link>
                   </div>
                 ))}
@@ -109,7 +109,7 @@ const Navbar = () => {
         </div>
         <div>
           <a href="https://manavrachna.edu.in/" target="_blank">
-          <Image src="/mrlogo.png" width={150} height={100} />
+            <Image src="/mrlogo.png" width={150} height={100} />
           </a>
         </div>
       </div>
@@ -126,7 +126,9 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between ">
-              <Image src="/logo.png" width={100} height={35} />
+              <Link href="/">
+                <Image src="/logo.png" width={100} height={35} />
+              </Link>
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer text-black"
@@ -145,27 +147,27 @@ const Navbar = () => {
                 <li className="py-4 text-sm text-black">About Us</li>
               </Link>
               <li
-              onClick={() => setIsOpen((prev) => !prev)}
-              className="ml-10 text-sm hover:text-cyan-600 text-black flex items-center gap-2"
-            >
-              Conference Committee{" "}
-              {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
-            </li>
-            {isOpen && (
-              <div className="bg-white absolute top-20 flex flex-col items-center rounded-lg p-2 ">
-                {list.map((item, i) => (
-                  <div onClick={()=>setIsOpen(false)}>
-                    <Link
-                    href={item.link}
-                    className="flex w-full cursor-pointer rounded-lg p-2"
-                    key={i}
-                  >
-                    <h3>{item.name}</h3>
-                  </Link>
-                  </div>
-                ))}
-              </div>
-            )}
+                onClick={() => setIsOpen((prev) => !prev)}
+                className="ml-10 text-sm hover:text-cyan-600 text-black flex items-center gap-2"
+              >
+                Conference Committee{" "}
+                {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
+              </li>
+              {isOpen && (
+                <div className="bg-white absolute top-20 flex flex-col items-center rounded-lg p-2 ">
+                  {list.map((item, i) => (
+                    <div onClick={() => setIsOpen(false)}>
+                      <Link
+                        href={item.link}
+                        className="flex w-full cursor-pointer rounded-lg p-2"
+                        key={i}
+                      >
+                        <h3>{item.name}</h3>
+                      </Link>
+                    </div>
+                  ))}
+                </div>
+              )}
               <Link href="/conference_track">
                 <li className="py-4 text-sm text-black">Conference Track</li>
               </Link>
@@ -185,7 +187,9 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="py-10">
-              <Image src="/mrlogo.png" width={200} height={150} />
+              <a href="https://manavrachna.edu.in/" target="_blank">
+                <Image src="/mrlogo.png" width={200} height={150} />
+              </a>
             </div>
           </div>
         </div>

@@ -55,7 +55,7 @@ const Main = () => {
         <p className="text-gray-600 text-2xl md:text-5xl font-bold font-playFair">
           About <span>Conference</span>
         </p>
-        <p className="m-10 text-justify text-gray-600 w-[900px]">
+        <p className="m-10 text-justify text-gray-600 ">
           The main objective of <b>AICCIT-2023</b> is to invite all the Academicians,
           Researchers, and industrialists worldwide to participate and discuss
           the latest achievements in the advanced field of computing like
