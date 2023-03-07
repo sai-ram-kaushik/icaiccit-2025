@@ -10,16 +10,16 @@ const ResourcePerson = () => {
         photo: "images/resource_person/swapnoneel.jpeg", designation: 'FIS Distinguished Professor of Computing, University of North Florida', name: 'Dr. Swapnoneel Roy'
     },
     {
-      photo: "images/resource_person/sujit.jpeg", designation: 'Computer Scientist- AI, Huntsville, Alabama, United States', name: 'Sujit Roy'
+      photo: "images/resource_person/sujit.jpeg", designation: 'Computer Scientist- AI, Huntsville, Alabama, United States', name: 'Dr .Sujit Roy'
     },
     {
-      photo: "images/resource_person/ankit.jpg", designation: 'Research Professor, Department of ECE McCormick School of Engineering, Northwestern University', name: 'Ankit Agrawal'
+      photo: "images/resource_person/ankit.jpg", designation: 'Research Professor, Department of ECE McCormick School of Engineering, Northwestern University', name: 'Dr. Ankit Agrawal'
     },
     {
       photo: "images/resource_person/murali.jpg", designation: 'Scientist-G & Head Interdisciplinary Cyber Physical Systems Division, Department of Science and Technology, New Delhi, India', name: 'Dr. K R Murali Mohan'
     },
     {
-      photo: "images/resource_person/haider.jpg", designation: 'Senior Lecturer School of Computer Science and Electronic Engineering (CSEE), University of Essex', name: 'Dr Haider Raza'
+      photo: "images/resource_person/haider_raza.jpg", designation: 'Senior Lecturer School of Computer Science and Electronic Engineering (CSEE), University of Essex', name: 'Dr Haider Raza'
     },
     {
       photo: "images/resource_person/kamlesh.jpg", designation: 'Associate Professor, NIT, Hamripur(HP)', name: 'Dr.(Mrs.) Kamlesh Dutta'
