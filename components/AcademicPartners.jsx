@@ -15,6 +15,7 @@ const AcademicPartners = () => {
         { link: "images/partners/ibm.png" },
         { link: "images/partners/microsoft.png" },
         { link: "images/partners/infosis1.png" },
+        { link: "images/partners/purdue.png"}
       ];
 
   return (
