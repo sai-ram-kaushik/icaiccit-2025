@@ -23,28 +23,6 @@ const Footer = () => {
                 About Us
               </li>
             </Link>
-            <li
-              onClick={() => setIsOpen((prev) => !prev)}
-              className="ml-10 text-sm hover:text-cyan-600 text-white flex items-center gap-2"
-            >
-              Conference Committee{" "}
-              {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
-            </li>
-            {isOpen && (
-              <div className="bg-white absolute top-20 flex flex-col items-center rounded-lg p-2 ">
-                {list.map((item, i) => (
-                  <div onClick={() => setIsOpen(false)}>
-                    <Link
-                      href={item.link}
-                      className="flex w-full cursor-pointer rounded-lg p-2"
-                      key={i}
-                    >
-                      <h3>{item.name}</h3>
-                    </Link>
-                  </div>
-                ))}
-              </div>
-            )}
             <Link href="/conference_track">
               <li className="ml-10 text-sm hover:text-cyan-600 text-white">
                 Conference Track
