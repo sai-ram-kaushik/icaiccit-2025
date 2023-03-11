@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import {BiPhoneCall} from 'react-icons/bi'
-import {AiOutlineMail} from 'react-icons/ai'
+import { BiPhoneCall } from "react-icons/bi";
+import { AiOutlineMail } from "react-icons/ai";
+import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
 const Footer = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="w-full bg-[#10182F]">
       <div className="flex flex-col items-center justify-center p-4 gap-4">
         <Image src="/logo_white.png" width={100} height={100} />
         <div className="flex flex-row items-center justify-between">
-          <ul className="hidden md:flex ">
+          <ul className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm hover:text-cyan-600 text-white">
                 Home
@@ -20,11 +23,28 @@ const Footer = () => {
                 About Us
               </li>
             </Link>
-            <Link href="/">
-              <li className="ml-10 text-sm hover:text-cyan-600 text-white">
-                Conference Committee
-              </li>
-            </Link>
+            <li
+              onClick={() => setIsOpen((prev) => !prev)}
+              className="ml-10 text-sm hover:text-cyan-600 text-white flex items-center gap-2"
+            >
+              Conference Committee{" "}
+              {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
+            </li>
+            {isOpen && (
+              <div className="bg-white absolute top-20 flex flex-col items-center rounded-lg p-2 ">
+                {list.map((item, i) => (
+                  <div onClick={() => setIsOpen(false)}>
+                    <Link
+                      href={item.link}
+                      className="flex w-full cursor-pointer rounded-lg p-2"
+                      key={i}
+                    >
+                      <h3>{item.name}</h3>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            )}
             <Link href="/conference_track">
               <li className="ml-10 text-sm hover:text-cyan-600 text-white">
                 Conference Track
@@ -35,17 +55,17 @@ const Footer = () => {
                 Important Dates
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/submission">
               <li className="ml-10 text-sm hover:text-cyan-600 text-white">
                 Submission
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/registration">
               <li className="ml-10 text-sm hover:text-cyan-600 text-white">
                 Registration
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/previous_year">
               <li className="ml-10 text-sm hover:text-cyan-600 text-white">
                 Previous Year Conferences
               </li>
@@ -65,7 +85,7 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center justify-center text-sm text-white">
-            Copyright &#169; AICCIT - 2023. All Rights Resevered 
+          Copyright &#169; AICCIT - 2023. All Rights Resevered
         </div>
       </div>
     </div>

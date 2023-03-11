@@ -109,7 +109,7 @@ const Navbar = () => {
         </div>
         <div>
           <a href="https://manavrachna.edu.in/" target="_blank">
-            <Image src="/mrlogo.png" width={150} height={100} />
+            <Image src="/mrlogo1.png" width={170} height={100} />
           </a>
         </div>
       </div>
@@ -188,7 +188,7 @@ const Navbar = () => {
             </ul>
             <div className="py-10">
               <a href="https://manavrachna.edu.in/" target="_blank">
-                <Image src="/mrlogo.png" width={200} height={150} />
+                <Image src="/mrlogo1.png" width={200} height={150} />
               </a>
             </div>
           </div>
