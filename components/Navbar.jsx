@@ -111,11 +111,11 @@ const Navbar = () => {
             <AiOutlineMenu size={25} />
           </div>
         </div>
-        <div className="flex flex-row items-center justify-center gap-3">
+        <div className="flex flex-row items-center justify-center gap-4">
+          <Image src="/ieee.png" width={100} height={100} />
           <a href="https://manavrachna.edu.in/" target="_blank">
             <Image src="/mrlogo1.png" width={170} height={100} />
           </a>
-          <Image src="/ieee.png" width={100} height={100} />
         </div>
       </div>
 

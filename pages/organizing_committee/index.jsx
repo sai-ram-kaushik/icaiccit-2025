@@ -27,6 +27,21 @@ const Skills = () => {
     },
   ]
 
+  const co_patrons = [
+    {
+      photo: '/images/co_patron/geeta.png', designation: "", name: "Dr. Geeta Ninzawan"
+    },
+    {
+      photo: "/images/co_patron/brijesh.jpeg", designation: "Dean Academics, MRIIRS", name: "Dr. Brijesh Kumar"
+    },
+    {
+      photo: "/images/co_patron/Sarita.jpg", designation: "Dean R&D, MRIIRS", name: "Dr. Sarita Sachdewa"
+    },
+    {
+      photo: "/images/co_patron/nandini.jpeg", designation: "Director CDC", name: "Dr. Nandani"
+    }
+  ]
+
   const general_chair = [
     {
       photo: "/images/general_chair/Tapas.jpeg", designation: "Associate Dean, CSE, FET, MRIIRS", name: "Dr. Tapas Kumar"
@@ -45,6 +60,9 @@ const Skills = () => {
     },
     {
       photo: "/images/co-chair/supriya.jpg", designation: "Professor, CSE, FET, MRIIIRS",name: "Dr. Supriya P. Panda"
+    },
+    {
+      photo: "/images/co-chair/rashima.jpeg", designation: "Director IQAC, Professor", name: "Dr. Rashima Mahajan"
     }
   ]
 
@@ -56,16 +74,16 @@ const Skills = () => {
 
   const organizing = [
     {
-      photo: "/images/organizing/poonam_nandal.jpg", name: "Dr. Poonam Nandal", designation: "Professor, CSE, FET, MRIIRS"
-    },
-    {
       photo: "/images/organizing/deepa_bura.jpg", name: "Dr. Deepa Bura", designation: "Professor, CSE, FET, MRIIRS"
     },
     {
-      photo: "/images/organizing/rosy_madaan.png", name: "Dr. Rosy Madaan", designation: "Professor, CSE, FET, MRIIRS"
+      photo: "/images/organizing/indu.jpg", name: "Dr. Indu Kashyap", designation: "Professor, CSE, FET, MRIIRS"
     },
     {
       photo: "/images/organizing/nitasha_soni.jpg", name: "Dr. Nitasha Soni", designation: "Professor, CSE, FET, MRIIRS"
+    },
+    {
+      photo: "/images/organizing/sahoo.jpg", name: "Dr. R C Sahoo", designation: "Associate Professor, CSE, FET, MRIIRS"
     }
   ]
 
@@ -103,6 +121,23 @@ const Skills = () => {
             </div>
             <p className='text-lg mt-2 text-gray-600'>{patrons.name}</p>
             <p className='text-lg mt-3 text-gray-600'>{patrons.designation}</p>
+          </div>
+            ))
+          }
+        </div>
+
+        <p className='text-[#de0650] mt-20 text-3xl font-bold font-playFair' data-aos="fade-right">Co-Patrons</p>
+        <div className='flex items-center justify-center mt-12 gap-10 flex-wrap'data-aos="fade-right">
+          {
+            co_patrons?.map((co_patrons,i) =>(
+              <div key={i} className='border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[350px]  p-10 rounded-xl'>
+            <div className='flex items-center justify-center'>
+              <div className='text-6xl group-hover:text-cyan-600'>
+                <img src={co_patrons.photo} className="rounded-full"/>
+              </div>
+            </div>
+            <p className='text-lg mt-2 text-gray-600'>{co_patrons.name}</p>
+            <p className='text-lg mt-3 text-gray-600'>{co_patrons.designation}</p>
           </div>
             ))
           }
