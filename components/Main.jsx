@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+  import React, { useEffect } from "react";
 import Image from "next/image";
 import Typed from "react-typed";
 import Aos from "aos";
@@ -35,7 +35,7 @@ const Main = () => {
               </span>
             </h3>
 
-            <p className="text-gray-600 mt-8 font-bold text-2xl sm:text-3xl md:text-4xl font-playFair">
+            <p className="text-gray-600 mt-8 font-bold text-2xl sm:text-3xl md:text-3 xl font-playFair">
               23<sup className="text-[#3FBA96] ">rd</sup> & 24
               <sup className="text-[#3FBA96] ">th</sup> November 2023
             </p>

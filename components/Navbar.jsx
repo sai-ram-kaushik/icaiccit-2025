@@ -28,6 +28,10 @@ const Navbar = () => {
       link: "/local_advisory_committee",
     },
     {
+      name: "IEEE Oversight Committee",
+      link: "/ieee_oversight_committee"
+    },
+    {
       name: "Organizing Committee",
       link: "/organizing_committee",
     },
@@ -46,12 +50,12 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex ">
             <Link href="/">
-              <li className="ml-10 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-5 text-sm hover:text-cyan-600 text-black">
                 Home
               </li>
             </Link>
             <Link href="/about">
-              <li className="ml-10 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-5 text-sm hover:text-cyan-600 text-black">
                 About Us
               </li>
             </Link>
@@ -78,27 +82,27 @@ const Navbar = () => {
               </div>
             )}
             <Link href="/conference_track">
-              <li className="ml-10 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-5 text-sm hover:text-cyan-600 text-black">
                 Conference Track
               </li>
             </Link>
             <Link href="/important_dates">
-              <li className="ml-10 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-5 text-sm hover:text-cyan-600 text-black">
                 Important Dates
               </li>
             </Link>
             <Link href="/submission">
-              <li className="ml-10 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-5 text-sm hover:text-cyan-600 text-black">
                 Submission
               </li>
             </Link>
             <Link href="/registration">
-              <li className="ml-10 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-5 text-sm hover:text-cyan-600 text-black">
                 Registration
               </li>
             </Link>
             <Link href="/previous_year">
-              <li className="ml-10 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-5 text-sm hover:text-cyan-600 text-black">
                 Previous Year Conferences
               </li>
             </Link>
@@ -107,10 +111,11 @@ const Navbar = () => {
             <AiOutlineMenu size={25} />
           </div>
         </div>
-        <div>
+        <div className="flex flex-row items-center justify-center gap-3">
           <a href="https://manavrachna.edu.in/" target="_blank">
             <Image src="/mrlogo1.png" width={170} height={100} />
           </a>
+          <Image src="/ieee.png" width={100} height={100} />
         </div>
       </div>
 
