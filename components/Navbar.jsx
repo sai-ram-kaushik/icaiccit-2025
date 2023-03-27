@@ -50,12 +50,12 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex ">
             <Link href="/">
-              <li className="ml-5 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-8 text-sm hover:text-cyan-600 text-black">
                 Home
               </li>
             </Link>
             <Link href="/about">
-              <li className="ml-5 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-8 text-sm hover:text-cyan-600 text-black">
                 About Us
               </li>
             </Link>
@@ -82,27 +82,27 @@ const Navbar = () => {
               </div>
             )}
             <Link href="/conference_track">
-              <li className="ml-5 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-8 text-sm hover:text-cyan-600 text-black">
                 Conference Track
               </li>
             </Link>
             <Link href="/important_dates">
-              <li className="ml-5 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-8 text-sm hover:text-cyan-600 text-black">
                 Important Dates
               </li>
             </Link>
             <Link href="/submission">
-              <li className="ml-5 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-8 text-sm hover:text-cyan-600 text-black">
                 Submission
               </li>
             </Link>
             <Link href="/registration">
-              <li className="ml-5 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-8 text-sm hover:text-cyan-600 text-black">
                 Registration
               </li>
             </Link>
             <Link href="/previous_year">
-              <li className="ml-5 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-8 text-sm hover:text-cyan-600 text-black">
                 Previous Year Conferences
               </li>
             </Link>

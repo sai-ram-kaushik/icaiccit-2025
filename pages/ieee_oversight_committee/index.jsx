@@ -4,22 +4,22 @@ const index = () => {
 
     const ieee_oversight_committee = [
         {
-            name: "Prof. Chakradhar C Reddy", designation: "(Lead Member Coordinator for AICCIT-2023 and Executive Committee Member & Member-IEEE Delhi Section STDCOM on T & P Act"
+            name: "Prof. Chakradhar C Reddy", designation: "(Lead Member Coordinator for AICCIT-2023 and Executive Committee Member & Member-IEEE Delhi"
         },
         {
-            name: "Prof. Mahesh Bundele", designation: "Executive Committee Member & Member-IEEE Delhi Section STDCOM on T & P Act"
+            name: "Prof. Mahesh Bundele", designation: "Executive Committee Member & Member-IEEE Delhi"
         },
         {
-            name: "Prof. Sudhanshu Shekhar Jamuar", designation: "Member-IEEE Delhi Section STDCOM on T & P Act"
+            name: "Prof. Sudhanshu Shekhar Jamuar", designation: "Member-IEEE Delhi"
         },
         {
-            name: "Dr. Rajnish Sharma", designation: "Section Secretary & Member-IEEE Delhi Section STDCOM on T & P Act"
+            name: "Dr. Rajnish Sharma", designation: "Section Secretary & Member-IEEE Delhi"
         },
         {
-            name: "Dr. Pradeep K Gupta", designation: "Executive Committee Co-opted Member & Member-IEEE Delhi Section STDCOM on T & P Act"
+            name: "Dr. Pradeep K Gupta", designation: "Executive Committee Co-opted Member & Member-IEEE Delhi"
         },
         {
-            name: "Dr. Ashu Verma", designation: "Section Treasurer & Member-IEEE Delhi Section STDCOM on T & P Act"
+            name: "Dr. Ashu Verma", designation: "Section Treasurer & Member-IEEE Delhi"
         }
     ]
 
