@@ -12,6 +12,10 @@ const Dates = () => {
 
       <div className="mt-10 justify-center  flex text-gray-600">
         <table className="text-gray-600">
+        <tr className="text-2xl">
+            <td>Abstract Submission Deadline:</td>
+            <td>4<sup>th</sup> June, 2023</td>
+          </tr>
           <tr className="text-2xl">
             <td>Paper Submission Deadline:</td>
             <td>15<sup>th</sup> July, 2023</td>
