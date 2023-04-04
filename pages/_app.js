@@ -3,6 +3,7 @@ import AcademicPartners from "../components/AcademicPartners";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
+import Scroll from "../components/Scroll";
 export default function App({ Component, pageProps }) {
   return (
     <>
@@ -13,6 +14,7 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/aiccit_logo.png " />
       </Head>
       <Navbar />
+      <Scroll />
       <Component {...pageProps} />
       <AcademicPartners />
       <Footer />

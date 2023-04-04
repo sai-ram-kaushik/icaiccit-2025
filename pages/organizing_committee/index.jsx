@@ -43,18 +43,19 @@ const Skills = () => {
   ]
 
   const general_chair = [
+    
+  ]
+
+  const chair = [
     {
       photo: "/images/general_chair/Tapas.jpeg", designation: "Associate Dean, CSE, FET, MRIIRS", name: "Dr. Tapas Kumar"
     }
   ]
 
-  const chair = [
+  const co_chair = [
     {
       photo: "/images/chair/suresh.jpg", designation: "Professor, CSE, FET, MRIIRS", name: "Dr. Suresh Kumar"
-    }
-  ]
-
-  const co_chair = [
+    },
     {
       photo: "/images/co-chair/charu.jpeg", designation: "Professor Head, CSE, FET, MRIIIRS",name: "Dr. Charu Virmani"
     },
@@ -144,22 +145,7 @@ const Skills = () => {
         </div>
 
 
-        <p className='text-[#de0650] mt-20 text-3xl font-bold font-playFair' data-aos="fade-right">General Chair</p>
-        <div className='flex items-center justify-center mt-12 gap-10 flex-wrap' data-aos="fade-right">
-          {
-            general_chair?.map((general_chair,i) =>(
-              <div key={i} className='border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[350px]  p-10 rounded-xl'>
-            <div className='flex items-center justify-center'>
-              <div className='text-6xl group-hover:text-cyan-600'>
-                <img src={general_chair.photo} className="rounded-full"/>
-              </div>
-            </div>
-            <p className='text-lg mt-2 text-gray-600'>{general_chair.name}</p>
-            <p className='text-lg mt-3 text-gray-600'>{general_chair.designation}</p>
-          </div>
-            ))
-          }
-        </div>
+       
         <p className='text-[#de0650] mt-20 text-3xl font-bold font-playFair' data-aos="fade-right">Chair</p>
         <div className='flex items-center justify-center mt-12 gap-10 flex-wrap' data-aos="fade-right">
           {

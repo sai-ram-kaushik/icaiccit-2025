@@ -19,7 +19,7 @@ const Main = () => {
             </h1>
 
             <h3 className="text-[18px] sm:text-[20px] md:text-[24.5px] text-center font-playFair">
-              International Conference on Advancing in{" "}
+              International Conference on Advances in{" "}
               <span>
                 <Typed
                   className=""
@@ -39,6 +39,10 @@ const Main = () => {
               23<sup className="text-[#3FBA96] ">rd</sup> & 24
               <sup className="text-[#3FBA96] ">th</sup> November 2023
             </p>
+            <div className="mt-4">
+              <p className="text-xl sm:text-2xl md:text-2xl text-center font-bold text-[#3FBA96]">Technical Sponsor IEEE </p>
+              <p className="text-xl sm:text-2xl md:text-2xl text-center font-bold text-[#3FBA96]">(IEEE conference record number #59806)</p>
+            </div>
           </div>
           <div>
             <Image
