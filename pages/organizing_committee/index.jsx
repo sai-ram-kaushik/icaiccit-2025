@@ -17,10 +17,10 @@ const Skills = () => {
       photo: "/images/patrons/sanjay.jpg", designation: 'Vice Chancellor, MRIIRS', name: 'Dr. Sanjay Shrivastava'
     },
     {
-      photo: "/images/patrons/naresh.jpg", designation: 'Pro Vice Chancellor', name: 'Dr. Naresh Grover' 
+      photo: "/images/patrons/naresh.jpg", designation: 'PVC, MRIIRS', name: 'Dr. Naresh Grover' 
     },
     {
-      photo: "/images/patrons/pardeep.jpg", designation: 'Pro Vice Chancellor, MRIIRS', name: 'Dr. Pardeep Kumar' 
+      photo: "/images/patrons/pardeep.jpg", designation: 'PVC, MRIIRS', name: 'Dr. Pardeep Kumar' 
     },
     {
       photo: "/images/patrons/Arora.jpg", designation: 'Registrar, MRIIRS', name: 'Shri. R.K Arora' 
@@ -29,42 +29,40 @@ const Skills = () => {
 
   const co_patrons = [
     {
-      photo: '/images/co_patron/geeta.png', designation: "", name: "Dr. Geeta Ninzawan"
+      photo: '/images/co_patron/geeta.png', designation: "Associate Dean,FET, MRIIRS", name: "Dr. Geeta Nijhawan"
     },
     {
       photo: "/images/co_patron/brijesh.jpeg", designation: "Dean Academics, MRIIRS", name: "Dr. Brijesh Kumar"
     },
     {
-      photo: "/images/co_patron/Sarita.jpg", designation: "Dean R&D, MRIIRS", name: "Dr. Sarita Sachdewa"
+      photo: "/images/co_patron/Sarita.jpg", designation: "Executive Director & Dean Research, MRIIRS", name: "Dr. Sarita Sachdeva"
     },
     {
-      photo: "/images/co_patron/nandini.jpeg", designation: "Director CDC", name: "Dr. Nandani"
+      photo: "/images/co_patron/nandini.jpeg", designation: "Director, CDP, MRIIRS", name: "Dr. Nandani"
     }
   ]
 
-  const general_chair = [
-    
-  ]
 
   const chair = [
     {
-      photo: "/images/general_chair/Tapas.jpeg", designation: "Associate Dean, CSE, FET, MRIIRS", name: "Dr. Tapas Kumar"
+      photo: "/images/general_chair/Tapas.jpeg", designation: "Associate Dean, HOD CSE(Spl), FET, MRIIRS", name: "Dr. Tapas Kumar"
     }
   ]
 
   const co_chair = [
     {
-      photo: "/images/chair/suresh.jpg", designation: "Professor, CSE, FET, MRIIRS", name: "Dr. Suresh Kumar"
+      photo: "/images/co-chair/charu.jpeg", designation: "Professor Head, CSE, FET, MRIIIRS",name: "Dr. Charu Virmani"
     },
     {
-      photo: "/images/co-chair/charu.jpeg", designation: "Professor Head, CSE, FET, MRIIIRS",name: "Dr. Charu Virmani"
+      photo: "/images/co-chair/rashima.jpeg", designation: "Director IQAC, Professor , CSE, FET, MRIIIRS", name: "Dr. Rashima Mahajan"
+    },
+    {
+      photo: "/images/chair/suresh.jpg", designation: "Professor, CSE, FET, MRIIRS", name: "Dr. Suresh Kumar"
     },
     {
       photo: "/images/co-chair/supriya.jpg", designation: "Professor, CSE, FET, MRIIIRS",name: "Dr. Supriya P. Panda"
     },
-    {
-      photo: "/images/co-chair/rashima.jpeg", designation: "Director IQAC, Professor", name: "Dr. Rashima Mahajan"
-    }
+   
   ]
 
   const convener = [
@@ -167,14 +165,14 @@ const Skills = () => {
         <div className='flex items-center justify-center mt-12 gap-10 flex-wrap' data-aos="fade-right">
           {
             co_chair?.map((co_chair,i) =>(
-              <div key={i} className='border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[350px]  p-10 rounded-xl'>
+              <div key={i} className='border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[400px]  p-10 rounded-xl'>
             <div className='flex items-center justify-center'>
               <div className='text-6xl group-hover:text-cyan-600'>
                 <img src={co_chair.photo} className="rounded-full"/>
               </div>
             </div>
             <p className='text-lg mt-2 text-gray-600'>{co_chair.name}</p>
-            <p className='text-lg mt-3 text-gray-600'>{co_chair.designation}</p>
+            <p className='text-lg mt-2 text-gray-600'>{co_chair.designation}</p>
           </div>
             ))
           }
