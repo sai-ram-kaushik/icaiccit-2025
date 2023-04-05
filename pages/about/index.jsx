@@ -95,7 +95,7 @@ const About = () => {
           className="text-[#de0650] my-3 text-2xl mt-14 font-bold font-playFair"
           data-aos="fade-right"
         >
-          AICCIT - 2023 (International Conference on Advancing in Computation,
+          AICCIT - 2023 (International Conference on Advances in Computation,
           <br /> Communication and Information Technology)
         </p>
         <div
