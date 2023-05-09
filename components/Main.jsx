@@ -40,7 +40,7 @@ const Main = () => {
               <sup className="text-[#3FBA96] ">th</sup> November 2023
             </p>
             <div className="mt-4">
-              <p className="text-xl sm:text-2xl md:text-2xl text-center font-bold text-[#3FBA96]">Technical Sponsor IEEE </p>
+              <p className="text-xl sm:text-2xl md:text-xl text-center font-bold text-[#3FBA96]">IEEE Delhi Section has agreed to be Technical Sponsor.</p>
               <p className="text-xl sm:text-2xl md:text-2xl text-center font-bold text-[#3FBA96]">(IEEE conference record number #59806)</p>
             </div>
           </div>
