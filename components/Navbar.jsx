@@ -45,7 +45,7 @@ const Navbar = () => {
     <div className="fixed w-full h-20 shadow-xl z-[100] bg-[hsl(162,60%,79%)]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image src="/logo.png" width={150} height={100} />
+          <Image src="/logo.png" width={180} height={100} />
         </Link>
         <div>
           <ul className="hidden md:flex ">
@@ -112,9 +112,9 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex flex-row items-center justify-center gap-4">
-          <Image src="/ieee.png" width={100} height={100} />
+          {/* <Image src="/ieee.png" width={100} height={100} /> */}
           <a href="https://manavrachna.edu.in/" target="_blank">
-            <Image src="/mrlogo1.png" width={170} height={100} />
+            <Image src="/mrlogo1.png" width={200} height={100} />
           </a>
         </div>
       </div>
