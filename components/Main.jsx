@@ -12,9 +12,9 @@ const Main = () => {
   return (
     <>
       <div className="w-full h-screen flex flex-col justify-between" data-aos="fade-right">
-        <div className="grid md:grid-cols-2 max-w-[1240px] m-auto gap-8 md:gap-32">
+        <div className="grid md:grid-cols-2 max-w-[1240px] m-auto  gap-8 md:gap-32">
           <div className="flex flex-col justify-center items-center w-full px-2 py-8 text-gray-600">
-            <h1 className="text-5xl sm:text-3xl md:text-7xl  md:leading-normal leading-10 text-gray-600 font-bold font-playFair">
+            <h1 className="text-5xl sm:text-3xl md:text-7xl mt-20  md:leading-normal leading-10 text-gray-600 font-bold font-playFair">
               AICCIT-<span className="text-[#3FBA96]  font-playFair">2023</span>
             </h1>
 
