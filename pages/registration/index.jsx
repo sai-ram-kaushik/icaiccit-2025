@@ -14,7 +14,7 @@ const Register = () => {
         <p className="my-3 text-lg  mt-4 font-bold max-w-[700px] text-gray-600">
           At least one of the author of the paper has to register for the conference. It is mandatory to present the paper in the conference for the inclusion of the paper in the conference proceedings. 
         </p>
-        <p className="text-lg font-bold text-center max-w-[700px]">All accepted, registered & presented paper will be considered for publishing in Conference Proceedings by IEEE Explore, Scopus Index (IEEE Record Number #59806)</p>
+        {/* <p className="text-lg font-bold text-center max-w-[700px]">All accepted, registered & presented paper will be considered for publishing in Conference Proceedings by IEEE Explore, Scopus Index (IEEE Record Number #59806)</p> */}
         <div className="mt-14 justify-center flex text-gray-600 md:ml-0 md:mr-0 mr-6 ">
           <table>
             <thead>
