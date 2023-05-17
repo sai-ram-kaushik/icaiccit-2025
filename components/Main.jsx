@@ -15,7 +15,7 @@ const Main = () => {
         <div className="grid md:grid-cols-2 max-w-[1240px] m-auto  gap-8 md:gap-32">
           <div className="flex flex-col justify-center items-center w-full px-2 py-8 text-gray-600">
             <h1 className="text-5xl sm:text-3xl md:text-7xl mt-20  md:leading-normal leading-10 text-gray-600 font-bold font-playFair">
-              AICCIT-<span className="text-[#3FBA96]  font-playFair">2023</span>
+              ICAICCIT-<span className="text-[#3FBA96]  font-playFair">2023</span>
             </h1>
 
             <h3 className="text-[18px] sm:text-[20px] md:text-[24.5px] text-center font-playFair">
@@ -41,7 +41,7 @@ const Main = () => {
             </p>
             <div className="mt-4">
               <p className="text-xl sm:text-2xl md:text-xl text-center font-bold text-[#3FBA96]">IEEE Delhi Section has agreed to be Technical Sponsor.</p>
-              <p className="text-xl sm:text-2xl md:text-2xl text-center font-bold text-[#3FBA96]">(IEEE conference record number #59806)</p>
+              <p className="text-xl sm:text-2xl md:text-2xl text-center font-bold text-[#3FBA96]">(IEEE conference record number #60255)</p>
             </div>
           </div>
           <div>
@@ -60,7 +60,7 @@ const Main = () => {
           About <span>Conference</span>
         </p>
         <p className="m-10 text-justify text-gray-600 ">
-          The main objective of <b>AICCIT-2023</b> is to invite all the Academicians,
+          The main objective of <b>ICAICCIT-2023</b> is to invite all the Academicians,
           Researchers, and industrialists worldwide to participate and discuss
           the latest achievements in the advanced field of computing like
           Advancement in the Artificial Intelligence, Blockchain, Cyber

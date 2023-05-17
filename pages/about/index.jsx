@@ -95,7 +95,7 @@ const About = () => {
           className="text-[#de0650] my-3 text-2xl mt-14 font-bold font-playFair"
           data-aos="fade-right"
         >
-          AICCIT - 2023 (International Conference on Advances in Computation,
+          ICAICCIT - 2023 (International Conference on Advances in Computation,
           <br /> Communication and Information Technology)
         </p>
         <div
@@ -105,7 +105,7 @@ const About = () => {
           <div>
             <div className="text-gray-600 my-3 mt-8">
               <p className="text-justify leading-8 font-sans text-lg text-gray-600">
-                The main objective of <b>AICCIT-2023</b> is to invite all the
+                The main objective of <b>ICAICCIT-2023</b> is to invite all the
                 Academicians, Researchers, and industrialists worldwide to
                 participate and discuss the latest achievements in the advanced
                 field of computing like Advancement in the Artificial

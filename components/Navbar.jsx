@@ -45,7 +45,7 @@ const Navbar = () => {
     <div className="fixed w-full h-20 shadow-xl z-[100] bg-[hsl(162,60%,79%)]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image src="/logo.png" width={180} height={100} />
+          <Image src="/logo1.png" width={180} height={100} />
         </Link>
         <div>
           <ul className="hidden md:flex ">
@@ -132,7 +132,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between ">
               <Link href="/">
-                <Image src="/logo.png" width={100} height={35} />
+                <Image src="/logo1.png" width={100} height={35} />
               </Link>
               <div
                 onClick={handleNav}

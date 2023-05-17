@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="w-full bg-[#10182F]">
       <div className="flex flex-col items-center justify-center p-4 gap-4">
-        <Image src="/logo_white.png" width={100} height={100} />
+        <Image src="/logo_white1.png" width={100} height={100} />
         <div className="flex flex-row items-center justify-between">
           <ul className="hidden md:flex">
             <Link href="/">
@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center justify-center text-sm text-white">
-          Copyright &#169; AICCIT - 2023. All Rights Resevered
+          Copyright &#169; ICAICCIT - 2023. All Rights Resevered
         </div>
       </div>
     </div>
