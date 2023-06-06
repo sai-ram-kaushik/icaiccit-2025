@@ -83,6 +83,9 @@ const Skills = () => {
     },
     {
       photo: "/images/organizing/sahoo.jpg", name: "Dr. R C Sahoo", designation: "Associate Professor, CSE, FET, MRIIRS"
+    },
+    {
+      photo: "/images/organizing/mamta.jpeg", name: "Dr. Mamta Dahiya", designation: "Professor, CSE, MRIIRS"
     }
   ]
 
