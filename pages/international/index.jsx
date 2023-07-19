@@ -23,6 +23,7 @@ const AdvisoryCommittee = () => {
         Dr. Suryakanthi Tangirala, Faculty of Business, University of Botswana, USA <br />
         Mr. Hemant Kumar Srivastava, SSE, Bayer Health Care, Pittsburg, USA <br />
         Dr. Mahesh Chaudhari, Principal Software Engineer, Neustar Inc., San Francisco CA, USA <br />
+        Mr. Raveendra Babu Ponnuru, Cleveland State University, Ohio, USA 
         </p>
 
         <p className="text-[#de0650] my-3 text-3xl mt-14 font-bold font-playFair">
