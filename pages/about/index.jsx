@@ -2,13 +2,14 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Important_dates from '../../components/Important_dates'
 const About = () => {
   useEffect(() => {
     Aos.init({ duration: 500 });
   }, []);
 
   return (
-    <section id="about" className="py-10 text-gray-600" data-aos="fade-right">
+    <section id="about" className="py-10 text-gray-600 flex gap-20 items-center justify-center" data-aos="fade-right">
       <div className="text-center mt-14">
         <p className="text-[#de0650] my-3 text-2xl mt-20 font-bold font-playFair">
           Manav Rachna International Institute of Research and Studies (MRIIRS)
@@ -136,6 +137,10 @@ const About = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="hidden md:flex">
+        <Important_dates />
       </div>
     </section>
   );

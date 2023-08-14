@@ -3,6 +3,7 @@ import Image from "next/image";
 import Typed from "react-typed";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import mr_image from '../public/images/main/mr.png'
 const Main = () => {
 
   useEffect(() => {
@@ -11,49 +12,32 @@ const Main = () => {
 
   return (
     <>
-      <div className="w-full h-screen flex flex-col justify-between" data-aos="fade-right">
-        <div className="grid md:grid-cols-2 max-w-[1240px] m-auto  gap-8 md:gap-32">
-          <div className="flex flex-col justify-center items-center w-full px-2 py-8 text-gray-600">
-            <h1 className="text-5xl sm:text-3xl md:text-7xl mt-20  md:leading-normal leading-10 text-gray-600 font-bold font-playFair">
-              ICAICCIT-<span className="text-[#3FBA96]  font-playFair">2023</span>
-            </h1>
-
-            <h3 className="text-[18px] sm:text-[20px] md:text-[24.5px] text-center font-playFair">
-              International Conference on Advances in{" "}
-              <span>
-                <Typed
-                  className=""
-                  strings={[
-                    "Computation",
-                    "Communication",
-                    "Information Technology",
-                  ]}
-                  typeSpeed={40}
-                  backSpeed={50}
-                  loop
-                />
-              </span>
-            </h3>
-
-            <p className="text-gray-600 mt-8 font-bold text-2xl sm:text-3xl md:text-3 xl font-playFair">
-              23<sup className="text-[#3FBA96] ">rd</sup> & 24
-              <sup className="text-[#3FBA96] ">th</sup> November 2023
-            </p>
-            <div className="mt-4">
-              <p className="text-xl sm:text-2xl md:text-xl text-center font-bold text-[#3FBA96]">IEEE Delhi Section has agreed to be Technical Sponsor.</p>
-              <p className="text-xl sm:text-2xl md:text-2xl text-center font-bold text-[#3FBA96]">(IEEE conference record number #60255)</p>
+     <div className="w-full h-screen">
+        <div className="flex items-center justify-center w-full h-full gap-20">
+          <div className="flex flex-col items-center justify-center text-gray-600">
+            <h1 className="font-poppins">ICAICCIT - <span>2023</span></h1>
+            <p className="text-4xl font-poppins mt-2 font-bold">International Conference on Advances in </p>
+            <div className="text-xl sm:text-2xl md:text-4xl lg:text-4xl font-bold mt-2">
+              <Typed
+                strings={[
+                  "Computation",
+                  "Communication",
+                  "Information Technology",
+                ]}
+                typeSpeed={40}
+                backSpeed={50}
+                loop
+              />
             </div>
+            <p className="text-3xl font-bold mt-10 text-gray-600">23<sup>rd</sup> and 24<sup>th</sup> November, 2023</p>
+            <p className="text-2xl text-[#3FBA96] md:w-[800px] text-center font-bold mt-5">IEEE Delhi Section has agreed to be Technical Sponsor.(IEEE conference record number #60255)</p>
           </div>
-          <div>
-            <Image
-              src="/images/main/mr.png"
-              width={600}
-              height={600}
-              className="animate-translateAnimate"
-            />
+
+          <div className="animate-translateAnimate">
+              <Image src={mr_image} width={600} height={600} />
           </div>
         </div>
-      </div>
+     </div>
 
       <div className="flex items-center justify-center flex-col" data-aos="fade-right">
         <p className="text-gray-600 text-2xl md:text-5xl font-bold font-playFair">

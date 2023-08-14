@@ -86,11 +86,7 @@ const Navbar = () => {
                 Conference Track
               </li>
             </Link>
-            <Link href="/important_dates">
-              <li className="ml-8 text-sm hover:text-cyan-600 text-black">
-                Important Dates
-              </li>
-            </Link>
+
             <Link href="/submission">
               <li className="ml-8 text-sm hover:text-cyan-600 text-black">
                 Submission
@@ -175,9 +171,6 @@ const Navbar = () => {
               )}
               <Link href="/conference_track">
                 <li className="py-4 text-sm text-black">Conference Track</li>
-              </Link>
-              <Link href="/important_dates">
-                <li className="py-4 text-sm text-black">Important Dates</li>
               </Link>
               <Link href="/submission">
                 <li className="py-4 text-sm text-black">Submission</li>

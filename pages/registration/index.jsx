@@ -111,7 +111,7 @@ const Register = () => {
           <div className="border-2 rounded-xl p-3 flex flex-col mt-5 text-lg font-bold">
             <p className="flex">Payment Details - <p>RTGS/NEFT Transfer</p></p>
             <p className="flex">Account No - <p>201004119068</p></p>
-            <p className="flex">Account Name - <p> MANAV RACHNA INTERNATIONAL INSTITUTE OF RESEARCH AND STUDIES</p></p>
+            <p className="flex">Account Name - <p> MANAV RACHNA INTERNATIONAL INSTITUTE OF RESEARCH AND STUDIES GST</p></p>
             <p className="flex">IFSC Code - <p> INDB0000702</p></p>
             <p className="flex">Bank Name - <p> INDUSIND BANK</p></p>
             <p className="flex">Address - <p> NIT NEELAM BATA ROAD, FARIDABAD</p></p>

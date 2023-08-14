@@ -32,6 +32,10 @@
   span{
     @apply text-[#3FBA96] 
   }
+
+  sup{
+    @apply text-[#3FBA96]
+  }
 }
 
 @keyframes rotation {
