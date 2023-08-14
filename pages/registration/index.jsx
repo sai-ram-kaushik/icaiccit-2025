@@ -1,21 +1,32 @@
 import React from "react";
-
+import { AiOutlineArrowRight } from "react-icons/ai";
 const Register = () => {
-
   return (
     <section className="py-10 text-gray-600" data-aos="fade-right">
-      <div className="text-center flex flex-col items-center">
+      <div className="text-center flex flex-col items-center w-full">
         <h3 className="text-gray-600 md:text-5xl text-4xl md:mt-20 mt-28 font-bold font-playFair">
           Registration <span>Details</span>
         </h3>
+
+        <div className="flex items-center justify-center mt-10">
+          <a href="https://forms.gle/PEtEsycnMg2HABf58" target="_blank">
+            <h3 className="text-[#de0650] text-2xl flex items-center gap-3 border-2 rounded-xl p-4 m-5 font-poppins text-center">
+              Click Here to Register Yourself{" "}
+              <AiOutlineArrowRight size={25} className="hidden md:flex" />
+            </h3>
+          </a>
+        </div>
+
         <p className="text-[#de0650] my-3 text-3xl mt-10 font-bold font-playFair">
           Conference Registration Fee and Policy
         </p>
         <p className="my-3 text-lg  mt-4 font-bold max-w-[700px] text-gray-600">
-          At least one of the author of the paper has to register for the conference. It is mandatory to present the paper in the conference for the inclusion of the paper in the conference proceedings. 
+          At least one of the author of the paper has to register for the
+          conference. It is mandatory to present the paper in the conference for
+          the inclusion of the paper in the conference proceedings.
         </p>
         {/* <p className="text-lg font-bold text-center max-w-[700px]">All accepted, registered & presented paper will be considered for publishing in Conference Proceedings by IEEE Explore, Scopus Index (IEEE Record Number #59806)</p> */}
-        <div className="mt-14 justify-center flex text-gray-600 md:ml-0 md:mr-0 mr-6 ">
+        <div className="mt-14 justify-center flex text-gray-600 ">
           <table>
             <thead>
               <tr>
@@ -30,18 +41,10 @@ const Register = () => {
 
               <tr className="text-lg">
                 <th></th>
-                <th>
-                IEEE Member
-                </th>
-                <th>
-                General
-                </th>
-                <th>
-                IEEE Member
-                </th>
-                <th>
-                General
-                </th>
+                <th>IEEE Member</th>
+                <th>General</th>
+                <th>IEEE Member</th>
+                <th>General</th>
               </tr>
             </thead>
             <tbody>
@@ -54,7 +57,9 @@ const Register = () => {
               </tr>
 
               <tr>
-                <td className="text-lg font-bold">Faculty and Research Scholar</td>
+                <td className="text-lg font-bold">
+                  Faculty and Research Scholar
+                </td>
                 <td>6,000</td>
                 <td>8,000</td>
                 <td>130</td>
@@ -81,7 +86,36 @@ const Register = () => {
         </div>
 
         <div className="flex justify-center items-center mt-4 text-gray-600 font-playFair">
-            <p><b>*Author should pay registration amount as mentioned above + 18% GST</b></p>
+          <p>
+            <b>
+              *Author should pay registration amount as mentioned above + 18%
+              GST
+            </b>
+          </p>
+        </div>
+
+        <div className="flex flex-col items-center justify-center">
+          <h3 className="text-[#de0650] my-3 text-4xl mt-10 font-bold font-playFair">
+            Payment Details
+          </h3>
+          <p className="font-bold mt-2">
+            Note: Payment to be made through NEFT / RTGS in favour of “Manav
+            Rachna International Institute of Research & Studies” payable at
+            Faridabad
+          </p>
+          <p className="font-bold">
+            Please keep the printed details of the fee receipt which will be
+            submitted at the time of physical registration at the conference
+            venue.
+          </p>
+          <div className="border-2 rounded-xl p-3 flex flex-col mt-5 text-lg font-bold">
+            <p className="flex">Payment Details - <p>RTGS/NEFT Transfer</p></p>
+            <p className="flex">Account No - <p>201004119068</p></p>
+            <p className="flex">Account Name - <p> MANAV RACHNA INTERNATIONAL INSTITUTE OF RESEARCH AND STUDIES</p></p>
+            <p className="flex">IFSC Code - <p> INDB0000702</p></p>
+            <p className="flex">Bank Name - <p> INDUSIND BANK</p></p>
+            <p className="flex">Address - <p> NIT NEELAM BATA ROAD, FARIDABAD</p></p>
+          </div>
         </div>
       </div>
     </section>
