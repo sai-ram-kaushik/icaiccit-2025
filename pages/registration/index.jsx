@@ -17,6 +17,14 @@ const Register = () => {
           </a>
         </div>
 
+        <div className="flex items-center justify-center mt-5">
+          <a href="https://www.eptc-ieee.net/uploads/exhibitors-pdf/59c22cf8b853e_Copyright%20form.pdf" target="_blank">
+            <h3 className="text-[#de0650] text-2xl flex items-center gap-3 border-2 rounded-xl p-4 m-5 font-poppins text-center">
+              IEEE Copyright Link
+            </h3>
+          </a>
+        </div>
+
         <p className="text-[#de0650] my-3 text-3xl mt-10 font-bold font-playFair">
           Conference Registration Fee and Policy
         </p>

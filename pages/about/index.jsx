@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Important_dates from '../../components/Important_dates'
+// import Important_dates from '../../components/Important_dates'
 const About = () => {
   useEffect(() => {
     Aos.init({ duration: 500 });
@@ -137,10 +137,6 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="hidden md:flex">
-        <Important_dates />
       </div>
     </section>
   );

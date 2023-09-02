@@ -33,6 +33,7 @@ const AdvisoryCommittee = () => {
         Dr K.K Aggarwal, Former VC, IP University, India <br />
         Dr M.N Hoda, BVPIM, Delhi, India <br/>
         Dr K K Biswas, IIT Delhi, India <br />
+        Dr. B Priestly Shan, Pro Vice Chancellor - Academic Affairs, Alliance University <br />
         Dr. Kamlesh Dutta, NIT Hamirpur<br />
         Dr Deepak, Thapar University, Punjab, India <br />
         Dr T.V Prasad, Chinnai, Visvodaya Technical Academy, Chennai, India <br/>

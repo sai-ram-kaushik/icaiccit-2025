@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Important_dates from "../../components/Important_dates";
+// import Important_dates from "../../components/Important_dates";
 const index = () => {
   useEffect(() => {
     Aos.init({ duration: 500 });
@@ -184,8 +184,6 @@ const index = () => {
             </p>
           </div>
         </div>
-        
-        <Important_dates />
         
       </section>
     </>

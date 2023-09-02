@@ -29,7 +29,7 @@ const Navbar = () => {
     },
     {
       name: "IEEE Oversight Committee",
-      link: "/ieee_oversight_committee"
+      link: "/ieee_oversight_committee",
     },
     {
       name: "Organizing Committee",
@@ -42,27 +42,26 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100] bg-[hsl(162,60%,79%)]">
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Link href="/">
+    <div className="sticky -top-0 w-full h-20 shadow-xl z-[100] bg-[hsl(162,60%,79%)]">
+      <div className="flex justify-between lg:justify-center items-center w-full h-full px-2 2xl:px-16">
+        <Link href="/" className="block lg:hidden">
           <Image src="/logo1.png" width={180} height={100} />
         </Link>
-        <div>
+        <div className="">
           <ul className="hidden md:flex ">
             <Link href="/">
-              <li className="ml-8 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-8 text-lg hover:text-cyan-600 text-black">
                 Home
               </li>
             </Link>
             <Link href="/about">
-              <li className="ml-8 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-8 text-lg hover:text-cyan-600 text-black">
                 About Us
               </li>
             </Link>
             <li
               onClick={() => setIsOpen((prev) => !prev)}
-              className="ml-10 text-sm hover:text-cyan-600 text-black flex items-center gap-2"
-            >
+              className="ml-10 text-lg hover:text-cyan-600 text-black flex items-center gap-2">
               Conference Committee{" "}
               {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
             </li>
@@ -73,8 +72,7 @@ const Navbar = () => {
                     <Link
                       href={item.link}
                       className="flex w-full cursor-pointer rounded-lg p-2"
-                      key={i}
-                    >
+                      key={i}>
                       <h3>{item.name}</h3>
                     </Link>
                   </div>
@@ -82,23 +80,30 @@ const Navbar = () => {
               </div>
             )}
             <Link href="/conference_track">
-              <li className="ml-8 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-8 text-lg hover:text-cyan-600 text-black">
                 Conference Track
               </li>
             </Link>
 
             <Link href="/submission">
-              <li className="ml-8 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-8 text-lg hover:text-cyan-600 text-black">
                 Submission
               </li>
             </Link>
+
+            <Link href="/important_dates">
+              <li className="ml-8 text-lg hover:text-cyan-600 text-black">
+                Important Dates
+              </li>
+            </Link>
+
             <Link href="/registration">
-              <li className="ml-8 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-8 text-lg hover:text-cyan-600 text-black">
                 Registration
               </li>
             </Link>
             <Link href="/previous_year">
-              <li className="ml-8 text-sm hover:text-cyan-600 text-black">
+              <li className="ml-8 text-lg hover:text-cyan-600 text-black">
                 Previous Year Conferences
               </li>
             </Link>
@@ -107,7 +112,8 @@ const Navbar = () => {
             <AiOutlineMenu size={25} />
           </div>
         </div>
-        <div className="flex flex-row items-center justify-center gap-4">
+
+        <div className="flex flex-row items-center justify-center gap-4 lg:hidden">
           {/* <Image src="/ieee.png" width={100} height={100} /> */}
           <a href="https://manavrachna.edu.in/" target="_blank">
             <Image src="/mrlogo1.png" width={200} height={100} />
@@ -116,15 +122,13 @@ const Navbar = () => {
       </div>
 
       <div
-        className={nav ? "fixed left-0 top-0 w-full h-screen bg-black/70" : ""}
-      >
+        className={nav ? "fixed left-0 top-0 w-full h-screen bg-black/70" : ""}>
         <div
           className={
             nav
               ? "fixed left-0 top-0 w-[70%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0  p-10 ease-in duration-500"
-          }
-        >
+          }>
           <div>
             <div className="flex w-full items-center justify-between ">
               <Link href="/">
@@ -132,8 +136,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer text-black"
-              >
+                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer text-black">
                 <AiOutlineClose />
               </div>
             </div>
@@ -141,16 +144,15 @@ const Navbar = () => {
 
           <div className="py-4 flex flex-col">
             <ul className="uppercase mt-14 ">
-              <Link href="/">
+              <Link href="/" onClick={handleNav}>
                 <li className="py-4 text-sm text-black">Home</li>
               </Link>
-              <Link href="/about">
+              <Link href="/about" onClick={handleNav}>
                 <li className="py-4 text-sm text-black">About Us</li>
               </Link>
               <li
                 onClick={() => setIsOpen((prev) => !prev)}
-                className="ml-10 text-sm hover:text-cyan-600 text-black flex items-center gap-2"
-              >
+                className="ml-10 text-sm hover:text-cyan-600 text-black flex items-center gap-2">
                 Conference Committee{" "}
                 {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
               </li>
@@ -161,24 +163,23 @@ const Navbar = () => {
                       <Link
                         href={item.link}
                         className="flex w-full cursor-pointer rounded-lg p-2"
-                        key={i}
-                      >
+                        key={i}>
                         <h3>{item.name}</h3>
                       </Link>
                     </div>
                   ))}
                 </div>
               )}
-              <Link href="/conference_track">
+              <Link href="/conference_track" onClick={handleNav}>
                 <li className="py-4 text-sm text-black">Conference Track</li>
               </Link>
-              <Link href="/submission">
+              <Link href="/submission" onClick={handleNav}>
                 <li className="py-4 text-sm text-black">Submission</li>
               </Link>
-              <Link href="/registration">
+              <Link href="/registration" onClick={handleNav}>
                 <li className="py-4 text-sm text-black">Registration</li>
               </Link>
-              <Link href="/previous_year">
+              <Link href="/previous_year" onClick={handleNav}>
                 <li className="py-4 text-sm text-black">
                   Previous Year Conferences
                 </li>
