@@ -24,6 +24,12 @@ const ResourcePerson = () => {
     {
       photo: "images/resource_person/kamlesh.jpg", designation: 'Associate Professor, NIT, Hamripur(HP)', name: 'Dr.(Mrs.) Kamlesh Dutta'
     },
+    {
+      photo: "images/resource_person/valentina.png", designation: 'Head of the Intelligent Systems Research Centre, IEEE Senior Member', name: 'Prof. Valentina Emilia Balas'
+    },
+    {
+      photo: "images/resource_person/rajeev.jpg", designation: 'Professor and Dean (Resource and Alumni Affairs) Department of Computer Science and Engineering, IIT - BHU', name: 'Dr. Rajeev Srivastava'
+    },
 
     
   ]

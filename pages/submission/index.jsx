@@ -15,7 +15,7 @@ const index = () => {
             <p className="text-gray-600 my-3 text-4xl mt-20 font-bold font-playFair">
               Paper <span>Submission</span>
             </p>
-            <p className="text-justify text-lg m-4 max-w-[700px] text-gray-600">
+            <p className="text-justify text-lg m-4 text-gray-600">
               Authors must ensure that their works are produced in a way that
               conceals their identities. Please ensure the following while
               submitting to assist with this preparation:
