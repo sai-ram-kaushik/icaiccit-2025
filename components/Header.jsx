@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import mr_logo from '../public/mrlogo1.png'
-import icaiccit_logo from '../public/logo1.png'
+import icaiccit_logo from '../public/icaiccit-2023 logo_updated.png'
 const Header = () => {
   return (
     <div className='hidden md:block w-full h-20 bg-white'>
