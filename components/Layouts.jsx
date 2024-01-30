@@ -8,10 +8,10 @@ const Layouts = ({children}) => {
   return (
     <>
       <Head>
-        <title>ICAICCIT - 2023</title>
+        <title>ICAICCIT - 2024</title>
         <meta
           name="description"
-          content="Conference Website - ICAICCIT - 2023"
+          content="Conference Website - ICAICCIT - 2024"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/aiccit_logo.png " />

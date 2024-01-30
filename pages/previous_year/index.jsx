@@ -10,14 +10,50 @@ const PreviousYear = () => {
 
         <p
           className="text-[#de0650] my-3 text-2xl mt-10 font-bold font-playFair"
-          data-aos="fade-right"
-        >
+          data-aos="fade-right">
+          ICAICCIT - 2023
+        </p>
+        <div
+          className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto"
+          data-aos="fade-right">
+          <div>
+            <div className="text-gray-600 my-3 mt-14">
+              <p className="text-justify leading-8 text-lg">
+                The main objective of ICAICCIT - 2023 is to invite all the
+                Academicians, Researchers, and industrialists worldwide to
+                participate and discuss the latest achievements in the advanced
+                field of computing like Advancement in the Artificial
+                Intelligence, Blockchain, Cyber Security, Distributed Computing
+                and Internet of Things. The main goal of the conference is to
+                provide a forum for high-quality reports on the state-of-the-art
+                Theory, Technology, and Applications of advanced fields of
+                computing as used in measurement, automation, and scientific
+                research, in industry and business. The initiative provides a
+                focused and highly interactive forum where both researchers and
+                technologists have the opportunity to present and discuss
+                leading research topics, developments, and future directions in
+                their areas of interest. The importance of the conference is its
+                vision to establish scientific contacts between research teams
+                and scientists from different countries for future joint
+                research collaborations.
+              </p>
+            </div>
+          </div>
+          <div className="flex-1 flex justify-center items-center">
+            <div className="lg:w-96 h-full relative sm:w-10/12 w-12/12 max-w-full mt-56">
+              <Image src="/images/about/icaiccit2023.png" width={500} height={500} />
+            </div>
+          </div>
+        </div>
+
+        <p
+          className="text-[#de0650] my-3 text-2xl mt-10 font-bold font-playFair"
+          data-aos="fade-right">
           COM-IT-CON 2022
         </p>
         <div
           className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto"
-          data-aos="fade-right"
-        >
+          data-aos="fade-right">
           <div>
             <div className="text-gray-600 my-3 mt-14">
               <p className="text-justify leading-8 text-lg">
@@ -54,14 +90,12 @@ const PreviousYear = () => {
 
         <p
           className="text-[#de0650] my-3 text-2xl mt-20 font-bold font-playFair"
-          data-aos="fade-right"
-        >
+          data-aos="fade-right">
           COM-IT-CON 2019
         </p>
         <div
           className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto"
-          data-aos="fade-right"
-        >
+          data-aos="fade-right">
           <div>
             <div className="text-gray-600 my-3 mt-14">
               <p className="text-justify leading-8 text-lg">
@@ -78,8 +112,7 @@ const PreviousYear = () => {
                 <a
                   href="https://ieeexplore.ieee.org/xpl/conhome/8851231/proceeding"
                   target="__blank"
-                  className="text-cyan-600 flex flex-wrap"
-                >
+                  className="text-cyan-600 flex flex-wrap">
                   https://ieeexplore.ieee.org/xpl/conhome/8851231/proceeding
                 </a>
               </p>
@@ -94,14 +127,12 @@ const PreviousYear = () => {
 
         <p
           className="text-[#de0650] my-3 text-2xl mt-20 font-bold font-playFair"
-          data-aos="fade-right"
-        >
+          data-aos="fade-right">
           ICROIT-2014
         </p>
         <div
           className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto"
-          data-aos="fade-right"
-        >
+          data-aos="fade-right">
           <div>
             <div className="text-gray-600 my-3 mt-20">
               <p className="text-justify leading-8 text-lg">
@@ -114,8 +145,7 @@ const PreviousYear = () => {
                 <a
                   href="https://ieeexplore.ieee.org/xpl/conhome/6784149/proceeding"
                   target="__blank"
-                  className="text-cyan-600"
-                >
+                  className="text-cyan-600">
                   https://ieeexplore.ieee.org/xpl/conhome/6784149/proceeding
                 </a>
               </p>

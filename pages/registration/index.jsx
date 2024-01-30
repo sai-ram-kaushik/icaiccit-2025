@@ -58,8 +58,8 @@ const Register = () => {
             <tbody>
               <tr>
                 <td className="text-lg font-bold">UG/PG Students</td>
-                <td>4,000</td>
                 <td>5,000</td>
+                <td>6,000</td>
                 <td>160</td>
                 <td>230</td>
               </tr>
@@ -68,7 +68,7 @@ const Register = () => {
                 <td className="text-lg font-bold">
                   Faculty and Research Scholar
                 </td>
-                <td>6,000</td>
+                <td>7,000</td>
                 <td>8,000</td>
                 <td>130</td>
                 <td>170</td>
@@ -76,7 +76,7 @@ const Register = () => {
 
               <tr>
                 <td className="text-lg font-bold">Industry</td>
-                <td>8,000</td>
+                <td>9,000</td>
                 <td>10,000</td>
                 <td>200</td>
                 <td>250</td>
