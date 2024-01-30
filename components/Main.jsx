@@ -15,11 +15,11 @@ const Main = () => {
         <div className="flex flex-col-reverse md:flex-row items-center gap-14 justify-center w-full h-full">
           <div className="flex flex-col items-center justify-center gap-3">
             <h3 className="text-4xl sm:text-4xl md:text-4xl lg:text-8xl text-gray-600 font-playFair font-bold">
-              ICAICCIT - <span>2023</span>
+              ICAICCIT - <span>2024</span>
             </h3>
 
             <p className="text-3xl font-poppons text-center">
-              International Conference on Advances in{" "}
+              2<sup>nd</sup> International Conference on Advances in{" "}
             </p>
             <div className="text-2xl sm:text-2xl md:text-4xl lg:text-4xl font-bold mt-2">
               <Typed
@@ -34,11 +34,10 @@ const Main = () => {
               />
             </div>
             <p className="text-3xl font-bold mt-10 text-gray-600 text-center">
-              23<sup>rd</sup> and 24<sup>th</sup> November, 2023
+              28<sup>th</sup> and 29<sup>th</sup> November, 2024
             </p>
             <p className="text-2xl text-[#3FBA96] md:w-[800px] text-center font-bold mt-5">
-              IEEE Delhi Section has agreed to be Technical Sponsor.(IEEE
-              conference record number #60255)
+              IEEE Delhi Section under process
             </p>
           </div>
           <div className="animate-translateAnimate hidden lg:block">
