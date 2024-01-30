@@ -172,8 +172,8 @@ const index = () => {
               Review and <span>Publication of Manuscripts:</span>
             </p>
             <p className="text-gray-600 text-lg mt-8 text-justify max-w-[700px]">
-              All submitted manuscripts to ICAICCIT – 2023 shall be go through a
-              Double-blind reviewed by the ICAICCIT – 2023 TPC members on
+              All submitted manuscripts to ICAICCIT – 2024 shall be go through a
+              Double-blind reviewed by the ICAICCIT – 2024 TPC members on
               originality, technical correctness, relevance, and quality of
               presentation. An accepted paper must be presented at the
               conference venue by the author who registered/paid full author

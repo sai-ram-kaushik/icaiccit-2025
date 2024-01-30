@@ -9,7 +9,10 @@ const About = () => {
   }, []);
 
   return (
-    <section id="about" className="py-10 text-gray-600 flex gap-20 items-center justify-center" data-aos="fade-right">
+    <section
+      id="about"
+      className="py-10 text-gray-600 flex gap-20 items-center justify-center"
+      data-aos="fade-right">
       <div className="text-center mt-14">
         <p className="text-[#de0650] my-3 text-2xl mt-20 font-bold font-playFair">
           Manav Rachna International Institute of Research and Studies (MRIIRS)
@@ -49,14 +52,12 @@ const About = () => {
         </div>
         <p
           className="text-[#de0650] my-3 text-2xl mt-14 font-bold font-playFair"
-          data-aos="fade-right"
-        >
+          data-aos="fade-right">
           Department of Computer Science and Engineering (CSE)
         </p>
         <div
           className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto"
-          data-aos="fade-right"
-        >
+          data-aos="fade-right">
           <div>
             <div className="text-gray-600 my-3 mt-8">
               <p className="text-justify leading-8 font-sans text-lg text-gray-600">
@@ -94,15 +95,14 @@ const About = () => {
         </div>
         <p
           className="text-[#de0650] my-3 text-2xl mt-14 font-bold font-playFair"
-          data-aos="fade-right"
-        >
-          ICAICCIT - 2024 (International Conference on Advances in Computation,
+          data-aos="fade-right">
+          ICAICCIT - 2024 (2<sup className="text-[#de0650]">nd</sup>{" "}
+          International Conference on Advances in Computation,
           <br /> Communication and Information Technology)
         </p>
         <div
           className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto"
-          data-aos="fade-right"
-        >
+          data-aos="fade-right">
           <div>
             <div className="text-gray-600 my-3 mt-8">
               <p className="text-justify leading-8 font-sans text-lg text-gray-600">
