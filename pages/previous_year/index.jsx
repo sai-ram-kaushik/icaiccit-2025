@@ -19,29 +19,26 @@ const PreviousYear = () => {
           <div>
             <div className="text-gray-600 my-3 mt-14">
               <p className="text-justify leading-8 text-lg">
-                The main objective of ICAICCIT - 2023 is to invite all the
-                Academicians, Researchers, and industrialists worldwide to
-                participate and discuss the latest achievements in the advanced
-                field of computing like Advancement in the Artificial
-                Intelligence, Blockchain, Cyber Security, Distributed Computing
-                and Internet of Things. The main goal of the conference is to
-                provide a forum for high-quality reports on the state-of-the-art
-                Theory, Technology, and Applications of advanced fields of
-                computing as used in measurement, automation, and scientific
-                research, in industry and business. The initiative provides a
-                focused and highly interactive forum where both researchers and
-                technologists have the opportunity to present and discuss
-                leading research topics, developments, and future directions in
-                their areas of interest. The importance of the conference is its
-                vision to establish scientific contacts between research teams
-                and scientists from different countries for future joint
-                research collaborations.
+                About ICAICCIT-2023 ICAICCIT-2023 Cosponsored by IEEE Delhi
+                section(record no #60255). The International Conference on
+                International conference on Advances in Computing, Communication
+                and information technology was organized during 23rd Nov 2023 to
+                24th Nov. 2023. 1087 research papers from different part of
+                globe (UAE, Nepal, Pakistan, South Korea, Taiwan) were submitted
+                to the conference. After rigorous review process 282 research
+                papers were accepted for presentation in the conference. Two
+                hundred and forty two research papers were presented and are
+                submitted to IEEE for inclusion in ieeexplore.
               </p>
             </div>
           </div>
           <div className="flex-1 flex justify-center items-center">
             <div className="lg:w-96 h-full relative sm:w-10/12 w-12/12 max-w-full mt-56">
-              <Image src="/images/about/icaiccit2023.png" width={500} height={500} />
+              <Image
+                src="/images/about/icaiccit2023.png"
+                width={500}
+                height={500}
+              />
             </div>
           </div>
         </div>

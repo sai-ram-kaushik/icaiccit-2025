@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center justify-center text-sm text-white">
-          Copyright &#169; ICAICCIT - 2023. All Rights Resevered
+          Copyright &#169; ICAICCIT - 2024. All Rights Resevered
         </div>
       </div>
     </div>
