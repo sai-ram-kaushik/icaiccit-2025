@@ -155,10 +155,10 @@ const index = () => {
             </p>
             <p className="text-gray-600 text-2xl mt-4 hover:text-cyan-600">
               <a
-                href="https://cmt3.research.microsoft.com/AICCIT2023"
+                href="https://cmt3.research.microsoft.com/ICAICCIT-2024"
                 target="_blank"
                 data-aos="fade-right">
-                https://cmt3.research.microsoft.com/AICCIT2023
+                https://cmt3.research.microsoft.com/ICAICCIT-2024
               </a>
             </p>
           </div>

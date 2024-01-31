@@ -20,9 +20,9 @@ const Technical = () => {
     {
       photo: "/images/local/Manoj.png", name: "Prof. Monoj Nayak", designation: "HOD - ME, FET, MRIIRS"
     },
-    {
-      photo: "/images/local/Sunita.png", name: "Prof. Sunita Bansal", designation: "HOD - Civil, FET, MRIIRS"
-    },
+    // {
+    //   photo: "/images/local/Sunita.png", name: "Prof. Sunita Bansal", designation: "HOD - Civil, FET, MRIIRS"
+    // },
     {
       photo: "/images/local/jyoti.png", name: "Prof. Jyoti Chawla", designation: "HOD - Applied Sciences, FET, MRIIRS"
     },
@@ -36,7 +36,7 @@ const Technical = () => {
 
 
   return (
-    <section id="skills" className="py-10 relative">
+    <section id="skills" className="py-10 relative p-3">
       <div className="mt-20 text-gray-600 text-center">
         <h3 className="text-4xl font-bold font-playFair" data-aos="fade-right">
           Advisory <span>Committee</span>

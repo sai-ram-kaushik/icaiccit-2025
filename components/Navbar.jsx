@@ -27,10 +27,10 @@ const Navbar = () => {
       name: "Local advisory Committee",
       link: "/local_advisory_committee",
     },
-    {
-      name: "IEEE Oversight Committee",
-      link: "/ieee_oversight_committee",
-    },
+    // {
+    //   name: "IEEE Oversight Committee",
+    //   link: "/ieee_oversight_committee",
+    // },
     {
       name: "Organizing Committee",
       link: "/organizing_committee",
