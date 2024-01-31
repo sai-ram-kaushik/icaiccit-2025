@@ -19,7 +19,7 @@ const PreviousYear = () => {
           <div>
             <div className="text-gray-600 my-3 mt-14">
               <p className="text-justify leading-8 text-lg">
-                About ICAICCIT-2023 Cosponsored by IEEE Delhi
+                ICAICCIT-2023 Cosponsored by IEEE Delhi
                 section(record no #60255). The International Conference on
                 International conference on Advances in Computing, Communication
                 and information technology was organized during 23rd Nov 2023 to
