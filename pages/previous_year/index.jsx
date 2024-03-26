@@ -10,25 +10,33 @@ const PreviousYear = () => {
 
         <p
           className="text-[#de0650] my-3 text-2xl mt-10 font-bold font-playFair"
-          data-aos="fade-right">
+          data-aos="fade-right"
+        >
           ICAICCIT - 2023
         </p>
         <div
           className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto"
-          data-aos="fade-right">
+          data-aos="fade-right"
+        >
           <div>
             <div className="text-gray-600 my-3 mt-14">
               <p className="text-justify leading-8 text-lg">
-                ICAICCIT-2023 Cosponsored by IEEE Delhi
-                section(record no #60255). The International Conference on
-                International conference on Advances in Computing, Communication
-                and information technology was organized during 23rd Nov 2023 to
+                ICAICCIT-2023 Cosponsored by IEEE Delhi section (record no
+                #60255). The International Conference on International
+                conference on Advances in Computing, Communication and
+                information technology was organized during 23rd Nov 2023 to
                 24th Nov. 2023. 1087 research papers from different part of
                 globe (UAE, Nepal, Pakistan, South Korea, Taiwan) were submitted
-                to the conference. After rigorous review process 282 research
-                papers were accepted for presentation in the conference. Two
-                hundred and forty two research papers were presented and are
-                submitted to IEEE for inclusion in ieeexplore.
+                to the conference. The proceedings of the ICAICCIT-2023 are
+                available at:
+                <br />
+                <a
+                  href="https://ieeexplore.ieee.org/xpl/conhome/10465674/proceeding"
+                  target="__blank"
+                  className="text-cyan-600 flex flex-wrap"
+                >
+                  https://ieeexplore.ieee.org/xpl/conhome/10465674/proceeding
+                </a>
               </p>
             </div>
           </div>
@@ -45,12 +53,14 @@ const PreviousYear = () => {
 
         <p
           className="text-[#de0650] my-3 text-2xl mt-10 font-bold font-playFair"
-          data-aos="fade-right">
+          data-aos="fade-right"
+        >
           COM-IT-CON 2022
         </p>
         <div
           className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto"
-          data-aos="fade-right">
+          data-aos="fade-right"
+        >
           <div>
             <div className="text-gray-600 my-3 mt-14">
               <p className="text-justify leading-8 text-lg">
@@ -87,12 +97,14 @@ const PreviousYear = () => {
 
         <p
           className="text-[#de0650] my-3 text-2xl mt-20 font-bold font-playFair"
-          data-aos="fade-right">
+          data-aos="fade-right"
+        >
           COM-IT-CON 2019
         </p>
         <div
           className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto"
-          data-aos="fade-right">
+          data-aos="fade-right"
+        >
           <div>
             <div className="text-gray-600 my-3 mt-14">
               <p className="text-justify leading-8 text-lg">
@@ -109,7 +121,8 @@ const PreviousYear = () => {
                 <a
                   href="https://ieeexplore.ieee.org/xpl/conhome/8851231/proceeding"
                   target="__blank"
-                  className="text-cyan-600 flex flex-wrap">
+                  className="text-cyan-600 flex flex-wrap"
+                >
                   https://ieeexplore.ieee.org/xpl/conhome/8851231/proceeding
                 </a>
               </p>
@@ -124,12 +137,14 @@ const PreviousYear = () => {
 
         <p
           className="text-[#de0650] my-3 text-2xl mt-20 font-bold font-playFair"
-          data-aos="fade-right">
+          data-aos="fade-right"
+        >
           ICROIT-2014
         </p>
         <div
           className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto"
-          data-aos="fade-right">
+          data-aos="fade-right"
+        >
           <div>
             <div className="text-gray-600 my-3 mt-20">
               <p className="text-justify leading-8 text-lg">
@@ -142,7 +157,8 @@ const PreviousYear = () => {
                 <a
                   href="https://ieeexplore.ieee.org/xpl/conhome/6784149/proceeding"
                   target="__blank"
-                  className="text-cyan-600">
+                  className="text-cyan-600"
+                >
                   https://ieeexplore.ieee.org/xpl/conhome/6784149/proceeding
                 </a>
               </p>
