@@ -69,7 +69,7 @@ const Technical = () => {
     <section id="skills" className="py-10 relative p-3">
       <div className="mt-20 text-gray-600 text-center">
         <h3 className="text-4xl font-bold font-playFair" data-aos="fade-right">
-          Advisory <span>Committee</span>
+          Institutional Advisory <span>Committee</span>
         </h3>
         <p
           className="text-[#de0650] mt-14 text-3xl font-bold font-playFair"

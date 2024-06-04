@@ -11,11 +11,11 @@ const index = () => {
     <>
       <section
         id="about"
-        className="py-10 flex gap-20 items-center justify-center"
+        className=" flex gap-20 items-center justify-center"
         data-aos="fade-right"
       >
         <div className="flex flex-col items-center justify-center">
-          <div className="text-center mt-14 flex flex-col items-center">
+          <div className="text-center  flex flex-col items-center">
             <div
               className="text-center mt-2 flex flex-col items-center"
               data-aos="fade-right"
