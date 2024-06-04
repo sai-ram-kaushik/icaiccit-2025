@@ -12,6 +12,16 @@ const Main = () => {
   return (
     <>
       <div className="w-full h-[70vh] py-4">
+        <div className="flex items-start justify-between px-5">
+          <a
+            href="https://cmt3.research.microsoft.com/ICAICCIT-2024"
+            target="_blank"
+          >
+            <button className="p-3 bg-[#3FBA96] rounded-full text-white font-bold border border-[#3FBA96] hover:text-black hover:bg-white duration-300">
+              Submission Open
+            </button>
+          </a>
+        </div>
         <div className="flex flex-col-reverse md:flex-row items-center gap-14 justify-center w-full h-full">
           <div className="flex flex-col items-center justify-center gap-3">
             <h3 className="text-4xl sm:text-4xl md:text-4xl lg:text-8xl text-gray-600 font-playFair font-bold">
