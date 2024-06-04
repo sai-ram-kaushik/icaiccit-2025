@@ -26,11 +26,11 @@ const index = () => {
               >
                 Paper <span>Submission Link</span>
               </div>
+              <p className="text-[18px]">
+                Authors are requested to submit full-length papers online using
+                the following web link
+              </p>
               <div className="text-gray-600 text-2xl mt-4 hover:text-cyan-600">
-                <p className="text-[18px]">
-                  Authors are requested to submit full-length papers online
-                  using the following web link
-                </p>
                 <a
                   href="https://cmt3.research.microsoft.com/ICAICCIT-2024"
                   target="_blank"
@@ -43,7 +43,7 @@ const index = () => {
 
               <div className=" text-gray" data-aos="fade-right">
                 <div className="text-center">
-                  <h3 className="text-gray-600 text-5xl font-bold font-playFair ">
+                  <h3 className="text-gray-600 text-4xl font-bold font-playFair ">
                     Important <span>Dates</span>
                   </h3>
                 </div>
