@@ -14,7 +14,7 @@ const Skills = () => {
     },
     {
       photo: "/images/chief_patrons/aggarwal.jpeg",
-      designation: "Former VC, IP University, India",
+      designation: "Vice-Chancellor, South Asian University, Former VC,  Delhi, GGS  Indraprastha University & Chairperson National Board of Accreditation, India.",
       name: "Prof.(Dr.)  K.K. Aggarwal"
     }
   ];
@@ -156,7 +156,7 @@ const Skills = () => {
       photo: "/images/organizing/swapnil.jpeg",
       name: "Dr. Swapnoneel Roy",
       designation:
-        "IS Distinguished Professor of Computing, University of North Florida, US",
+        "Distinguished Professor of Computing, University of North Florida, US",
     },
   ];
 
@@ -179,7 +179,7 @@ const Skills = () => {
           {chief_patron?.map((chief_patron, i) => (
             <div
               key={i}
-              className="border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[350px]  p-10 rounded-xl"
+              className="border-2 border-cyan-600 relative min-w-[10rem] max-w-[18rem] h-[500px]  p-10 rounded-xl"
             >
               <div className="flex items-center justify-center">
                 <div className="text-6xl group-hover:text-cyan-600">
@@ -345,7 +345,7 @@ const Skills = () => {
           {organizing?.map((organizing, i) => (
             <div
               key={i}
-              className="border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[500px]  p-10 rounded-xl"
+              className="border-2 border-cyan-600 relative min-w-[10rem] max-w-[18rem] h-[500px]  p-10 rounded-xl"
             >
               <div className="flex items-center justify-center">
                 <div className="text-6xl group-hover:text-cyan-600">
