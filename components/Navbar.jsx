@@ -24,8 +24,8 @@ const Navbar = () => {
       link: "/international",
     },
     {
-      name: "Local advisory Committee",
-      link: "/local_advisory_committee",
+      name: "Institutional Advisory Committee",
+      link: "/institutional-advisory-committee",
     },
     // {
     //   name: "IEEE Oversight Committee",
@@ -36,8 +36,8 @@ const Navbar = () => {
       link: "/organizing_committee",
     },
     {
-      name: "Resource Person Committee",
-      link: "/resource_person",
+      name: "Keynote Speakers",
+      link: "/keynote-speakers",
     },
   ];
 
@@ -61,7 +61,8 @@ const Navbar = () => {
             </Link>
             <li
               onClick={() => setIsOpen((prev) => !prev)}
-              className="ml-10 text-lg hover:text-cyan-600 text-black flex items-center gap-2">
+              className="ml-10 text-lg hover:text-cyan-600 text-black flex items-center gap-2"
+            >
               Conference Committee{" "}
               {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
             </li>
@@ -72,7 +73,8 @@ const Navbar = () => {
                     <Link
                       href={item.link}
                       className="flex w-full cursor-pointer rounded-lg p-2"
-                      key={i}>
+                      key={i}
+                    >
                       <h3>{item.name}</h3>
                     </Link>
                   </div>
@@ -81,19 +83,13 @@ const Navbar = () => {
             )}
             <Link href="/conference_track">
               <li className="ml-8 text-lg hover:text-cyan-600 text-black">
-                Conference Track
+                Conference Theme
               </li>
             </Link>
 
             <Link href="/submission">
               <li className="ml-8 text-lg hover:text-cyan-600 text-black">
-                Submission
-              </li>
-            </Link>
-
-            <Link href="/important_dates">
-              <li className="ml-8 text-lg hover:text-cyan-600 text-black">
-                Important Dates
+                Call for Paper
               </li>
             </Link>
 
@@ -107,6 +103,14 @@ const Navbar = () => {
                 Previous Year Conferences
               </li>
             </Link>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf0OQg01U12HoPtYGFUzufNAHDRVBltjISuvyzEFBRt0qj7Og/viewform?usp=pp_url"
+              target="_blank"
+            >
+              <li className="ml-8 text-lg hover:text-cyan-600 text-black">
+                Contact Us
+              </li>
+            </a>
           </ul>
           <div onClick={handleNav} className="md:hidden text-black">
             <AiOutlineMenu size={25} />
@@ -122,13 +126,15 @@ const Navbar = () => {
       </div>
 
       <div
-        className={nav ? "fixed left-0 top-0 w-full h-screen bg-black/70" : ""}>
+        className={nav ? "fixed left-0 top-0 w-full h-screen bg-black/70" : ""}
+      >
         <div
           className={
             nav
               ? "fixed left-0 top-0 w-[70%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0  p-10 ease-in duration-500"
-          }>
+          }
+        >
           <div>
             <div className="flex w-full items-center justify-between ">
               <Link href="/">
@@ -136,7 +142,8 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer text-black">
+                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer text-black"
+              >
                 <AiOutlineClose />
               </div>
             </div>
@@ -152,7 +159,8 @@ const Navbar = () => {
               </Link>
               <li
                 onClick={() => setIsOpen((prev) => !prev)}
-                className="ml-10 text-sm hover:text-cyan-600 text-black flex items-center gap-2">
+                className="ml-10 text-sm hover:text-cyan-600 text-black flex items-center gap-2"
+              >
                 Conference Committee{" "}
                 {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
               </li>
@@ -163,7 +171,8 @@ const Navbar = () => {
                       <Link
                         href={item.link}
                         className="flex w-full cursor-pointer rounded-lg p-2"
-                        key={i}>
+                        key={i}
+                      >
                         <h3>{item.name}</h3>
                       </Link>
                     </div>
@@ -171,10 +180,10 @@ const Navbar = () => {
                 </div>
               )}
               <Link href="/conference_track" onClick={handleNav}>
-                <li className="py-4 text-sm text-black">Conference Track</li>
+                <li className="py-4 text-sm text-black">Conference Theme</li>
               </Link>
               <Link href="/submission" onClick={handleNav}>
-                <li className="py-4 text-sm text-black">Submission</li>
+                <li className="py-4 text-sm text-black">Call for Paper</li>
               </Link>
               <Link href="/registration" onClick={handleNav}>
                 <li className="py-4 text-sm text-black">Registration</li>

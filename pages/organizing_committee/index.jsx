@@ -12,6 +12,11 @@ const Skills = () => {
       designation: "Vice President, MREI",
       name: "Dr. Amit Bhalla",
     },
+    {
+      photo: "/images/chief_patrons/aggarwal.jpeg",
+      designation: "Former VC, IP University, India",
+      name: "Prof.(Dr.)  K.K. Aggarwal"
+    }
   ];
 
   const patrons = [
@@ -31,41 +36,41 @@ const Skills = () => {
       name: "Dr. Pardeep Kumar",
     },
     {
-      // photo: "/images/patrons/pardeep.jpg",
+      photo: "/images/patrons/prerna.jpeg",
       designation:
         "Chair of Education Activities, IEEE Delhi Section and Chair –Elect IEEE Council",
       name: "Prof.(Dr.) Prerma Gaur",
     },
     {
-      // photo: "/images/patrons/pardeep.jpg",
+      photo: "/images/patrons/brij.jpeg",
       designation:
         "Senior Member, IEEE, ACM, Member-in-Large, Board of Governors, IEEE Consumer Technology Society (2022-2024)",
       name: "Pro.(Dr.) Brij B. Gupta",
     },
   ];
 
-  const co_patrons = [
-    {
-      photo: "/images/co_patron/geeta.png",
-      designation: "Associate Dean,FET, MRIIRS",
-      name: "Dr. Geeta Nijhawan",
-    },
-    {
-      photo: "/images/co_patron/brijesh.jpeg",
-      designation: "Dean Academics, MRIIRS",
-      name: "Dr. Brijesh Kumar",
-    },
-    {
-      photo: "/images/co_patron/Sarita.jpg",
-      designation: "Executive Director & Dean Research, MRIIRS",
-      name: "Dr. Sarita Sachdeva",
-    },
-    {
-      photo: "/images/co_patron/nandini.jpeg",
-      designation: "Director, CDP, MRIIRS",
-      name: "Dr. Nandani",
-    },
-  ];
+  // const co_patrons = [
+  //   {
+  //     photo: "/images/co_patron/geeta.png",
+  //     designation: "Associate Dean,FET, MRIIRS",
+  //     name: "Dr. Geeta Nijhawan",
+  //   },
+  //   {
+  //     photo: "/images/co_patron/brijesh.jpeg",
+  //     designation: "Dean Academics, MRIIRS",
+  //     name: "Dr. Brijesh Kumar",
+  //   },
+  //   {
+  //     photo: "/images/co_patron/Sarita.jpg",
+  //     designation: "Executive Director & Dean Research, MRIIRS",
+  //     name: "Dr. Sarita Sachdeva",
+  //   },
+  //   {
+  //     photo: "/images/co_patron/nandini.jpeg",
+  //     designation: "Director, CDP, MRIIRS",
+  //     name: "Dr. Nandani",
+  //   },
+  // ];
 
   const generalChair = [
     {
@@ -74,7 +79,7 @@ const Skills = () => {
       name: "Dr. Tapas Kumar",
     },
     {
-      // photo: "/images/general_chair/Tapas.jpeg",
+      photo: "/images/general_chair/joel.jpeg",
       designation: "Federal University of Piauí (UFPI), Brazil",
       name: "Prof.(Dr.) Joel J. P. C. Rodrigues",
     },
@@ -87,12 +92,12 @@ const Skills = () => {
       name: "Dr. Suresh Kumar",
     },
     {
-      // photo: "/images/general_chair/Tapas.jpeg",
+      photo: "/images/chair/taha.jpeg",
       designation: "Principal Lecturer, Nottingham Trent University, UK",
       name: "Dr. Taha Osman",
     },
     {
-      // photo: "/images/general_chair/Tapas.jpeg",
+      photo: "/images/chair/shyam.jpeg",
       designation:
         "IIMT,Greater Noida, Chair IEEE Computer Society, Delhi SectIon",
       name: "Dr. Shyam Sunder Tyagi",
@@ -116,7 +121,7 @@ const Skills = () => {
       name: "Dr. Rashima Mahajan",
     },
     {
-      // photo: "/images/chair/suresh.jpg",
+      photo: "/images/co-chair/praveen.jpeg",
       designation: "Astana IT University, Astana , Kazakhstan",
       name: "Dr. Praveen Kumar",
     },
@@ -142,13 +147,13 @@ const Skills = () => {
       designation: "Associate Professor, CSE, FET, MRIIRS",
     },
     {
-      // photo: "/images/organizing/deepa_bura.jpg",
+      photo: "/images/organizing/munish.jpeg",
       name: " Dr. Munesh Chandra Trivedi",
       designation:
         "Associate Professor (CSE) ,NIT Agartala ( On Lien) ,Professor (CSE) ,PSSCIVE Bhopal",
     },
     {
-      // photo: "/images/organizing/nitasha_soni.jpg",
+      photo: "/images/organizing/swapnil.jpeg",
       name: "Dr. Swapnoneel Roy",
       designation:
         "IS Distinguished Professor of Computing, University of North Florida, US",
@@ -202,7 +207,7 @@ const Skills = () => {
           {patrons?.map((patrons, i) => (
             <div
               key={i}
-              className="border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[350px]  p-10 rounded-xl"
+              className="border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[450px]  p-10 rounded-xl"
             >
               <div className="flex items-center justify-center">
                 <div className="text-6xl group-hover:text-cyan-600">
@@ -217,33 +222,7 @@ const Skills = () => {
           ))}
         </div>
 
-        <p
-          className="text-[#de0650] mt-20 text-3xl font-bold font-playFair"
-          data-aos="fade-right"
-        >
-          Co-Patrons
-        </p>
-        <div
-          className="flex items-center justify-center mt-12 gap-10 flex-wrap"
-          data-aos="fade-right"
-        >
-          {co_patrons?.map((co_patrons, i) => (
-            <div
-              key={i}
-              className="border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[350px]  p-10 rounded-xl"
-            >
-              <div className="flex items-center justify-center">
-                <div className="text-6xl group-hover:text-cyan-600">
-                  <img src={co_patrons.photo} className="rounded-full" />
-                </div>
-              </div>
-              <p className="text-lg mt-2 text-gray-600">{co_patrons.name}</p>
-              <p className="text-lg mt-3 text-gray-600">
-                {co_patrons.designation}
-              </p>
-            </div>
-          ))}
-        </div>
+       
 
         <p
           className="text-[#de0650] mt-20 text-3xl font-bold font-playFair"
@@ -284,7 +263,7 @@ const Skills = () => {
           {chair?.map((chair, i) => (
             <div
               key={i}
-              className="border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[350px]  p-10 rounded-xl"
+              className="border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[450px]  p-10 rounded-xl"
             >
               <div className="flex items-center justify-center">
                 <div className="text-6xl group-hover:text-cyan-600">
@@ -366,7 +345,7 @@ const Skills = () => {
           {organizing?.map((organizing, i) => (
             <div
               key={i}
-              className="border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[350px]  p-10 rounded-xl"
+              className="border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[500px]  p-10 rounded-xl"
             >
               <div className="flex items-center justify-center">
                 <div className="text-6xl group-hover:text-cyan-600">

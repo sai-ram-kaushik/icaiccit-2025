@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-// import Important_dates from "../../components/Important_dates";
+import ImportantDates from "../../components/ImportantDates";
 const index = () => {
   useEffect(() => {
     Aos.init({ duration: 500 });
@@ -9,12 +9,102 @@ const index = () => {
 
   return (
     <>
-      <section id="about" className="py-10 flex gap-20 items-center justify-center" data-aos="fade-right">
+      <section
+        id="about"
+        className="py-10 flex gap-20 items-center justify-center"
+        data-aos="fade-right"
+      >
         <div className="flex flex-col items-center justify-center">
           <div className="text-center mt-14 flex flex-col items-center">
-            <p className="text-gray-600 my-3 text-4xl mt-20 font-bold font-playFair">
-              Paper <span>Submission</span>
-            </p>
+            <div
+              className="text-center mt-2 flex flex-col items-center"
+              data-aos="fade-right"
+            >
+              <div
+                className="text-gray-600 my-3 text-4xl mt-10 font-bold font-playFair"
+                data-aos="fade-right"
+              >
+                Paper <span>Submission Link</span>
+              </div>
+              <div className="text-gray-600 text-2xl mt-4 hover:text-cyan-600">
+                <p className="text-[18px]">
+                  Authors are requested to submit full-length papers online
+                  using the following web link
+                </p>
+                <a
+                  href="https://cmt3.research.microsoft.com/ICAICCIT-2024"
+                  target="_blank"
+                  data-aos="fade-right"
+                  className="text-[18px]"
+                >
+                  https://cmt3.research.microsoft.com/ICAICCIT-2024
+                </a>
+              </div>
+
+              <div className=" text-gray" data-aos="fade-right">
+                <div className="text-center">
+                  <h3 className="text-gray-600 text-5xl font-bold font-playFair ">
+                    Important <span>Dates</span>
+                  </h3>
+                </div>
+
+                <div className="mt-10 justify-center  flex text-gray-600">
+                  <table className="text-gray-600">
+                    <tr className="text-xl">
+                      <td>Paper Submission Deadline:</td>
+                      <td>
+                        30<sup>th</sup> June, 2024
+                      </td>
+                    </tr>
+                    <tr className="text-xl">
+                      <td>Acceptance Notification:</td>
+                      <td>
+                        15<sup>th</sup> September, 2024
+                      </td>
+                    </tr>
+                    <tr className="text-xl">
+                      <td>Camera Ready Paper Submission Deadline:</td>
+                      <td>
+                        30<sup>th</sup> September, 2024
+                      </td>
+                    </tr>
+                    <tr className="text-xl">
+                      <td>Last Date for Registration:</td>
+                      <td>
+                        10<sup>th</sup> October, 2024
+                      </td>
+                    </tr>
+                    <tr className="text-xl">
+                      <td>Conference Dates:</td>
+                      <td>
+                        28<sup>th</sup> & 29<sup>th</sup> November, 2024
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div
+                className="text-gray-600 my-3 text-4xl mt-10 font-bold font-playFair"
+                data-aos="fade-right"
+              >
+                Paper Submission <span>Template & Instructions</span>
+              </div>
+              <div className="text-gray-600 text-xl font-bold mt-8">
+                A Sample template is attached here with:
+              </div>
+              <div className="text-gray-600 text-2xl mt-4 hover:text-cyan-600">
+                <a
+                  href="https://www.ieee.org/conferences/publishing/templates.html"
+                  target="_blank"
+                  data-aos="fade-right"
+                  className="text-[18px]"
+                >
+                  https://www.ieee.org/conferences/publishing/templates.html
+                </a>
+              </div>
+            </div>
+
             <p className="text-justify text-lg m-4 text-gray-600">
               Authors must ensure that their works are produced in a way that
               conceals their identities. Please ensure the following while
@@ -26,7 +116,8 @@ const index = () => {
             </p>
             <ul
               role="list"
-              className=" marker:text-sky-400 list-disc text-lg text-gray-600 text-justify max-w-[700px]">
+              className=" marker:text-sky-400 list-disc text-lg text-gray-600 text-justify max-w-[700px]"
+            >
               <li>
                 {" "}
                 Make sure there are no affiliation-related identifiers in the
@@ -52,7 +143,8 @@ const index = () => {
             </p>
             <ul
               role="list"
-              className=" marker:text-sky-400 list-disc text-lg text-gray-600 text-justify max-w-[700px]">
+              className=" marker:text-sky-400 list-disc text-lg text-gray-600 text-justify max-w-[700px]"
+            >
               <li>
                 Formatting the text as two columns, in Times New Roman, 10 pt.
               </li>
@@ -75,20 +167,23 @@ const index = () => {
 
           <div
             className="text-center mt-2 flex flex-col items-center"
-            dat-aos="fade-right">
+            dat-aos="fade-right"
+          >
             <p className="text-gray-600 my-3 text-4xl mt-10 font-bold font-playFair">
               IEEE <span>Heading Styles</span>
             </p>
             <p
               className="text-justify text-lg m-10 max-w-[700px] text-gray-600"
-              data-aos="fade-right">
+              data-aos="fade-right"
+            >
               IEEE recommends specific heading styles to distinguish the title
               and different levels of heading in your paper from each other.
               Styles for each of these are built into the template.
             </p>
             <p
               className="text-justify text-lg m-10 max-w-[700px] text-gray-600 mt-1"
-              data-aos="fade-right">
+              data-aos="fade-right"
+            >
               The paper title is written in 24 pt. Times New Roman, centered at
               the top of the first page. Other headings are all written in 10
               pt. Times New Roman:
@@ -96,7 +191,8 @@ const index = () => {
             <ul
               role="list"
               className=" marker:text-sky-400 list-disc text-lg text-gray-600 text-justify max-w-[700px]"
-              data-aos="fade-right">
+              data-aos="fade-right"
+            >
               <li>
                 <b>Level 1 text headings</b> begin with a roman numeral followed
                 by a period. They are written in small caps, in title case, and
@@ -131,44 +227,12 @@ const index = () => {
 
           <div
             className="text-center mt-2 flex flex-col items-center"
-            data-aos="fade-right">
-            <p
-              className="text-gray-600 my-3 text-4xl mt-10 font-bold font-playFair"
-              data-aos="fade-right">
-              Paper Submission <span>Template</span>
-            </p>
-            <p className="text-gray-600 text-xl font-bold mt-8">
-              A Sample template is attached here with:
-            </p>
-            <p className="text-gray-600 text-2xl mt-4 hover:text-cyan-600">
-              <a
-                href="https://www.ieee.org/conferences/publishing/templates.html"
-                target="_blank"
-                data-aos="fade-right">
-                https://www.ieee.org/conferences/publishing/templates.html
-              </a>
-            </p>
-            <p
-              className="text-gray-600 my-3 text-4xl mt-10 font-bold font-playFair"
-              data-aos="fade-right">
-              Paper <span>Submission Link</span>
-            </p>
-            <p className="text-gray-600 text-2xl mt-4 hover:text-cyan-600">
-              <a
-                href="https://cmt3.research.microsoft.com/ICAICCIT-2024"
-                target="_blank"
-                data-aos="fade-right">
-                https://cmt3.research.microsoft.com/ICAICCIT-2024
-              </a>
-            </p>
-          </div>
-
-          <div
-            className="text-center mt-2 flex flex-col items-center"
-            data-aos="fade-right">
+            data-aos="fade-right"
+          >
             <p
               className="text-gray-600 my-3 text-4xl mt-14 font-bold font-playFair"
-              data-aos="fade-right">
+              data-aos="fade-right"
+            >
               Review and <span>Publication of Manuscripts:</span>
             </p>
             <p className="text-gray-600 text-lg mt-8 text-justify max-w-[700px]">
@@ -184,7 +248,6 @@ const index = () => {
             </p>
           </div>
         </div>
-        
       </section>
     </>
   );
