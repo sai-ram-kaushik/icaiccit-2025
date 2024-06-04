@@ -32,7 +32,7 @@ const Skills = () => {
     },
     {
       photo: "/images/patrons/pardeep.jpg",
-      designation: "Vice Chancellor, MRIIRS",
+      designation: "Pro Vice Chancellor, MRIIRS",
       name: "Dr. Pardeep Kumar",
     },
     {
