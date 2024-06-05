@@ -50,6 +50,12 @@ const index = () => {
 
                 <div className="mt-10 justify-center  flex text-gray-600">
                   <table className="text-gray-600">
+                  <tr className="text-xl">
+                      <td>Abstract Submission Date:</td>
+                      <td>
+                        30<sup>th</sup> June, 2024
+                      </td>
+                    </tr>
                     <tr className="text-xl">
                       <td>Paper Submission Deadline:</td>
                       <td>
