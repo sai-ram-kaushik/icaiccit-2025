@@ -9,7 +9,7 @@ const Register = () => {
         </h3>
 
         <div className="flex items-center justify-center mt-10">
-          <a href="https://forms.gle/PEtEsycnMg2HABf58" target="_blank">
+          <a href="https://forms.gle/UxK7TJkDx2bAKGSp9" target="_blank">
             <h3 className="text-[#de0650] text-2xl flex items-center gap-3 border-2 rounded-xl p-4 m-5 font-poppins text-center">
               Click Here to Register Yourself{" "}
               <AiOutlineArrowRight size={25} className="hidden md:flex" />
