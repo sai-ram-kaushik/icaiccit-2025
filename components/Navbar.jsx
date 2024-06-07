@@ -81,13 +81,13 @@ const Navbar = () => {
                 ))}
               </div>
             )}
-            <Link href="/conference_track">
+            <Link href="/conference_themes">
               <li className="ml-8 text-lg hover:text-cyan-600 text-black">
                 Conference Theme
               </li>
             </Link>
 
-            <Link href="/submission">
+            <Link href="/call-for-papers">
               <li className="ml-8 text-lg hover:text-cyan-600 text-black">
                 Call for Paper
               </li>
@@ -179,10 +179,10 @@ const Navbar = () => {
                   ))}
                 </div>
               )}
-              <Link href="/conference_track" onClick={handleNav}>
+              <Link href="/conference_themes" onClick={handleNav}>
                 <li className="py-4 text-sm text-black">Conference Theme</li>
               </Link>
-              <Link href="/submission" onClick={handleNav}>
+              <Link href="/call-for-papers" onClick={handleNav}>
                 <li className="py-4 text-sm text-black">Call for Paper</li>
               </Link>
               <Link href="/registration" onClick={handleNav}>
@@ -193,6 +193,14 @@ const Navbar = () => {
                   Previous Year Conferences
                 </li>
               </Link>
+              <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf0OQg01U12HoPtYGFUzufNAHDRVBltjISuvyzEFBRt0qj7Og/viewform?usp=pp_url"
+              target="_blank"
+            >
+              <li className="ml-8 text-lg hover:text-cyan-600 text-black">
+                Contact Us
+              </li>
+            </a>
             </ul>
             <div className="py-10">
               <a href="https://manavrachna.edu.in/" target="_blank">

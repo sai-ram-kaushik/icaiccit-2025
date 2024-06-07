@@ -23,19 +23,14 @@ const Footer = () => {
                 About Us
               </li>
             </Link>
-            <Link href="/conference_track">
+            <Link href="/conference_themes">
               <li className="ml-10 text-sm hover:text-cyan-600 text-white">
-                Conference Track
-              </li>
-            </Link>
-            <Link href="/important_dates">
-              <li className="ml-10 text-sm hover:text-cyan-600 text-white">
-                Important Dates
+                Conference Themes
               </li>
             </Link>
             <Link href="/submission">
               <li className="ml-10 text-sm hover:text-cyan-600 text-white">
-                Submission
+                Call for Papers
               </li>
             </Link>
             <Link href="/registration">
@@ -48,6 +43,14 @@ const Footer = () => {
                 Previous Year Conferences
               </li>
             </Link>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf0OQg01U12HoPtYGFUzufNAHDRVBltjISuvyzEFBRt0qj7Og/viewform?usp=pp_url"
+              target="_blank"
+            >
+              <li className="ml-8 text-sm hover:text-cyan-600 text-white">
+                Contact Us
+              </li>
+            </a>
           </ul>
         </div>
 
