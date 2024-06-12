@@ -47,7 +47,7 @@ const Main = () => {
               28<sup>th</sup> and 29<sup>th</sup> November, 2024
             </p>
             <p className="text-2xl text-[#3FBA96] md:w-[800px] text-center font-bold mt-5">
-            Technically Co-Sponsored by IEEE Delhi Section
+            IEEE Delhi Section has agreed to be Technical Sponsor.(IEEE conference record number #64383)
             </p>
           </div>
           <div className="animate-translateAnimate hidden lg:block">
