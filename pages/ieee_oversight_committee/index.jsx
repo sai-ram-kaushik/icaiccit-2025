@@ -5,7 +5,7 @@ const index = () => {
     {
       name: "Prof. Chakradhar C Reddy",
       designation:
-        "(Lead Member Coordinator for AICCIT-2023 and Executive Committee Member & Member-IEEE Delhi",
+        "(Lead Member Coordinator for ICAICCIT-2024)",
     },
     {
       name: "Prof. Mahesh Bundele",
