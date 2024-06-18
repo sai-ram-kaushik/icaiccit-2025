@@ -61,7 +61,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-row gap-2 items-center text-sm text-white">
             <AiOutlineMail />
-            <p>aiccit2023@gmail.com</p>
+            <p>icaiccit2024@mriu.edu.in</p>
           </div>
         </div>
 
