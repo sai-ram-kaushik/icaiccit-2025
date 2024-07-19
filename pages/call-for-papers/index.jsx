@@ -53,7 +53,7 @@ const index = () => {
                     <tr className="text-xl">
                       <td>Paper Submission Deadline:</td>
                       <td>
-                        20<sup>th</sup> July, 2024
+                        25<sup>th</sup> September, 2024
                       </td>
                     </tr>
                     <tr className="text-xl">
