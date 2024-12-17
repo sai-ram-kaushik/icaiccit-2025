@@ -13,23 +13,23 @@ const Main = () => {
     <>
       <div className="w-full h-[70vh] py-4">
         <div className="flex items-start justify-between px-5">
-          <a
+          {/* <a
             href="https://cmt3.research.microsoft.com/ICAICCIT-2024"
             target="_blank"
           >
             <button className="p-3 bg-[#3FBA96] rounded-full text-white font-bold border border-[#3FBA96] hover:text-black hover:bg-white duration-300">
               Submission Open
             </button>
-          </a>
+          </a> */}
         </div>
         <div className="flex flex-col-reverse md:flex-row items-center gap-14 justify-center w-full h-full">
           <div className="flex flex-col items-center justify-center gap-3">
             <h3 className="text-4xl sm:text-4xl md:text-4xl lg:text-8xl text-gray-600 font-playFair font-bold">
-              ICAICCIT - <span>2024</span>
+              ICAICCIT - <span>2025</span>
             </h3>
 
             <p className="text-3xl font-poppons text-center">
-              2<sup>nd</sup> International Conference on Advances in{" "}
+              3<sup>rd</sup> International Conference on Advances in{" "}
             </p>
             <div className="text-2xl sm:text-2xl md:text-4xl lg:text-4xl font-bold mt-2">
               <Typed

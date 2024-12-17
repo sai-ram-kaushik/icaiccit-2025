@@ -8,7 +8,7 @@ const Layouts = ({children}) => {
   return (
     <>
       <Head>
-        <title>ICAICCIT - 2024</title>
+        <title>ICAICCIT - 2025</title>
         <meta
           name="description"
           content="Conference Website - ICAICCIT - 2024"
