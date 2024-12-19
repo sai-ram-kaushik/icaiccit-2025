@@ -96,7 +96,7 @@ const About = () => {
         <p
           className="text-[#de0650] my-3 text-2xl mt-14 font-bold font-playFair"
           data-aos="fade-right">
-          ICAICCIT - 2024 (2<sup className="text-[#de0650]">nd</sup>{" "}
+          ICAICCIT - 2025 (3<sup className="text-[#de0650]">rd</sup>{" "}
           International Conference on Advances in Computation,
           <br /> Communication and Information Technology)
         </p>
@@ -106,7 +106,7 @@ const About = () => {
           <div>
             <div className="text-gray-600 my-3 mt-8">
               <p className="text-justify leading-8 font-sans text-lg text-gray-600">
-                The main objective of <b>ICAICCIT-2024</b> is to invite all the
+                The main objective of <b>ICAICCIT-2025</b> is to invite all the
                 Academicians, Researchers, and industrialists worldwide to
                 participate and discuss the latest achievements in the advanced
                 field of computing like Advancement in the Artificial
