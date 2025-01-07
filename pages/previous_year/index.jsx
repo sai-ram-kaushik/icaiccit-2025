@@ -12,6 +12,64 @@ const PreviousYear = () => {
           className="text-[#de0650] my-3 text-2xl mt-10 font-bold font-playFair"
           data-aos="fade-right"
         >
+          ICAICCIT - 2024
+        </p>
+        <div
+          className="flex md:flex-row flex-col-reverse item-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto"
+          data-aos="fade-right"
+        >
+          <div>
+            <div className="text-gray-600 my-3 mt-14">
+              <p className="text-justify leading-8 text-lg">
+                ICAICCIT-2024 provided a vibrant platform for international
+                collaboration, with participants from diverse backgrounds
+                converging to discuss the latest advancements in computing,
+                communication, and information technology. The conference
+                facilitated networking opportunities, fostering connections that
+                are expected to lead to future collaborative research and
+                projects. The conference featured a dynamic lineup of
+                distinguished speakers, innovative presentations on the
+                futuristic technologies to foster innovation, collaboration, and
+                knowledge exchange. The conference helped in establishing
+                scientific contacts between research groups and scientists from
+                different countries for future joint research collaborations in
+                the multi-disciplinary domains.
+                <p>
+                  The conference received 1130 papers nationally and
+                  internationally, out of which 282 papers got accepted and 252
+                  papers have been submitted to IEEE. Some of the notable
+                  contributors include Boston Consulting Group, Illinois
+                  University USA, Lewis University, Hanwha Q CELLS America Inc,
+                  University of Pittsburgh, US, Colorado Technical University,
+                  US Gwangju Metropolitan City, South Korea, University of North
+                  Texas Georgia, University of The Cumberlands, US Fresenius
+                  Medical Care, HCL Tech, Tata Consultancy Services, Sales
+                  Force. Inc, Velagapudi Ramakrishna Siddhartha Engineering
+                  College, Guru Gobind Singh Indraprastha University, Rajiv
+                  Gandhi Arts and Science College, Puducherry, Agni College of
+                  Technology, Vishwakarma Institute of Technology Pune JC Bose
+                  University, Bharati Vidyapeeth, College of Engineering, Pune,
+                  University of Bedfordshire, Warmadewa University, Amity
+                  University, Al-Balqa Applied University, etc.
+                </p>
+              </p>
+            </div>
+          </div>
+          <div className="flex-1 flex justify-center items-center">
+            <div className="lg:w-96 h-full relative sm:w-10/12 w-12/12 max-w-full mt-56">
+              <Image
+                src="/images/about/icaiccit2023.png"
+                width={500}
+                height={500}
+              />
+            </div>
+          </div>
+        </div>
+
+        <p
+          className="text-[#de0650] my-3 text-2xl mt-10 font-bold font-playFair"
+          data-aos="fade-right"
+        >
           ICAICCIT - 2023
         </p>
         <div

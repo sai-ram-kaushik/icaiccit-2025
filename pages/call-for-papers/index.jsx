@@ -53,49 +53,32 @@ const index = () => {
                     <tr className="text-xl">
                       <td>Paper Submission Deadline:</td>
                       <td>
-                        <s>
-                          25<sup>th</sup> August, 2024
-                        </s>{" "}
-                        <span className="text-gray-600">
-                          10<sup className="text-[#3FBA96]">th</sup> September,
-                          2024
-                        </span>
+                        15<sup>th</sup> April, 2025
                       </td>
                     </tr>
                     <tr className="text-xl">
                       <td>Acceptance Notification:</td>
                       <td>
-                        <s>
-                          20<sup>th</sup> September, 2024
-                        </s>{" "}
-                        <span className="text-gray-600">
-                          10<sup className="text-[#3FBA96]">th</sup> October,
-                          2024
-                        </span>
+                        15<sup>th</sup> July, 2025
                       </td>
                     </tr>
                     <tr className="text-xl">
                       <td>Camera Ready Paper Submission Deadline:</td>
                       <td>
-                        <s>
-                          10<sup>th</sup> October, 2024
-                        </s>{" "}
-                        <span className="text-gray-600">
-                          20<sup className="text-[#3FBA96]">th</sup> October,
-                          2024
-                        </span>
+                        30<sup>th</sup> August, 2025
                       </td>
                     </tr>
                     <tr className="text-xl">
                       <td>Last Date for Registration:</td>
                       <td>
-                        20<sup>th</sup> October, 2024
+                        20<sup>th</sup> September, 2025
                       </td>
                     </tr>
                     <tr className="text-xl">
                       <td>Conference Dates:</td>
                       <td>
-                        28<sup>th</sup> & 29<sup>th</sup> November, 2024
+                        31<sup>st</sup> October, 2025 & 1<sup>st</sup> November,
+                        2025
                       </td>
                     </tr>
                   </table>
@@ -254,8 +237,8 @@ const index = () => {
               Review and <span>Publication of Manuscripts:</span>
             </p>
             <p className="text-gray-600 text-lg mt-8 text-justify max-w-[700px]">
-              All submitted manuscripts to ICAICCIT – 2024 shall be go through a
-              Double-blind reviewed by the ICAICCIT – 2024 TPC members on
+              All submitted manuscripts to ICAICCIT – 2025 shall be go through a
+              Double-blind reviewed by the ICAICCIT – 2025 TPC members on
               originality, technical correctness, relevance, and quality of
               presentation. An accepted paper must be presented at the
               conference venue by the author who registered/paid full author
