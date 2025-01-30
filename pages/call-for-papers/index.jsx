@@ -32,12 +32,12 @@ const index = () => {
               </p>
               <div className="text-gray-600 text-2xl mt-4 hover:text-cyan-600">
                 <a
-                  href="https://cmt3.research.microsoft.com/ICAICCIT-2024"
+                  href="https://cmt3.research.microsoft.com/ICAICCIT2025"
                   target="_blank"
                   data-aos="fade-right"
                   className="text-[18px]"
                 >
-                  https://cmt3.research.microsoft.com/ICAICCIT-2024
+                  https://cmt3.research.microsoft.com/ICAICCIT2025
                 </a>
               </div>
 

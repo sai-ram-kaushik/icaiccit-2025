@@ -44,7 +44,7 @@ const Footer = () => {
               </li>
             </Link>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSf0OQg01U12HoPtYGFUzufNAHDRVBltjISuvyzEFBRt0qj7Og/viewform?usp=pp_url"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe50R0W5Th7D-XO-PRyhP2vVEgJ6ef1azQHLFDJLXinz1pNsQ/viewform?usp=sharing"
               target="_blank"
             >
               <li className="ml-8 text-sm hover:text-cyan-600 text-white">
@@ -61,12 +61,12 @@ const Footer = () => {
           </div>
           <div className="flex flex-row gap-2 items-center text-sm text-white">
             <AiOutlineMail />
-            <p>icaiccit2024@mriu.edu.in</p>
+            <p>icaiccit2025@mriu.edu.in</p>
           </div>
         </div>
 
         <div className="flex items-center justify-center text-sm text-white">
-          Copyright &#169; ICAICCIT - 2024. All Rights Resevered
+          Copyright &#169; ICAICCIT - 2025. All Rights Resevered
         </div>
       </div>
     </div>
