@@ -1,7 +1,6 @@
 import React from "react";
 
 const ConferenceTrack = () => {
-
   return (
     <section className="py-10 text-gray" data-aos="fade-right">
       <div className="text-center mt-14">
@@ -10,10 +9,18 @@ const ConferenceTrack = () => {
         </h3>
       </div>
 
+      <div className="flex flex-col  items-center justify-center w-full mt-10">
+        <h3 className="text-[2rem] font-playFair font-bold">Conference Theme:</h3>
+        <p className="text-xl">The future of innovation: Digital Technologies for Smart world</p>
+      </div>
+
       {/* TRACK - 1 */}
-      <div className="mt-14 justify-center mx-6 flex text-gray-600" data-aos="fade-right">
+      <div
+        className="mt-14 justify-center mx-6 flex text-gray-600"
+        data-aos="fade-right"
+      >
         <table className="md:mx-6 mx-[-8px]" width="700px">
-        <thead>
+          <thead>
             <tr>
               <th className="text-3xl text-[#de0650] font-playFair">Track 1</th>
             </tr>
@@ -29,7 +36,10 @@ const ConferenceTrack = () => {
           <tbody>
             <tr className="justify-start text-lg">
               <td>
-                <ul role="list" className="list-disc pl-5 text-gray-600 marker:text-sky-400">
+                <ul
+                  role="list"
+                  className="list-disc pl-5 text-gray-600 marker:text-sky-400"
+                >
                   <li>Case-Based Reasoning and Learning</li>
                   <li>Classification and Clustering</li>
                   <li>Deep Learning</li>
@@ -67,7 +77,7 @@ const ConferenceTrack = () => {
 
         {/* Track- 2 */}
 
-        <table className="md:mx-6 mx-[5px]" width="700px" >
+        <table className="md:mx-6 mx-[5px]" width="700px">
           <thead>
             <tr>
               <th className="text-3xl text-[#de0650] font-playFair">Track 2</th>
@@ -84,7 +94,10 @@ const ConferenceTrack = () => {
           <tbody>
             <tr className="justify-start text-lg">
               <td>
-                <ul role="list" className="list-disc marker:text-sky-400 pl-5 text-gray-600">
+                <ul
+                  role="list"
+                  className="list-disc marker:text-sky-400 pl-5 text-gray-600"
+                >
                   <li>Cloud Management and Operations</li>
                   <li>Cloud Security</li>
                   <li>Cloud Computing in Business Intelligence</li>
@@ -93,10 +106,16 @@ const ConferenceTrack = () => {
                   <li>Data Analytics in Cloud</li>
                   <li>Cloud Development and its Applications</li>
                   <li>Bit coin and Cryptocurrency</li>
-                  <li>Transaction and Security Awareness Ethereum and <br /> Smart contract development</li>
+                  <li>
+                    Transaction and Security Awareness Ethereum and <br /> Smart
+                    contract development
+                  </li>
                   <li>Public vs Private Blockchain</li>
                   <li>Current Blockchain Application and Platforms</li>
-                  <li>Identity and Authorization Systems Building Decentralized Autonomous Solutions</li>
+                  <li>
+                    Identity and Authorization Systems Building Decentralized
+                    Autonomous Solutions
+                  </li>
                   <li>Building Communication Network on Blockchain</li>
                   <li>Bit Coin and Cryptocurrency</li>
                   <li>Access and Identity Management</li>
@@ -128,15 +147,20 @@ const ConferenceTrack = () => {
       </div>
 
       {/* TRACK - 3 */}
-      <div className="mt-14 justify-center mx-6 flex text-gray-600" data-aos="fade-right">
+      <div
+        className="mt-14 justify-center mx-6 flex text-gray-600"
+        data-aos="fade-right"
+      >
         <table className="md:mx-6 mx-10" width="700px">
           <thead>
             <tr>
-              <th className="text-3xl justify-start text-[#de0650] font-playFair">Track 3</th>
+              <th className="text-3xl justify-start text-[#de0650] font-playFair">
+                Track 3
+              </th>
             </tr>
             <tr>
               <th className="text-2xl text-gray-600 font-playFair">
-              Theme : Big Data Analytics &amp; Visualization
+                Theme : Big Data Analytics &amp; Visualization
               </th>
             </tr>
             <tr className="text-2xl">
@@ -148,7 +172,10 @@ const ConferenceTrack = () => {
           <tbody>
             <tr className="justify-start text-lg">
               <td>
-                <ul role="list" className="list-disc pl-5 text-gray-600 marker:text-sky-400">
+                <ul
+                  role="list"
+                  className="list-disc pl-5 text-gray-600 marker:text-sky-400"
+                >
                   <li>Big Data Analytics, and Applications</li>
                   <li>Big Data Search and Mining</li>
                   <li>Visualization Analytics for Big Data</li>
@@ -169,11 +196,13 @@ const ConferenceTrack = () => {
         <table className="md:mx-6 mx-10" width="700px">
           <thead>
             <tr>
-              <th className="text-3xl text-[#de0650] font-playFair">Track 4 </th>
+              <th className="text-3xl text-[#de0650] font-playFair">
+                Track 4{" "}
+              </th>
             </tr>
             <tr>
               <th className="text-2xl text-gray-600 font-playFair">
-              Theme : Communication
+                Theme : Communication
               </th>
             </tr>
             <tr className="text-2xl">
@@ -185,7 +214,10 @@ const ConferenceTrack = () => {
           <tbody>
             <tr className="justify-start text-lg">
               <td>
-                <ul role="list" className="list-disc pl-5 text-gray-600 marker:text-sky-400">
+                <ul
+                  role="list"
+                  className="list-disc pl-5 text-gray-600 marker:text-sky-400"
+                >
                   <li>Traffic management in Networks & QoS</li>
                   <li>Wireless and mobility</li>
                   <li>Overlay networks and virtualization</li>
@@ -193,7 +225,10 @@ const ConferenceTrack = () => {
                   <li>Switching and routing advances</li>
                   <li>Proposals for future Internet structure</li>
                   <li>Software-defined networking</li>
-                  <li>Information-centric networking, Sensor networks, Online social networks Blockchain 5G systems</li>
+                  <li>
+                    Information-centric networking, Sensor networks, Online
+                    social networks Blockchain 5G systems
+                  </li>
                   <li>Vehicular networks,</li>
                   <li>Disruption- and delay-tolerant networks,</li>
                   <li>Mobile ad hoc networking</li>
@@ -205,7 +240,6 @@ const ConferenceTrack = () => {
           </tbody>
         </table>
       </div>
-    
     </section>
   );
 };

@@ -59,7 +59,7 @@ const Register = () => {
               <tr>
                 <td className="text-lg font-bold">Full-Time Students</td>
                 <td>6,000</td>
-                <td>7,000</td>
+                <td>7,200</td>
                 <td>150</td>
                 <td>190</td>
               </tr>
@@ -69,7 +69,7 @@ const Register = () => {
                   Faculty and Research Scholar
                 </td>
                 <td>8,000</td>
-                <td>9,000</td>
+                <td>9,600</td>
                 <td>180</td>
                 <td>230</td>
               </tr>
@@ -77,7 +77,7 @@ const Register = () => {
               <tr>
                 <td className="text-lg font-bold">Industry</td>
                 <td>10,000</td>
-                <td>11,000</td>
+                <td>12,000</td>
                 <td>200</td>
                 <td>250</td>
               </tr>
@@ -85,7 +85,7 @@ const Register = () => {
               <tr>
                 <td className="text-lg font-bold">Attendee only</td>
                 <td>3,000</td>
-                <td>5,000</td>
+                <td>4,000</td>
                 <td>50</td>
                 <td>90</td>
               </tr>

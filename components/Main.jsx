@@ -47,8 +47,12 @@ const Main = () => {
               31<sup>st</sup> October, 2025 and 1<sup>st</sup> November, 2025
             </p>
             <p className="text-2xl text-[#3FBA96] md:w-[800px] text-center font-bold mt-5">
-            IEEE Delhi Section approval in progress
+              IEEE Delhi Section approval in progress
             </p>
+            <h3>
+              Conference Theme: The future of innovation: Digital Technologies
+              for Smart world
+            </h3>
           </div>
           <div className="animate-translateAnimate hidden lg:block">
             <Image src={mr_image} width={600} height={600} />

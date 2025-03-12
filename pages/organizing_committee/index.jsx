@@ -14,9 +14,10 @@ const Skills = () => {
     },
     {
       photo: "/images/chief_patrons/aggarwal.jpeg",
-      designation: "Vice-Chancellor, South Asian University, Former VC,  Delhi, GGS  Indraprastha University & Chairperson National Board of Accreditation, India.",
-      name: "Prof.(Dr.)  K.K. Aggarwal"
-    }
+      designation:
+        "Vice-Chancellor, South Asian University, Former VC,  Delhi, GGS  Indraprastha University & Chairperson National Board of Accreditation, India.",
+      name: "Prof.(Dr.)  K.K. Aggarwal",
+    },
   ];
 
   const patrons = [
@@ -26,26 +27,10 @@ const Skills = () => {
       name: "Dr. Sanjay Shrivastava",
     },
     {
-      photo: "/images/patrons/naresh.jpg",
-      designation: "PVC, MRIIRS",
-      name: "Dr. Naresh Grover",
-    },
-    {
-      photo: "/images/patrons/pardeep.jpg",
-      designation: "Pro Vice Chancellor, MRIIRS",
-      name: "Dr. Pardeep Kumar",
-    },
-    {
       photo: "/images/patrons/prerna.jpeg",
       designation:
         "Chair of Education Activities, IEEE Delhi Section and Chair –Elect IEEE Council",
       name: "Prof.(Dr.) Prerma Gaur",
-    },
-    {
-      photo: "/images/patrons/brij.jpeg",
-      designation:
-        "Senior Member, IEEE, ACM, Member-in-Large, Board of Governors, IEEE Consumer Technology Society (2022-2024)",
-      name: "Pro.(Dr.) Brij B. Gupta",
     },
   ];
 
@@ -72,6 +57,19 @@ const Skills = () => {
   //   },
   // ];
 
+  const co_patrons = [
+    {
+      photo: "/images/patrons/naresh.jpg",
+      designation: "PVC, MRIIRS",
+      name: "Dr. Naresh Grover",
+    },
+    {
+      photo: "/images/patrons/pardeep.jpg",
+      designation: "Pro Vice Chancellor, MRIIRS",
+      name: "Dr. Pardeep Kumar",
+    },
+  ];
+
   const generalChair = [
     {
       photo: "/images/general_chair/Tapas.jpeg",
@@ -97,11 +95,11 @@ const Skills = () => {
       name: "Dr. Taha Osman",
     },
     {
-      photo: "/images/chair/shyam.jpeg",
+      photo: "/images/patrons/brij.jpeg",
       designation:
-        "IIMT,Greater Noida, Chair IEEE Computer Society, Delhi SectIon",
-      name: "Dr. Shyam Sunder Tyagi",
-    },
+        "Senior Member, IEEE, ACM, Member-in-Large, Board of Governors, IEEE Consumer Technology Society (2022-2024)",
+      name: "Pro.(Dr.) Brij B. Gupta",
+    }
   ];
 
   const co_chair = [
@@ -111,19 +109,9 @@ const Skills = () => {
       name: "Dr. Mamta Dahiya",
     },
     {
-      photo: "/images/co-chair/supriya.jpg",
-      designation: "Professor, CSE, FET, MRIIIRS",
-      name: "Dr. Supriya P. Panda",
-    },
-    {
       photo: "/images/co-chair/rashima.jpeg",
       designation: "Director IQAC, Professor , CSE, FET, MRIIIRS",
       name: "Dr. Rashima Mahajan",
-    },
-    {
-      photo: "/images/co-chair/praveen.jpeg",
-      designation: "Astana IT University, Astana , Kazakhstan",
-      name: "Dr. Praveen Kumar",
     },
   ];
 
@@ -137,14 +125,14 @@ const Skills = () => {
 
   const organizing = [
     {
-      photo: "/images/organizing/indu.jpg",
-      name: "Dr. Indu Kashyap",
-      designation: "Professor, CSE, FET, MRIIRS",
+      // photo: "/images/organizing/indu.jpg",
+      name: " Dr. Satyajeet Srivastava",
+      designation: "Professor, CSE Department, SET, MRIIRS",
     },
     {
-      photo: "/images/organizing/sahoo.jpg",
-      name: "Dr. R C Sahoo",
-      designation: "Associate Professor, CSE, FET, MRIIRS",
+      // photo: "/images/organizing/sahoo.jpg",
+      name: " Dr. Priyanka Rastogi",
+      designation: "Associate Professor, CSE Department, SET, MRIIRS.",
     },
     {
       photo: "/images/organizing/munish.jpeg",
@@ -222,7 +210,33 @@ const Skills = () => {
           ))}
         </div>
 
-       
+        <p
+          className="text-[#de0650] mt-20 text-3xl font-bold font-playFair"
+          data-aos="fade-right"
+        >
+          Co-Patrons
+        </p>
+        <div
+          className="flex items-center justify-center mt-12 gap-10 flex-wrap"
+          data-aos="fade-right"
+        >
+          {co_patrons?.map((patrons, i) => (
+            <div
+              key={i}
+              className="border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[450px]  p-10 rounded-xl"
+            >
+              <div className="flex items-center justify-center">
+                <div className="text-6xl group-hover:text-cyan-600">
+                  <img src={patrons.photo} className="rounded-full" />
+                </div>
+              </div>
+              <p className="text-lg mt-2 text-gray-600">{patrons.name}</p>
+              <p className="text-lg mt-3 text-gray-600">
+                {patrons.designation}
+              </p>
+            </div>
+          ))}
+        </div>
 
         <p
           className="text-[#de0650] mt-20 text-3xl font-bold font-playFair"
