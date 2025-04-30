@@ -29,7 +29,7 @@ const Skills = () => {
     {
       photo: "/images/patrons/prerna.jpeg",
       designation:
-        "Chair of Education Activities, IEEE Delhi Section and Chair –Elect IEEE Council",
+        "Director, West Campus, Netaji Subhas University of Technology, Professor, Department of Electrical Engineering, NSUT Director and Member Secretary, NSUT-IIF (Technical Business Incubator Chair Elect IEEE India Council 2023, Chair IEEE PES-IAS Delhi Chapter 2023, Past Chair, IEEE Delhi Section Fellow-IEI, Fellow- IETE, LMISTE, Senior member IEEE, USA,",
       name: "Prof.(Dr.) Prerma Gaur",
     },
   ];
@@ -99,7 +99,7 @@ const Skills = () => {
       designation:
         "Senior Member, IEEE, ACM, Member-in-Large, Board of Governors, IEEE Consumer Technology Society (2022-2024)",
       name: "Pro.(Dr.) Brij B. Gupta",
-    }
+    },
   ];
 
   const co_chair = [
@@ -195,7 +195,7 @@ const Skills = () => {
           {patrons?.map((patrons, i) => (
             <div
               key={i}
-              className="border-2 border-cyan-600 relative min-w-[10rem] max-w-[16rem] h-[450px]  p-10 rounded-xl"
+              className="border-2 border-cyan-600 relative min-w-[32rem] max-w-[32rem] h-[700px]  p-10 rounded-xl"
             >
               <div className="flex items-center justify-center">
                 <div className="text-6xl group-hover:text-cyan-600">

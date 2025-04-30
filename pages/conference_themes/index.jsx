@@ -10,8 +10,12 @@ const ConferenceTrack = () => {
       </div>
 
       <div className="flex flex-col  items-center justify-center w-full mt-10">
-        <h3 className="text-[2rem] font-playFair font-bold">Conference Theme:</h3>
-        <p className="text-xl">The future of innovation: Digital Technologies for Smart world</p>
+        <h3 className="text-[2rem] font-playFair font-bold">
+          Conference Theme:
+        </h3>
+        <p className="text-xl">
+          The future of innovation: Digital Technologies for Smart world
+        </p>
       </div>
 
       {/* TRACK - 1 */}
@@ -27,6 +31,14 @@ const ConferenceTrack = () => {
             <tr>
               <th className="text-2xl text-gray-600 font-playFair">
                 Theme : Artificial Intelligence, Machine Learning & Data Science
+              </th>
+            </tr>
+            <tr>
+              <th className="text-2xl text-gray-600 font-playFair px-5">
+                Track Chair : Prof. A. Murli Rao, IGNOU, New Delhi & Dr. Ekta
+                Gandotra, Associate Professor Department of Computer Science &
+                Engineering at Jaypee University of Information Technology,
+                Waknaghat, Solan
               </th>
             </tr>
             <tr className="text-2xl">
@@ -85,6 +97,14 @@ const ConferenceTrack = () => {
             <tr>
               <th className="text-2xl text-gray-600 font-playFair">
                 Theme : Information Technology
+              </th>
+            </tr>
+            <tr>
+              <th className="text-2xl text-gray-600 font-playFair px-5">
+                Track Chair : Prof. M N Hoda, Director Bharati Vidyapeeth’s
+                Institute of Computer Applications & Management (BVICAM), (GGSIP
+                University, New Delhi) & Dr. Shyam Sunder Tyagi, Dean , Science
+                and Technology, Gurugram University
               </th>
             </tr>
             <tr className="text-2xl">
@@ -163,6 +183,13 @@ const ConferenceTrack = () => {
                 Theme : Big Data Analytics &amp; Visualization
               </th>
             </tr>
+            <tr>
+              <th className="text-2xl text-gray-600 font-playFair px-5">
+                Track Chair : Dr. Rajveer Singh Shekhawat, MIT, Jaipur & Prof.
+                Sneha Kabra Shaheed Rajguru College of Applied Sciences for
+                Women, University of Delhi
+              </th>
+            </tr>
             <tr className="text-2xl">
               <th className="text-gray-600 font-playFair">Topics</th>
               {/* <th>Related IEEE Society(ies)</th>
@@ -203,6 +230,12 @@ const ConferenceTrack = () => {
             <tr>
               <th className="text-2xl text-gray-600 font-playFair">
                 Theme : Communication
+              </th>
+            </tr>
+            <tr>
+              <th className="text-2xl text-gray-600 font-playFair px-5">
+                Track Chair : Dr. Mayank Singh , Dean (Research) at GL Bajaj
+                Institute of Technology and Management, Greater Noida
               </th>
             </tr>
             <tr className="text-2xl">
