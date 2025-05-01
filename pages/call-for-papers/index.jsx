@@ -53,13 +53,13 @@ const index = () => {
                     <tr className="text-xl">
                       <td>Paper Submission Deadline:</td>
                       <td>
-                        15<sup>th</sup> April, 2025
+                        15<sup>th</sup> July, 2025
                       </td>
                     </tr>
                     <tr className="text-xl">
                       <td>Acceptance Notification:</td>
                       <td>
-                        15<sup>th</sup> July, 2025
+                        15<sup>th</sup> August, 2025
                       </td>
                     </tr>
                     <tr className="text-xl">
