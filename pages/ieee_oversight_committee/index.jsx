@@ -3,29 +3,23 @@ import React from "react";
 const index = () => {
   const ieee_oversight_committee = [
     {
-      name: "Prof. Chakradhar C Reddy",
-      designation:
-        "(Lead Member Coordinator for ICAICCIT-2024)",
-    },
-    {
-      name: "Prof. Mahesh Bundele",
-      designation:
-        "Executive Committee Member & Member-IEEE Delhi ection STDCOM on T & P Act",
-    },
-    {
-      name: "Dr. Rajnish Sharma",
-      designation:
-        "Section Secretary & Member-IEEE Delhi Section STDCOM on T & P Act",
-    },
-    {
-      name: "Dr. Pradeep K Gupta",
-      designation:
-        "Executive Committee Co-opted Member & Member-IEEE Delhi Section STDCOM on T & P Act",
-    },
-    {
       name: "Prof. Vivek Shrivastava",
       designation:
-        "PES-IAS Chapter Secretary & Member-IEEE Delhi Section STDCOM on T & P Act",
+        "Lead Member Coordinator for ICAICCIT-2025 and Section Exec Com Member Co-opted & Member-IEEE Delhi Section STDCOM on T & P Act",
+    },
+    {
+      name: "Prof. Rajnish Sharma",
+      designation:
+        "Section Vice Chair & Member-IEEE Delhi Section STDCOM on T & P Act.",
+    },
+    {
+      name: "Dr. Ekta Gandotra",
+      designation: "Member-IEEE Delhi Section STDCOM on T & P Act",
+    },
+    {
+      name: "Prof. Sneha Kabra",
+      designation:
+        "(Section Secretary & Member-IEEE Delhi Section STDCOM on T & P Act)",
     },
   ];
 

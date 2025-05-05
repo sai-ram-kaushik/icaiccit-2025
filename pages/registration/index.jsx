@@ -9,7 +9,10 @@ const Register = () => {
         </h3>
 
         <div className="flex items-center justify-center mt-10">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSe50R0W5Th7D-XO-PRyhP2vVEgJ6ef1azQHLFDJLXinz1pNsQ/viewform?usp=sharing" target="_blank">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSe50R0W5Th7D-XO-PRyhP2vVEgJ6ef1azQHLFDJLXinz1pNsQ/viewform?usp=sharing"
+            target="_blank"
+          >
             <h3 className="text-[#de0650] text-2xl flex items-center gap-3 border-2 rounded-xl p-4 m-5 font-poppins text-center">
               Click Here to Register Yourself{" "}
               <AiOutlineArrowRight size={25} className="hidden md:flex" />
@@ -18,7 +21,10 @@ const Register = () => {
         </div>
 
         <div className="flex items-center justify-center mt-5">
-          <a href="https://www.eptc-ieee.net/uploads/exhibitors-pdf/59c22cf8b853e_Copyright%20form.pdf" target="_blank">
+          <a
+            href="https://www.eptc-ieee.net/uploads/exhibitors-pdf/59c22cf8b853e_Copyright%20form.pdf"
+            target="_blank"
+          >
             <h3 className="text-[#de0650] text-2xl flex items-center gap-3 border-2 rounded-xl p-4 m-5 font-poppins text-center">
               IEEE Copyright Link
             </h3>
@@ -93,11 +99,17 @@ const Register = () => {
           </table>
         </div>
 
-        <div className="flex justify-center items-center mt-4 text-gray-600 font-playFair">
+        <div className="flex flex-col justify-center items-center mt-4 text-gray-600 font-playFair">
           <p>
             <b>
               *Author should pay registration amount as mentioned above + 18%
               GST
+            </b>
+          </p>
+          <p>
+            <b>
+              *Paper registered up to 5 August 2025 will get early bird
+              registration discount of 10% on overall registration fee
             </b>
           </p>
         </div>
