@@ -47,7 +47,7 @@ const Main = () => {
               31<sup>st</sup> October, 2025 and 1<sup>st</sup> November, 2025
             </p>
             <p className="text-2xl text-[#3FBA96] md:w-[800px] text-center font-bold mt-5">
-              IEEE Delhi Section approval in progress
+            IEEE Delhi section ( Technical Co-sponsor)  IEEE record no #68829
             </p>
             <h3>
               Conference Theme: The future of innovation: Digital Technologies
