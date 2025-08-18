@@ -59,7 +59,7 @@ const index = () => {
                     <tr className="text-xl">
                       <td>Acceptance Notification:</td>
                       <td>
-                        31<sup>th</sup> September, 2025 (Revised)
+                        15<sup>th</sup> September, 2025 (Revised)
                       </td>
                     </tr>
                     <tr className="text-xl">
