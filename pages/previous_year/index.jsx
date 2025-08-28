@@ -50,7 +50,15 @@ const PreviousYear = () => {
                   Technology, Vishwakarma Institute of Technology Pune JC Bose
                   University, Bharati Vidyapeeth, College of Engineering, Pune,
                   University of Bedfordshire, Warmadewa University, Amity
-                  University, Al-Balqa Applied University, etc.
+                  University, Al-Balqa Applied University, etc. The proceedings
+                  of the ICAICCIT-2024 are available at:{" "}
+                  <a
+                    href="https://ieeexplore.ieee.org/xpl/conhome/10910943/proceeding"
+                    target="__blank"
+                    className="text-cyan-600 flex flex-wrap"
+                  >
+                    https://ieeexplore.ieee.org/xpl/conhome/10910943/proceeding
+                  </a>
                 </p>
               </p>
             </div>
