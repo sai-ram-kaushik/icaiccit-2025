@@ -133,7 +133,7 @@ const Register = () => {
               Payment Details - <p>RTGS/NEFT Transfer</p>
             </p>
             <p className="flex">
-              Account No - <p>201004119068</p>
+              Account No - <p>924020046485383</p>
             </p>
             <p className="flex">
               Account Name -{" "}
@@ -143,13 +143,13 @@ const Register = () => {
               </p>
             </p>
             <p className="flex">
-              IFSC Code - <p> INDB0000702</p>
+              IFSC Code - <p> UTIB0002693</p>
             </p>
             <p className="flex">
-              Bank Name - <p> INDUSIND BANK</p>
+              Bank Name - <p> AXIS BANK LTD</p>
             </p>
             <p className="flex">
-              Address - <p> NIT NEELAM BATA ROAD, FARIDABAD</p>
+              Address - <p> GREEN FIELD COLONY, FARIDABAD</p>
             </p>
           </div>
         </div>
