@@ -154,14 +154,14 @@ const Register = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center">
+        {/* <div className="flex flex-col items-center justify-center">
           <h3 className="text-[#de0650] my-3 text-4xl mt-10 font-bold font-playFair">
             For International Payment
           </h3>
 
           <p className="text-2xl font-bold">SWIFT CODE - INDBINBBNDH</p>
           <p className="text-2xl font-bold">MICR CODE - 110234066</p>
-        </div>
+        </div> */}
       </div>
     </section>
   );
