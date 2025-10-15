@@ -3,6 +3,11 @@ import React from "react";
 const ResourcePerson = () => {
   const resource = [
     {
+      photo: "images/resource_person/anil.jpeg",
+      designation: "Chairman , AICTE , New Delhi",
+      name: "Prof Anil D Sahasrabudhe (Chief Guest ICAICCIT-2025)",
+    },
+    {
       photo: "images/resource_person/neyara.png",
       designation: "Liwa University, Abu Dhabi, UAE",
       name: "Dr. Neyara Radwan",
@@ -35,11 +40,6 @@ const ResourcePerson = () => {
       designation:
         "Professor of Computer Engineering, Professor CSE & Head ICC @ IIT Roorkee | Treasurer IEEE Roorkee",
       name: "Dr. P. Sateesh",
-    },
-    {
-      photo: "images/resource_person/anil.jpeg",
-      designation: "Chairman , AICTE , New Delhi",
-      name: "Prof Anil D Sahasrabudhe",
     },
     {
       photo: "images/resource_person/christopher.jpeg",
