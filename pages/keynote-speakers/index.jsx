@@ -19,12 +19,6 @@ const ResourcePerson = () => {
       name: "Dr. Muzammil Bin Jusoh",
     },
     {
-      photo: "images/resource_person/padmaja.png",
-      designation:
-        "Senior Director & Scientist G, Centre for Development of Advanced Computing (C-DAC), Mumbai",
-      name: "Dr Padmaja Patwardhan Joshi ",
-    },
-    {
       photo: "images/resource_person/subarna.png",
       designation:
         "Professor & Director, IT Innovation Center Tribhuvan University, Nepal",
