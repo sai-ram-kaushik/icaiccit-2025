@@ -3,7 +3,7 @@ import React from "react";
 const ResourcePerson = () => {
   const resource = [
     {
-      photo: "images/resource_person/anil.jpeg",
+      photo: "images/resource_person/anil.png",
       designation: "Chairman , AICTE , New Delhi",
       name: "Prof Anil D Sahasrabudhe (Chief Guest ICAICCIT-2025)",
     },
@@ -25,7 +25,7 @@ const ResourcePerson = () => {
       name: "Dr. Subarna Shakya",
     },
     {
-      photo: "images/resource_person/jasjit.png",
+      photo: "images/resource_person/siri.jpeg",
       designation: "IEEE Fellow, Chairman of AtheroPoint, Roseville, CA, USA",
       name: "Dr. Jasjit S. Suri",
     },
