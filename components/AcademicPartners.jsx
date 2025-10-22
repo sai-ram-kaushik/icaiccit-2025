@@ -1,25 +1,24 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 const AcademicPartners = () => {
-
-
   useEffect(() => {
-    Aos.init({duration: 500});
+    Aos.init({ duration: 500 });
   }, []);
 
-    const partners = [
-        { link: "images/partners/aws.png" },
-        { link: "images/partners/oracle.png" },
-        { link: "images/partners/ibm.png" },
-        { link: "images/partners/microsoft.png" },
-        { link: "images/partners/infosis1.png" },
-        { link: "images/partners/purdue.png"}
-      ];
+  const partners = [
+    { link: "images/partners/aws.png" },
+    { link: "images/partners/oracle.png" },
+    { link: "images/partners/ibm.png" },
+    { link: "images/partners/microsoft.png" },
+    { link: "images/partners/infosis1.png" },
+    { link: "images/partners/purdue.png" },
+    { link: "images/partners/liwa.png" },
+  ];
 
   return (
-   <section className="w-full mt-14" data-aos="fade-right">
+    <section className="w-full mt-14" data-aos="fade-right">
       <div className="text-center mt-14">
         <h3 className="text-gray-600 font-bold text-5xl font-playFair">
           Academic <span>Partners</span>
@@ -33,7 +32,7 @@ const AcademicPartners = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AcademicPartners
+export default AcademicPartners;
